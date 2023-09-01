@@ -1,0 +1,15 @@
+version: "1.0"
+services:
+  jupyter-lab:
+    build: .
+    ports:
+      - "8889:8889"
+    volumes:
+      - ./DeepTrader:/DeepTrader
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
