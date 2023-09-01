@@ -1,0 +1,32 @@
+name: deeptrader
+channels:
+  - apple
+  - conda-forge
+  - pytorch-nightly
+dependencies:
+    - python=3.10
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - notebook
+    - ipykernel
+    - pytorch
+    - torchvision
+    - torchaudio
+    - pip: 
+        - tensorflow-metal
+        - bayesian-optimization
+        - gym
+        - kaggle
+        - tensorboard
