@@ -1,0 +1,849 @@
+2023-09-05 05:46:17:WARNING:[0905/05:44:49]round 0, avg train return 1.1741, avg rho 0.5088, avg mdd 0.2804
+2023-09-05 05:46:18:WARNING:Eval Result: after training 0 round, max wealth: 1.1141, min wealth: 1.0000, avg wealth: 1.0571, final wealth: 1.1141, ARR: 68.471%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:46:18:WARNING:Test Result: after training 0 round, max wealth: 2.2163, min wealth: 1.0000, avg wealth: 1.4470, final wealth: 2.1413, ARR: 26.399%, ASR: 1.345, AVol" 0.196,MDD: 13.89%, CR: 1.900, DDR: 4.209
+2023-09-05 05:47:30:WARNING:[0905/05:44:49]round 1, avg train return 1.2454, avg rho 0.3883, avg mdd 0.1128
+2023-09-05 05:47:30:WARNING:Eval Result: after training 1 round, max wealth: 1.1405, min wealth: 1.0000, avg wealth: 1.0703, final wealth: 1.1405, ARR: 84.313%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:47:31:WARNING:Test Result: after training 1 round, max wealth: 2.2458, min wealth: 1.0000, avg wealth: 1.4820, final wealth: 2.2109, ARR: 26.770%, ASR: 1.698, AVol" 0.158,MDD: 8.49%, CR: 3.153, DDR: 5.442
+2023-09-05 05:48:43:WARNING:[0905/05:44:49]round 2, avg train return 1.3097, avg rho 0.4017, avg mdd 0.1098
+2023-09-05 05:48:43:WARNING:Eval Result: after training 2 round, max wealth: 1.1225, min wealth: 1.0000, avg wealth: 1.0613, final wealth: 1.1225, ARR: 73.523%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:48:43:WARNING:Test Result: after training 2 round, max wealth: 2.5237, min wealth: 1.0000, avg wealth: 1.6157, final wealth: 2.4836, ARR: 30.460%, ASR: 2.062, AVol" 0.148,MDD: 7.28%, CR: 4.187, DDR: 6.916
+2023-09-05 05:49:55:WARNING:[0905/05:44:49]round 3, avg train return 1.3747, avg rho 0.4367, avg mdd 0.1076
+2023-09-05 05:49:55:WARNING:Eval Result: after training 3 round, max wealth: 1.1355, min wealth: 1.0000, avg wealth: 1.0677, final wealth: 1.1355, ARR: 81.274%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:49:55:WARNING:Test Result: after training 3 round, max wealth: 2.8215, min wealth: 1.0000, avg wealth: 1.7445, final wealth: 2.7585, ARR: 34.804%, ASR: 1.773, AVol" 0.196,MDD: 11.09%, CR: 3.139, DDR: 5.065
+2023-09-05 05:51:08:WARNING:[0905/05:44:49]round 4, avg train return 1.4460, avg rho 0.4320, avg mdd 0.1942
+2023-09-05 05:51:08:WARNING:Eval Result: after training 4 round, max wealth: 1.0892, min wealth: 1.0000, avg wealth: 1.0446, final wealth: 1.0892, ARR: 53.491%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:51:09:WARNING:Test Result: after training 4 round, max wealth: 2.8957, min wealth: 1.0000, avg wealth: 1.7777, final wealth: 2.5949, ARR: 32.722%, ASR: 1.697, AVol" 0.193,MDD: 11.73%, CR: 2.789, DDR: 3.929
+2023-09-05 05:52:21:WARNING:[0905/05:44:49]round 5, avg train return 1.4998, avg rho 0.4433, avg mdd 0.1395
+2023-09-05 05:52:22:WARNING:Eval Result: after training 5 round, max wealth: 1.0891, min wealth: 1.0000, avg wealth: 1.0446, final wealth: 1.0891, ARR: 53.463%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:52:22:WARNING:Test Result: after training 5 round, max wealth: 3.0356, min wealth: 1.0000, avg wealth: 1.7077, final wealth: 2.7481, ARR: 34.643%, ASR: 1.775, AVol" 0.195,MDD: 9.47%, CR: 3.659, DDR: 6.084
+2023-09-05 05:53:35:WARNING:[0905/05:44:49]round 6, avg train return 1.5710, avg rho 0.4543, avg mdd 0.0834
+2023-09-05 05:53:35:WARNING:Eval Result: after training 6 round, max wealth: 1.1248, min wealth: 1.0000, avg wealth: 1.0624, final wealth: 1.1248, ARR: 74.888%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:53:36:WARNING:Test Result: after training 6 round, max wealth: 3.0408, min wealth: 1.0000, avg wealth: 1.8543, final wealth: 2.8096, ARR: 35.098%, ASR: 1.931, AVol" 0.182,MDD: 7.60%, CR: 4.615, DDR: 7.100
+2023-09-05 05:54:48:WARNING:[0905/05:44:49]round 7, avg train return 1.6107, avg rho 0.4333, avg mdd 0.0515
+2023-09-05 05:54:48:WARNING:Eval Result: after training 7 round, max wealth: 1.1248, min wealth: 1.0000, avg wealth: 1.0624, final wealth: 1.1248, ARR: 74.892%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:54:48:WARNING:Test Result: after training 7 round, max wealth: 2.9994, min wealth: 1.0000, avg wealth: 1.8225, final wealth: 2.7132, ARR: 33.758%, ASR: 1.991, AVol" 0.170,MDD: 9.54%, CR: 3.538, DDR: 6.625
+2023-09-05 05:56:00:WARNING:[0905/05:44:49]round 8, avg train return 1.6608, avg rho 0.4600, avg mdd 0.1224
+2023-09-05 05:56:00:WARNING:Eval Result: after training 8 round, max wealth: 1.1041, min wealth: 1.0000, avg wealth: 1.0520, final wealth: 1.1041, ARR: 62.452%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:56:01:WARNING:Test Result: after training 8 round, max wealth: 2.8426, min wealth: 1.0000, avg wealth: 1.8354, final wealth: 2.6161, ARR: 32.834%, ASR: 1.745, AVol" 0.188,MDD: 7.97%, CR: 4.122, DDR: 8.177
+2023-09-05 05:57:13:WARNING:[0905/05:44:49]round 9, avg train return 1.7035, avg rho 0.4000, avg mdd 0.0522
+2023-09-05 05:57:13:WARNING:Eval Result: after training 9 round, max wealth: 1.1416, min wealth: 1.0000, avg wealth: 1.0708, final wealth: 1.1416, ARR: 84.945%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 05:57:14:WARNING:Test Result: after training 9 round, max wealth: 3.1487, min wealth: 1.0000, avg wealth: 1.9231, final wealth: 2.8469, ARR: 35.391%, ASR: 2.049, AVol" 0.173,MDD: 9.58%, CR: 3.693, DDR: 6.780
+2023-09-05 05:58:26:WARNING:[0905/05:44:49]round 10, avg train return 1.7583, avg rho 0.3933, avg mdd 0.0600
+2023-09-05 05:58:26:WARNING:Eval Result: after training 10 round, max wealth: 1.0000, min wealth: 0.9059, avg wealth: 0.9529, final wealth: 0.9059, ARR: -56.463%, ASR: -inf, AVol" 0.000,MDD: 9.41%, CR: -6.000, DDR: -6.000
+2023-09-05 05:58:27:WARNING:Test Result: after training 10 round, max wealth: 3.3156, min wealth: 1.0000, avg wealth: 1.7475, final wealth: 3.0387, ARR: 37.810%, ASR: 2.005, AVol" 0.189,MDD: 8.35%, CR: 4.527, DDR: 6.130
+2023-09-05 05:59:40:WARNING:[0905/05:44:49]round 11, avg train return 1.8162, avg rho 0.3967, avg mdd 0.2021
+2023-09-05 05:59:40:WARNING:Eval Result: after training 11 round, max wealth: 1.0000, min wealth: 0.8706, avg wealth: 0.9353, final wealth: 0.8706, ARR: -77.626%, ASR: -inf, AVol" 0.000,MDD: 12.94%, CR: -6.000, DDR: -6.000
+2023-09-05 05:59:41:WARNING:Test Result: after training 11 round, max wealth: 2.8258, min wealth: 0.8875, avg wealth: 1.4587, final wealth: 2.5796, ARR: 33.372%, ASR: 1.380, AVol" 0.242,MDD: 11.25%, CR: 2.966, DDR: 4.763
+2023-09-05 06:00:53:WARNING:[0905/05:44:49]round 12, avg train return 1.8510, avg rho 0.4267, avg mdd 0.0841
+2023-09-05 06:00:53:WARNING:Eval Result: after training 12 round, max wealth: 1.0000, min wealth: 0.9365, avg wealth: 0.9682, final wealth: 0.9365, ARR: -38.106%, ASR: -inf, AVol" 0.000,MDD: 6.35%, CR: -6.000, DDR: -6.000
+2023-09-05 06:00:54:WARNING:Test Result: after training 12 round, max wealth: 2.8421, min wealth: 0.9195, avg wealth: 1.5388, final wealth: 2.5955, ARR: 34.079%, ASR: 1.300, AVol" 0.262,MDD: 14.39%, CR: 2.369, DDR: 3.587
+2023-09-05 06:02:07:WARNING:[0905/05:44:49]round 13, avg train return 1.9087, avg rho 0.4514, avg mdd 0.0871
+2023-09-05 06:02:07:WARNING:Eval Result: after training 13 round, max wealth: 1.0000, min wealth: 0.8564, avg wealth: 0.9282, final wealth: 0.8564, ARR: -86.160%, ASR: -inf, AVol" 0.000,MDD: 14.36%, CR: -6.000, DDR: -6.000
+2023-09-05 06:02:08:WARNING:Test Result: after training 13 round, max wealth: 3.0164, min wealth: 1.0000, avg wealth: 1.6074, final wealth: 2.7357, ARR: 34.977%, ASR: 1.546, AVol" 0.226,MDD: 9.31%, CR: 3.759, DDR: 5.557
+2023-09-05 06:03:20:WARNING:[0905/05:44:49]round 14, avg train return 1.9354, avg rho 0.4383, avg mdd 0.0974
+2023-09-05 06:03:20:WARNING:Eval Result: after training 14 round, max wealth: 1.0089, min wealth: 1.0000, avg wealth: 1.0045, final wealth: 1.0089, ARR: 5.345%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:03:21:WARNING:Test Result: after training 14 round, max wealth: 3.3798, min wealth: 0.8898, avg wealth: 1.6072, final wealth: 3.1137, ARR: 40.008%, ASR: 1.539, AVol" 0.260,MDD: 11.02%, CR: 3.630, DDR: 6.685
+2023-09-05 06:04:34:WARNING:[0905/05:44:49]round 15, avg train return 1.9879, avg rho 0.3900, avg mdd 0.0923
+2023-09-05 06:04:34:WARNING:Eval Result: after training 15 round, max wealth: 1.0000, min wealth: 0.9234, avg wealth: 0.9617, final wealth: 0.9234, ARR: -45.983%, ASR: -inf, AVol" 0.000,MDD: 7.66%, CR: -6.000, DDR: -6.000
+2023-09-05 06:04:34:WARNING:Test Result: after training 15 round, max wealth: 2.8692, min wealth: 0.9035, avg wealth: 1.5569, final wealth: 2.5678, ARR: 32.604%, ASR: 1.544, AVol" 0.211,MDD: 10.50%, CR: 3.104, DDR: 6.441
+2023-09-05 06:05:47:WARNING:[0905/05:44:49]round 16, avg train return 2.0080, avg rho 0.4333, avg mdd 0.1096
+2023-09-05 06:05:47:WARNING:Eval Result: after training 16 round, max wealth: 1.0000, min wealth: 0.8541, avg wealth: 0.9270, final wealth: 0.8541, ARR: -87.556%, ASR: -inf, AVol" 0.000,MDD: 14.59%, CR: -6.000, DDR: -6.000
+2023-09-05 06:05:47:WARNING:Test Result: after training 16 round, max wealth: 2.8942, min wealth: 0.9566, avg wealth: 1.5111, final wealth: 2.7034, ARR: 34.636%, ASR: 1.483, AVol" 0.234,MDD: 6.59%, CR: 5.253, DDR: 9.975
+2023-09-05 06:07:00:WARNING:[0905/05:44:49]round 17, avg train return 2.0330, avg rho 0.4262, avg mdd 0.1181
+2023-09-05 06:07:00:WARNING:Eval Result: after training 17 round, max wealth: 1.0000, min wealth: 0.8876, avg wealth: 0.9438, final wealth: 0.8876, ARR: -67.429%, ASR: -inf, AVol" 0.000,MDD: 11.24%, CR: -6.000, DDR: -6.000
+2023-09-05 06:07:01:WARNING:Test Result: after training 17 round, max wealth: 2.6605, min wealth: 0.9219, avg wealth: 1.4420, final wealth: 2.5215, ARR: 32.128%, ASR: 1.447, AVol" 0.222,MDD: 7.81%, CR: 4.115, DDR: 6.769
+2023-09-05 06:08:13:WARNING:[0905/05:44:49]round 18, avg train return 2.0547, avg rho 0.4357, avg mdd 0.0703
+2023-09-05 06:08:14:WARNING:Eval Result: after training 18 round, max wealth: 1.0076, min wealth: 1.0000, avg wealth: 1.0038, final wealth: 1.0076, ARR: 4.554%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:08:14:WARNING:Test Result: after training 18 round, max wealth: 3.1969, min wealth: 0.9732, avg wealth: 1.6457, final wealth: 3.0128, ARR: 38.501%, ASR: 1.568, AVol" 0.246,MDD: 5.76%, CR: 6.684, DDR: 12.951
+2023-09-05 06:09:27:WARNING:[0905/05:44:49]round 19, avg train return 2.0747, avg rho 0.4850, avg mdd 0.0552
+2023-09-05 06:09:27:WARNING:Eval Result: after training 19 round, max wealth: 1.0000, min wealth: 0.9382, avg wealth: 0.9691, final wealth: 0.9382, ARR: -37.109%, ASR: -inf, AVol" 0.000,MDD: 6.18%, CR: -6.000, DDR: -6.000
+2023-09-05 06:09:27:WARNING:Test Result: after training 19 round, max wealth: 2.6947, min wealth: 0.8519, avg wealth: 1.3587, final wealth: 2.4566, ARR: 34.052%, ASR: 1.030, AVol" 0.331,MDD: 15.17%, CR: 2.245, DDR: 3.482
+2023-09-05 06:10:39:WARNING:[0905/05:44:49]round 20, avg train return 2.0783, avg rho 0.3600, avg mdd 0.1218
+2023-09-05 06:10:39:WARNING:Eval Result: after training 20 round, max wealth: 1.0000, min wealth: 0.8506, avg wealth: 0.9253, final wealth: 0.8506, ARR: -89.653%, ASR: -inf, AVol" 0.000,MDD: 14.94%, CR: -6.000, DDR: -6.000
+2023-09-05 06:10:40:WARNING:Test Result: after training 20 round, max wealth: 2.5912, min wealth: 0.8680, avg wealth: 1.4540, final wealth: 2.3376, ARR: 30.974%, ASR: 1.121, AVol" 0.276,MDD: 13.61%, CR: 2.276, DDR: 3.616
+2023-09-05 06:11:53:WARNING:[0905/05:44:49]round 21, avg train return 2.1129, avg rho 0.4450, avg mdd 0.0412
+2023-09-05 06:11:53:WARNING:Eval Result: after training 21 round, max wealth: 1.0000, min wealth: 0.9719, avg wealth: 0.9859, final wealth: 0.9719, ARR: -16.878%, ASR: -inf, AVol" 0.000,MDD: 2.81%, CR: -6.000, DDR: -6.000
+2023-09-05 06:11:54:WARNING:Test Result: after training 21 round, max wealth: 2.8610, min wealth: 0.9893, avg wealth: 1.5168, final wealth: 2.6646, ARR: 34.292%, ASR: 1.434, AVol" 0.239,MDD: 6.87%, CR: 4.994, DDR: 8.017
+2023-09-05 06:13:06:WARNING:[0905/05:44:49]round 22, avg train return 2.1199, avg rho 0.4414, avg mdd 0.0268
+2023-09-05 06:13:06:WARNING:Eval Result: after training 22 round, max wealth: 1.0000, min wealth: 0.9853, avg wealth: 0.9926, final wealth: 0.9853, ARR: -8.820%, ASR: -inf, AVol" 0.000,MDD: 1.47%, CR: -6.000, DDR: -6.000
+2023-09-05 06:13:07:WARNING:Test Result: after training 22 round, max wealth: 2.4921, min wealth: 0.9008, avg wealth: 1.3712, final wealth: 2.3662, ARR: 30.622%, ASR: 1.225, AVol" 0.250,MDD: 9.92%, CR: 3.088, DDR: 5.588
+2023-09-05 06:14:20:WARNING:[0905/05:44:49]round 23, avg train return 2.1656, avg rho 0.4657, avg mdd 0.0490
+2023-09-05 06:14:20:WARNING:Eval Result: after training 23 round, max wealth: 1.0000, min wealth: 0.9462, avg wealth: 0.9731, final wealth: 0.9462, ARR: -32.270%, ASR: -inf, AVol" 0.000,MDD: 5.38%, CR: -6.000, DDR: -6.000
+2023-09-05 06:14:21:WARNING:Test Result: after training 23 round, max wealth: 2.3478, min wealth: 0.9005, avg wealth: 1.3373, final wealth: 2.1696, ARR: 28.097%, ASR: 1.076, AVol" 0.261,MDD: 11.38%, CR: 2.468, DDR: 4.650
+2023-09-05 06:15:33:WARNING:[0905/05:44:49]round 24, avg train return 2.1546, avg rho 0.3833, avg mdd 0.0628
+2023-09-05 06:15:33:WARNING:Eval Result: after training 24 round, max wealth: 1.0000, min wealth: 0.9657, avg wealth: 0.9828, final wealth: 0.9657, ARR: -20.583%, ASR: -inf, AVol" 0.000,MDD: 3.43%, CR: -6.000, DDR: -6.000
+2023-09-05 06:15:34:WARNING:Test Result: after training 24 round, max wealth: 2.4871, min wealth: 0.9076, avg wealth: 1.3610, final wealth: 2.2336, ARR: 28.851%, ASR: 1.150, AVol" 0.251,MDD: 11.34%, CR: 2.545, DDR: 4.179
+2023-09-05 06:16:47:WARNING:[0905/05:44:49]round 25, avg train return 2.2095, avg rho 0.4557, avg mdd 0.0602
+2023-09-05 06:16:47:WARNING:Eval Result: after training 25 round, max wealth: 1.0000, min wealth: 0.9846, avg wealth: 0.9923, final wealth: 0.9846, ARR: -9.241%, ASR: -inf, AVol" 0.000,MDD: 1.54%, CR: -6.000, DDR: -6.000
+2023-09-05 06:16:47:WARNING:Test Result: after training 25 round, max wealth: 2.4716, min wealth: 0.9070, avg wealth: 1.4259, final wealth: 2.2041, ARR: 28.306%, ASR: 1.156, AVol" 0.245,MDD: 11.36%, CR: 2.491, DDR: 4.140
+2023-09-05 06:18:00:WARNING:[0905/05:44:49]round 26, avg train return 2.1934, avg rho 0.4050, avg mdd 0.0669
+2023-09-05 06:18:00:WARNING:Eval Result: after training 26 round, max wealth: 1.0000, min wealth: 0.8291, avg wealth: 0.9145, final wealth: 0.8291, ARR: -102.566%, ASR: -inf, AVol" 0.000,MDD: 17.09%, CR: -6.000, DDR: -6.000
+2023-09-05 06:18:00:WARNING:Test Result: after training 26 round, max wealth: 2.9031, min wealth: 0.9652, avg wealth: 1.5279, final wealth: 2.7102, ARR: 34.780%, ASR: 1.497, AVol" 0.232,MDD: 6.65%, CR: 5.232, DDR: 7.317
+2023-09-05 06:19:13:WARNING:[0905/05:44:49]round 27, avg train return 2.2188, avg rho 0.4567, avg mdd 0.1094
+2023-09-05 06:19:13:WARNING:Eval Result: after training 27 round, max wealth: 1.0000, min wealth: 0.8681, avg wealth: 0.9341, final wealth: 0.8681, ARR: -79.138%, ASR: -inf, AVol" 0.000,MDD: 13.19%, CR: -6.000, DDR: -6.000
+2023-09-05 06:19:13:WARNING:Test Result: after training 27 round, max wealth: 2.4253, min wealth: 0.8291, avg wealth: 1.2743, final wealth: 2.2019, ARR: 28.474%, ASR: 1.126, AVol" 0.253,MDD: 17.09%, CR: 1.666, DDR: 3.500
+2023-09-05 06:20:27:WARNING:[0905/05:44:49]round 28, avg train return 2.2650, avg rho 0.4500, avg mdd 0.1465
+2023-09-05 06:20:27:WARNING:Eval Result: after training 28 round, max wealth: 1.0042, min wealth: 1.0000, avg wealth: 1.0021, final wealth: 1.0042, ARR: 2.533%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:20:27:WARNING:Test Result: after training 28 round, max wealth: 2.8456, min wealth: 1.0000, avg wealth: 1.5027, final wealth: 2.6756, ARR: 34.169%, ASR: 1.532, AVol" 0.223,MDD: 5.97%, CR: 5.719, DDR: 7.386
+2023-09-05 06:21:40:WARNING:[0905/05:44:49]round 29, avg train return 2.2353, avg rho 0.4750, avg mdd 0.0773
+2023-09-05 06:21:40:WARNING:Eval Result: after training 29 round, max wealth: 1.0000, min wealth: 0.9260, avg wealth: 0.9630, final wealth: 0.9260, ARR: -44.387%, ASR: -inf, AVol" 0.000,MDD: 7.40%, CR: -6.000, DDR: -6.000
+2023-09-05 06:21:40:WARNING:Test Result: after training 29 round, max wealth: 2.7093, min wealth: 0.8674, avg wealth: 1.4456, final wealth: 2.4945, ARR: 32.113%, ASR: 1.375, AVol" 0.234,MDD: 13.26%, CR: 2.421, DDR: 4.125
+2023-09-05 06:22:53:WARNING:[0905/05:44:49]round 30, avg train return 2.2662, avg rho 0.4517, avg mdd 0.0665
+2023-09-05 06:22:53:WARNING:Eval Result: after training 30 round, max wealth: 1.0000, min wealth: 0.8673, avg wealth: 0.9336, final wealth: 0.8673, ARR: -79.632%, ASR: -inf, AVol" 0.000,MDD: 13.27%, CR: -6.000, DDR: -6.000
+2023-09-05 06:22:53:WARNING:Test Result: after training 30 round, max wealth: 3.2670, min wealth: 0.8673, avg wealth: 1.5584, final wealth: 3.0068, ARR: 39.262%, ASR: 1.435, AVol" 0.274,MDD: 13.27%, CR: 2.958, DDR: 4.713
+2023-09-05 06:24:06:WARNING:[0905/05:44:49]round 31, avg train return 2.2766, avg rho 0.4183, avg mdd 0.0653
+2023-09-05 06:24:06:WARNING:Eval Result: after training 31 round, max wealth: 1.0041, min wealth: 1.0000, avg wealth: 1.0020, final wealth: 1.0041, ARR: 2.430%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:24:07:WARNING:Test Result: after training 31 round, max wealth: 2.9664, min wealth: 0.8671, avg wealth: 1.4862, final wealth: 2.7101, ARR: 35.920%, ASR: 1.295, AVol" 0.277,MDD: 13.29%, CR: 2.704, DDR: 4.075
+2023-09-05 06:25:20:WARNING:[0905/05:44:49]round 32, avg train return 2.3035, avg rho 0.4167, avg mdd 0.0446
+2023-09-05 06:25:20:WARNING:Eval Result: after training 32 round, max wealth: 1.0000, min wealth: 0.9842, avg wealth: 0.9921, final wealth: 0.9842, ARR: -9.493%, ASR: -inf, AVol" 0.000,MDD: 1.58%, CR: -6.000, DDR: -6.000
+2023-09-05 06:25:20:WARNING:Test Result: after training 32 round, max wealth: 2.7171, min wealth: 0.8668, avg wealth: 1.4016, final wealth: 2.5873, ARR: 33.858%, ASR: 1.309, AVol" 0.259,MDD: 13.32%, CR: 2.543, DDR: 4.767
+2023-09-05 06:26:33:WARNING:[0905/05:44:49]round 33, avg train return 2.3017, avg rho 0.4683, avg mdd 0.0601
+2023-09-05 06:26:33:WARNING:Eval Result: after training 33 round, max wealth: 1.0039, min wealth: 1.0000, avg wealth: 1.0019, final wealth: 1.0039, ARR: 2.327%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:26:33:WARNING:Test Result: after training 33 round, max wealth: 3.7462, min wealth: 1.0000, avg wealth: 1.8493, final wealth: 3.5897, ARR: 43.984%, ASR: 1.980, AVol" 0.222,MDD: 7.90%, CR: 5.568, DDR: 8.401
+2023-09-05 06:27:47:WARNING:[0905/05:44:49]round 34, avg train return 2.3315, avg rho 0.4850, avg mdd 0.0698
+2023-09-05 06:27:47:WARNING:Eval Result: after training 34 round, max wealth: 1.0000, min wealth: 0.9846, avg wealth: 0.9923, final wealth: 0.9846, ARR: -9.232%, ASR: -inf, AVol" 0.000,MDD: 1.54%, CR: -6.000, DDR: -6.000
+2023-09-05 06:27:47:WARNING:Test Result: after training 34 round, max wealth: 2.9575, min wealth: 1.0000, avg wealth: 1.5392, final wealth: 2.8332, ARR: 36.306%, ASR: 1.545, AVol" 0.235,MDD: 10.15%, CR: 3.578, DDR: 7.246
+2023-09-05 06:29:00:WARNING:[0905/05:44:49]round 35, avg train return 2.3421, avg rho 0.5000, avg mdd 0.1121
+2023-09-05 06:29:00:WARNING:Eval Result: after training 35 round, max wealth: 1.0000, min wealth: 0.9263, avg wealth: 0.9631, final wealth: 0.9263, ARR: -44.235%, ASR: -inf, AVol" 0.000,MDD: 7.37%, CR: -6.000, DDR: -6.000
+2023-09-05 06:29:01:WARNING:Test Result: after training 35 round, max wealth: 2.7982, min wealth: 0.8871, avg wealth: 1.3958, final wealth: 2.5520, ARR: 33.440%, ASR: 1.283, AVol" 0.261,MDD: 11.29%, CR: 2.962, DDR: 5.245
+2023-09-05 06:30:15:WARNING:[0905/05:44:49]round 36, avg train return 2.3868, avg rho 0.4200, avg mdd 0.0308
+2023-09-05 06:30:15:WARNING:Eval Result: after training 36 round, max wealth: 1.0047, min wealth: 1.0000, avg wealth: 1.0023, final wealth: 1.0047, ARR: 2.792%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 06:30:15:WARNING:Test Result: after training 36 round, max wealth: 3.7470, min wealth: 1.0000, avg wealth: 1.8728, final wealth: 3.4644, ARR: 42.937%, ASR: 1.865, AVol" 0.230,MDD: 7.54%, CR: 5.693, DDR: 9.839
+2023-09-05 06:31:28:WARNING:[0905/05:44:49]round 37, avg train return 2.3631, avg rho 0.3883, avg mdd 0.0659
+2023-09-05 06:31:28:WARNING:Eval Result: after training 37 round, max wealth: 1.0000, min wealth: 0.8674, avg wealth: 0.9337, final wealth: 0.8674, ARR: -79.559%, ASR: -inf, AVol" 0.000,MDD: 13.26%, CR: -6.000, DDR: -6.000
+2023-09-05 06:31:29:WARNING:Test Result: after training 37 round, max wealth: 3.3807, min wealth: 1.0000, avg wealth: 1.7276, final wealth: 3.1018, ARR: 39.273%, ASR: 1.699, AVol" 0.231,MDD: 8.25%, CR: 4.760, DDR: 6.648
+2023-09-05 06:32:41:WARNING:[0905/05:44:49]round 38, avg train return 2.3643, avg rho 0.3567, avg mdd 0.0091
+2023-09-05 06:32:41:WARNING:Eval Result: after training 38 round, max wealth: 1.0000, min wealth: 0.8675, avg wealth: 0.9338, final wealth: 0.8675, ARR: -79.494%, ASR: -inf, AVol" 0.000,MDD: 13.25%, CR: -6.000, DDR: -6.000
+2023-09-05 06:32:41:WARNING:Test Result: after training 38 round, max wealth: 3.7995, min wealth: 0.8675, avg wealth: 1.8455, final wealth: 3.5328, ARR: 43.816%, ASR: 1.856, AVol" 0.236,MDD: 13.25%, CR: 3.307, DDR: 5.750
+2023-09-05 06:33:54:WARNING:[0905/05:44:49]round 39, avg train return 2.3879, avg rho 0.4417, avg mdd 0.0544
+2023-09-05 06:33:54:WARNING:Eval Result: after training 39 round, max wealth: 1.0000, min wealth: 0.9263, avg wealth: 0.9632, final wealth: 0.9263, ARR: -44.211%, ASR: -inf, AVol" 0.000,MDD: 7.37%, CR: -6.000, DDR: -6.000
+2023-09-05 06:33:55:WARNING:Test Result: after training 39 round, max wealth: 3.1996, min wealth: 0.9068, avg wealth: 1.6713, final wealth: 3.0335, ARR: 38.357%, ASR: 1.718, AVol" 0.223,MDD: 9.32%, CR: 4.114, DDR: 6.183
+2023-09-05 06:35:07:WARNING:[0905/05:44:49]round 40, avg train return 2.3863, avg rho 0.4100, avg mdd 0.0533
+2023-09-05 06:35:07:WARNING:Eval Result: after training 40 round, max wealth: 1.0000, min wealth: 0.9653, avg wealth: 0.9827, final wealth: 0.9653, ARR: -20.799%, ASR: -inf, AVol" 0.000,MDD: 3.47%, CR: -6.000, DDR: -6.000
+2023-09-05 06:35:08:WARNING:Test Result: after training 40 round, max wealth: 4.0590, min wealth: 0.9067, avg wealth: 1.9075, final wealth: 3.6907, ARR: 45.823%, ASR: 1.748, AVol" 0.262,MDD: 9.33%, CR: 4.913, DDR: 6.623
+2023-09-05 06:36:21:WARNING:[0905/05:44:49]round 41, avg train return 2.4217, avg rho 0.4467, avg mdd 0.0256
+2023-09-05 06:36:21:WARNING:Eval Result: after training 41 round, max wealth: 1.0000, min wealth: 0.9459, avg wealth: 0.9730, final wealth: 0.9459, ARR: -32.459%, ASR: -inf, AVol" 0.000,MDD: 5.41%, CR: -6.000, DDR: -6.000
+2023-09-05 06:36:21:WARNING:Test Result: after training 41 round, max wealth: 3.1067, min wealth: 0.8288, avg wealth: 1.5314, final wealth: 2.8446, ARR: 37.365%, ASR: 1.386, AVol" 0.270,MDD: 17.12%, CR: 2.183, DDR: 4.245
+2023-09-05 06:37:34:WARNING:[0905/05:44:49]round 42, avg train return 2.4309, avg rho 0.4683, avg mdd 0.0493
+2023-09-05 06:37:34:WARNING:Eval Result: after training 42 round, max wealth: 1.0000, min wealth: 0.8484, avg wealth: 0.9242, final wealth: 0.8484, ARR: -90.972%, ASR: -inf, AVol" 0.000,MDD: 15.16%, CR: -6.000, DDR: -6.000
+2023-09-05 06:37:35:WARNING:Test Result: after training 42 round, max wealth: 2.9977, min wealth: 0.9069, avg wealth: 1.5480, final wealth: 2.6283, ARR: 33.847%, ASR: 1.463, AVol" 0.231,MDD: 12.32%, CR: 2.746, DDR: 3.944
+2023-09-05 06:38:47:WARNING:[0905/05:44:49]round 43, avg train return 2.4290, avg rho 0.4450, avg mdd 0.0357
+2023-09-05 06:38:47:WARNING:Eval Result: after training 43 round, max wealth: 1.0000, min wealth: 0.9849, avg wealth: 0.9925, final wealth: 0.9849, ARR: -9.051%, ASR: -inf, AVol" 0.000,MDD: 1.51%, CR: -6.000, DDR: -6.000
+2023-09-05 06:38:48:WARNING:Test Result: after training 43 round, max wealth: 3.0397, min wealth: 0.8289, avg wealth: 1.5443, final wealth: 2.8017, ARR: 36.744%, ASR: 1.388, AVol" 0.265,MDD: 17.11%, CR: 2.147, DDR: 4.199
+2023-09-05 06:40:01:WARNING:[0905/05:44:49]round 44, avg train return 2.4504, avg rho 0.4857, avg mdd 0.0455
+2023-09-05 06:40:01:WARNING:Eval Result: after training 44 round, max wealth: 1.0000, min wealth: 0.9848, avg wealth: 0.9924, final wealth: 0.9848, ARR: -9.147%, ASR: -inf, AVol" 0.000,MDD: 1.52%, CR: -6.000, DDR: -6.000
+2023-09-05 06:40:02:WARNING:Test Result: after training 44 round, max wealth: 2.8864, min wealth: 0.9068, avg wealth: 1.5703, final wealth: 2.4993, ARR: 32.294%, ASR: 1.350, AVol" 0.239,MDD: 13.41%, CR: 2.408, DDR: 4.622
+2023-09-05 06:41:14:WARNING:[0905/05:44:49]round 45, avg train return 2.4438, avg rho 0.4686, avg mdd 0.0521
+2023-09-05 06:41:14:WARNING:Eval Result: after training 45 round, max wealth: 1.0000, min wealth: 0.9652, avg wealth: 0.9826, final wealth: 0.9652, ARR: -20.898%, ASR: -inf, AVol" 0.000,MDD: 3.48%, CR: -6.000, DDR: -6.000
+2023-09-05 06:41:14:WARNING:Test Result: after training 45 round, max wealth: 4.1549, min wealth: 0.9457, avg wealth: 1.9474, final wealth: 3.6935, ARR: 46.048%, ASR: 1.693, AVol" 0.272,MDD: 11.11%, CR: 4.146, DDR: 7.893
+2023-09-05 06:42:28:WARNING:[0905/05:44:49]round 46, avg train return 2.4848, avg rho 0.4543, avg mdd 0.0293
+2023-09-05 06:42:28:WARNING:Eval Result: after training 46 round, max wealth: 1.0000, min wealth: 0.9067, avg wealth: 0.9533, final wealth: 0.9067, ARR: -55.996%, ASR: -inf, AVol" 0.000,MDD: 9.33%, CR: -6.000, DDR: -6.000
+2023-09-05 06:42:28:WARNING:Test Result: after training 46 round, max wealth: 3.5032, min wealth: 0.8483, avg wealth: 1.6534, final wealth: 3.1367, ARR: 40.830%, ASR: 1.465, AVol" 0.279,MDD: 15.17%, CR: 2.691, DDR: 4.761
+2023-09-05 06:43:41:WARNING:[0905/05:44:49]round 47, avg train return 2.4560, avg rho 0.4667, avg mdd 0.0371
+2023-09-05 06:43:41:WARNING:Eval Result: after training 47 round, max wealth: 1.0000, min wealth: 0.9843, avg wealth: 0.9922, final wealth: 0.9843, ARR: -9.401%, ASR: -inf, AVol" 0.000,MDD: 1.57%, CR: -6.000, DDR: -6.000
+2023-09-05 06:43:41:WARNING:Test Result: after training 47 round, max wealth: 3.9202, min wealth: 0.9454, avg wealth: 1.9638, final wealth: 3.5309, ARR: 44.131%, ASR: 1.735, AVol" 0.254,MDD: 9.93%, CR: 4.444, DDR: 9.406
+2023-09-05 06:44:54:WARNING:[0905/05:44:49]round 48, avg train return 2.4784, avg rho 0.3757, avg mdd 0.0425
+2023-09-05 06:44:54:WARNING:Eval Result: after training 48 round, max wealth: 1.0000, min wealth: 0.8676, avg wealth: 0.9338, final wealth: 0.8676, ARR: -79.412%, ASR: -inf, AVol" 0.000,MDD: 13.24%, CR: -6.000, DDR: -6.000
+2023-09-05 06:44:55:WARNING:Test Result: after training 48 round, max wealth: 2.6820, min wealth: 0.8676, avg wealth: 1.5084, final wealth: 2.3657, ARR: 31.317%, ASR: 1.139, AVol" 0.275,MDD: 13.24%, CR: 2.366, DDR: 3.906
+2023-09-05 06:46:07:WARNING:[0905/05:44:49]round 49, avg train return 2.4827, avg rho 0.4133, avg mdd 0.0129
+2023-09-05 06:46:07:WARNING:Eval Result: after training 49 round, max wealth: 1.0000, min wealth: 0.8279, avg wealth: 0.9140, final wealth: 0.8279, ARR: -103.230%, ASR: -inf, AVol" 0.000,MDD: 17.21%, CR: -6.000, DDR: -6.000
+2023-09-05 06:46:08:WARNING:Test Result: after training 49 round, max wealth: 2.3084, min wealth: 0.8473, avg wealth: 1.3639, final wealth: 2.0199, ARR: 25.974%, ASR: 0.973, AVol" 0.267,MDD: 15.27%, CR: 1.701, DDR: 2.916
+2023-09-05 06:47:20:WARNING:[0905/05:44:49]round 50, avg train return 2.4757, avg rho 0.4400, avg mdd 0.0251
+2023-09-05 06:47:20:WARNING:Eval Result: after training 50 round, max wealth: 1.0000, min wealth: 0.9442, avg wealth: 0.9721, final wealth: 0.9442, ARR: -33.465%, ASR: -inf, AVol" 0.000,MDD: 5.58%, CR: -6.000, DDR: -6.000
+2023-09-05 06:47:21:WARNING:Test Result: after training 50 round, max wealth: 3.1311, min wealth: 0.9442, avg wealth: 1.6388, final wealth: 2.7811, ARR: 36.274%, ASR: 1.379, AVol" 0.263,MDD: 11.18%, CR: 3.245, DDR: 6.670
+2023-09-05 06:48:34:WARNING:[0905/05:44:49]round 51, avg train return 2.5001, avg rho 0.4589, avg mdd 0.0569
+2023-09-05 06:48:34:WARNING:Eval Result: after training 51 round, max wealth: 1.0000, min wealth: 0.8665, avg wealth: 0.9333, final wealth: 0.8665, ARR: -80.090%, ASR: -inf, AVol" 0.000,MDD: 13.35%, CR: -6.000, DDR: -6.000
+2023-09-05 06:48:34:WARNING:Test Result: after training 51 round, max wealth: 3.3022, min wealth: 0.9053, avg wealth: 1.7199, final wealth: 3.2040, ARR: 41.166%, ASR: 1.530, AVol" 0.269,MDD: 9.47%, CR: 4.347, DDR: 6.795
+2023-09-05 06:49:47:WARNING:[0905/05:44:49]round 52, avg train return 2.5001, avg rho 0.4437, avg mdd 0.0437
+2023-09-05 06:49:47:WARNING:Eval Result: after training 52 round, max wealth: 1.0000, min wealth: 0.9241, avg wealth: 0.9621, final wealth: 0.9241, ARR: -45.518%, ASR: -inf, AVol" 0.000,MDD: 7.59%, CR: -6.000, DDR: -6.000
+2023-09-05 06:49:47:WARNING:Test Result: after training 52 round, max wealth: 3.3936, min wealth: 0.8660, avg wealth: 1.6647, final wealth: 3.0351, ARR: 39.675%, ASR: 1.422, AVol" 0.279,MDD: 13.40%, CR: 2.961, DDR: 4.223
+2023-09-05 06:51:00:WARNING:[0905/05:44:49]round 53, avg train return 2.4811, avg rho 0.4567, avg mdd 0.0000
+2023-09-05 06:51:00:WARNING:Eval Result: after training 53 round, max wealth: 1.0000, min wealth: 0.9813, avg wealth: 0.9907, final wealth: 0.9813, ARR: -11.211%, ASR: -inf, AVol" 0.000,MDD: 1.87%, CR: -6.000, DDR: -6.000
+2023-09-05 06:51:00:WARNING:Test Result: after training 53 round, max wealth: 3.3672, min wealth: 0.8844, avg wealth: 1.5959, final wealth: 2.9688, ARR: 39.042%, ASR: 1.374, AVol" 0.284,MDD: 11.83%, CR: 3.300, DDR: 4.858
+2023-09-05 06:52:14:WARNING:[0905/05:44:49]round 54, avg train return 2.5209, avg rho 0.4478, avg mdd 0.0520
+2023-09-05 06:52:14:WARNING:Eval Result: after training 54 round, max wealth: 1.0000, min wealth: 0.9036, avg wealth: 0.9518, final wealth: 0.9036, ARR: -57.833%, ASR: -inf, AVol" 0.000,MDD: 9.64%, CR: -6.000, DDR: -6.000
+2023-09-05 06:52:15:WARNING:Test Result: after training 54 round, max wealth: 4.3411, min wealth: 0.9423, avg wealth: 1.9940, final wealth: 3.9662, ARR: 48.463%, ASR: 1.777, AVol" 0.273,MDD: 8.64%, CR: 5.611, DDR: 8.402
+2023-09-05 06:53:28:WARNING:[0905/05:44:49]round 55, avg train return 2.5186, avg rho 0.4712, avg mdd 0.0249
+2023-09-05 06:53:28:WARNING:Eval Result: after training 55 round, max wealth: 1.0000, min wealth: 0.9038, avg wealth: 0.9519, final wealth: 0.9038, ARR: -57.724%, ASR: -inf, AVol" 0.000,MDD: 9.62%, CR: -6.000, DDR: -6.000
+2023-09-05 06:53:29:WARNING:Test Result: after training 55 round, max wealth: 4.4204, min wealth: 0.9424, avg wealth: 2.0447, final wealth: 4.0666, ARR: 49.091%, ASR: 1.860, AVol" 0.264,MDD: 8.00%, CR: 6.135, DDR: 8.380
+2023-09-05 06:54:41:WARNING:[0905/05:44:49]round 56, avg train return 2.5039, avg rho 0.4178, avg mdd 0.0516
+2023-09-05 06:54:41:WARNING:Eval Result: after training 56 round, max wealth: 1.0000, min wealth: 0.8890, avg wealth: 0.9445, final wealth: 0.8890, ARR: -66.585%, ASR: -inf, AVol" 0.000,MDD: 11.10%, CR: -6.000, DDR: -6.000
+2023-09-05 06:54:41:WARNING:Test Result: after training 56 round, max wealth: 3.9324, min wealth: 0.9325, avg wealth: 1.9091, final wealth: 3.4158, ARR: 43.415%, ASR: 1.605, AVol" 0.270,MDD: 13.14%, CR: 3.305, DDR: 6.035
+2023-09-05 06:55:55:WARNING:[0905/05:44:49]round 57, avg train return 2.5389, avg rho 0.4817, avg mdd 0.0707
+2023-09-05 06:55:55:WARNING:Eval Result: after training 57 round, max wealth: 1.0000, min wealth: 0.8456, avg wealth: 0.9228, final wealth: 0.8456, ARR: -92.633%, ASR: -inf, AVol" 0.000,MDD: 15.44%, CR: -6.000, DDR: -6.000
+2023-09-05 06:55:56:WARNING:Test Result: after training 57 round, max wealth: 3.9164, min wealth: 0.9326, avg wealth: 1.9527, final wealth: 3.4337, ARR: 43.356%, ASR: 1.669, AVol" 0.260,MDD: 12.32%, CR: 3.518, DDR: 7.632
+2023-09-05 06:57:09:WARNING:[0905/05:44:49]round 58, avg train return 2.5193, avg rho 0.3817, avg mdd 0.0102
+2023-09-05 06:57:09:WARNING:Eval Result: after training 58 round, max wealth: 1.0000, min wealth: 0.8676, avg wealth: 0.9338, final wealth: 0.8676, ARR: -79.443%, ASR: -inf, AVol" 0.000,MDD: 13.24%, CR: -6.000, DDR: -6.000
+2023-09-05 06:57:09:WARNING:Test Result: after training 58 round, max wealth: 3.6989, min wealth: 0.8893, avg wealth: 1.7946, final wealth: 3.2351, ARR: 41.715%, ASR: 1.527, AVol" 0.273,MDD: 12.54%, CR: 3.327, DDR: 5.187
+2023-09-05 06:58:23:WARNING:[0905/05:44:49]round 59, avg train return 2.5511, avg rho 0.4317, avg mdd 0.0422
+2023-09-05 06:58:23:WARNING:Eval Result: after training 59 round, max wealth: 1.0000, min wealth: 0.8461, avg wealth: 0.9230, final wealth: 0.8461, ARR: -92.367%, ASR: -inf, AVol" 0.000,MDD: 15.39%, CR: -6.000, DDR: -6.000
+2023-09-05 06:58:23:WARNING:Test Result: after training 59 round, max wealth: 4.1458, min wealth: 0.9981, avg wealth: 2.0094, final wealth: 3.6121, ARR: 44.987%, ASR: 1.748, AVol" 0.257,MDD: 12.87%, CR: 3.494, DDR: 8.161
+2023-09-05 06:59:36:WARNING:[0905/05:44:49]round 60, avg train return 2.5544, avg rho 0.4350, avg mdd 0.0068
+2023-09-05 06:59:37:WARNING:Eval Result: after training 60 round, max wealth: 1.0000, min wealth: 0.9978, avg wealth: 0.9989, final wealth: 0.9978, ARR: -1.296%, ASR: -inf, AVol" 0.000,MDD: 0.22%, CR: -6.000, DDR: -6.000
+2023-09-05 06:59:37:WARNING:Test Result: after training 60 round, max wealth: 3.7774, min wealth: 0.8894, avg wealth: 1.8622, final wealth: 3.7774, ARR: 45.851%, ASR: 2.007, AVol" 0.228,MDD: 11.06%, CR: 4.144, DDR: 7.993
+2023-09-05 07:00:50:WARNING:[0905/05:44:49]round 61, avg train return 2.5379, avg rho 0.4300, avg mdd 0.0695
+2023-09-05 07:00:50:WARNING:Eval Result: after training 61 round, max wealth: 1.0000, min wealth: 0.8890, avg wealth: 0.9445, final wealth: 0.8890, ARR: -66.579%, ASR: -inf, AVol" 0.000,MDD: 11.10%, CR: -6.000, DDR: -6.000
+2023-09-05 07:00:51:WARNING:Test Result: after training 61 round, max wealth: 3.8844, min wealth: 0.8457, avg wealth: 1.7989, final wealth: 3.8844, ARR: 47.504%, ASR: 1.848, AVol" 0.257,MDD: 15.43%, CR: 3.078, DDR: 6.561
+2023-09-05 07:02:04:WARNING:[0905/05:44:49]round 62, avg train return 2.5666, avg rho 0.4400, avg mdd 0.0262
+2023-09-05 07:02:04:WARNING:Eval Result: after training 62 round, max wealth: 1.0000, min wealth: 0.8456, avg wealth: 0.9228, final wealth: 0.8456, ARR: -92.643%, ASR: -inf, AVol" 0.000,MDD: 15.44%, CR: -6.000, DDR: -6.000
+2023-09-05 07:02:04:WARNING:Test Result: after training 62 round, max wealth: 3.7785, min wealth: 0.8023, avg wealth: 1.7347, final wealth: 3.7785, ARR: 46.641%, ASR: 1.821, AVol" 0.256,MDD: 19.77%, CR: 2.359, DDR: 4.040
+2023-09-05 07:03:17:WARNING:[0905/05:44:49]round 63, avg train return 2.5409, avg rho 0.4483, avg mdd 0.0892
+2023-09-05 07:03:17:WARNING:Eval Result: after training 63 round, max wealth: 1.0000, min wealth: 0.9325, avg wealth: 0.9662, final wealth: 0.9325, ARR: -40.524%, ASR: -inf, AVol" 0.000,MDD: 6.75%, CR: -6.000, DDR: -6.000
+2023-09-05 07:03:17:WARNING:Test Result: after training 63 round, max wealth: 4.2278, min wealth: 0.8458, avg wealth: 1.9132, final wealth: 4.2278, ARR: 50.334%, ASR: 1.973, AVol" 0.255,MDD: 15.42%, CR: 3.264, DDR: 6.317
+2023-09-05 07:04:31:WARNING:[0905/05:44:49]round 64, avg train return 2.5935, avg rho 0.4371, avg mdd 0.0242
+2023-09-05 07:04:31:WARNING:Eval Result: after training 64 round, max wealth: 1.0000, min wealth: 0.8239, avg wealth: 0.9120, final wealth: 0.8239, ARR: -105.655%, ASR: -inf, AVol" 0.000,MDD: 17.61%, CR: -6.000, DDR: -6.000
+2023-09-05 07:04:31:WARNING:Test Result: after training 64 round, max wealth: 3.6039, min wealth: 0.8456, avg wealth: 1.7338, final wealth: 3.6039, ARR: 44.834%, ASR: 1.780, AVol" 0.252,MDD: 15.44%, CR: 2.903, DDR: 4.826
+2023-09-05 07:05:44:WARNING:[0905/05:44:49]round 65, avg train return 2.5665, avg rho 0.4229, avg mdd 0.0137
+2023-09-05 07:05:44:WARNING:Eval Result: after training 65 round, max wealth: 1.0000, min wealth: 0.8670, avg wealth: 0.9335, final wealth: 0.8670, ARR: -79.780%, ASR: -inf, AVol" 0.000,MDD: 13.30%, CR: -6.000, DDR: -6.000
+2023-09-05 07:05:45:WARNING:Test Result: after training 65 round, max wealth: 4.0716, min wealth: 0.9537, avg wealth: 2.0065, final wealth: 4.0649, ARR: 48.138%, ASR: 2.183, AVol" 0.221,MDD: 4.63%, CR: 10.387, DDR: 16.956
+2023-09-05 07:06:58:WARNING:[0905/05:44:49]round 66, avg train return 2.5900, avg rho 0.4357, avg mdd 0.0520
+2023-09-05 07:06:58:WARNING:Eval Result: after training 66 round, max wealth: 1.0000, min wealth: 0.8452, avg wealth: 0.9226, final wealth: 0.8452, ARR: -92.873%, ASR: -inf, AVol" 0.000,MDD: 15.48%, CR: -6.000, DDR: -6.000
+2023-09-05 07:06:58:WARNING:Test Result: after training 66 round, max wealth: 3.2934, min wealth: 0.8019, avg wealth: 1.5970, final wealth: 3.2934, ARR: 42.128%, ASR: 1.608, AVol" 0.262,MDD: 19.81%, CR: 2.127, DDR: 4.100
+2023-09-05 07:08:11:WARNING:[0905/05:44:49]round 67, avg train return 2.5802, avg rho 0.4600, avg mdd 0.0580
+2023-09-05 07:08:11:WARNING:Eval Result: after training 67 round, max wealth: 1.0000, min wealth: 0.8226, avg wealth: 0.9113, final wealth: 0.8226, ARR: -106.447%, ASR: -inf, AVol" 0.000,MDD: 17.74%, CR: -6.000, DDR: -6.000
+2023-09-05 07:08:11:WARNING:Test Result: after training 67 round, max wealth: 3.4194, min wealth: 0.9958, avg wealth: 1.8375, final wealth: 3.4194, ARR: 41.815%, ASR: 2.135, AVol" 0.196,MDD: 3.39%, CR: 12.332, DDR: 19.069
+2023-09-05 07:09:24:WARNING:[0905/05:44:49]round 68, avg train return 2.6263, avg rho 0.3600, avg mdd 0.0407
+2023-09-05 07:09:24:WARNING:Eval Result: after training 68 round, max wealth: 1.0000, min wealth: 0.9955, avg wealth: 0.9977, final wealth: 0.9955, ARR: -2.705%, ASR: -inf, AVol" 0.000,MDD: 0.45%, CR: -6.000, DDR: -6.000
+2023-09-05 07:09:25:WARNING:Test Result: after training 68 round, max wealth: 3.6165, min wealth: 0.8440, avg wealth: 1.8292, final wealth: 3.6165, ARR: 44.834%, ASR: 1.822, AVol" 0.246,MDD: 15.60%, CR: 2.873, DDR: 4.803
+2023-09-05 07:10:38:WARNING:[0905/05:44:49]round 69, avg train return 2.6414, avg rho 0.4611, avg mdd 0.0586
+2023-09-05 07:10:38:WARNING:Eval Result: after training 69 round, max wealth: 1.0000, min wealth: 0.9741, avg wealth: 0.9870, final wealth: 0.9741, ARR: -15.569%, ASR: -inf, AVol" 0.000,MDD: 2.59%, CR: -6.000, DDR: -6.000
+2023-09-05 07:10:39:WARNING:Test Result: after training 69 round, max wealth: 3.1069, min wealth: 0.9308, avg wealth: 1.6677, final wealth: 2.8754, ARR: 36.868%, ASR: 1.554, AVol" 0.237,MDD: 8.36%, CR: 4.409, DDR: 7.666
+2023-09-05 07:11:51:WARNING:[0905/05:44:49]round 70, avg train return 2.5871, avg rho 0.4267, avg mdd 0.0472
+2023-09-05 07:11:51:WARNING:Eval Result: after training 70 round, max wealth: 1.0000, min wealth: 0.9958, avg wealth: 0.9979, final wealth: 0.9958, ARR: -2.514%, ASR: -inf, AVol" 0.000,MDD: 0.42%, CR: -6.000, DDR: -6.000
+2023-09-05 07:11:52:WARNING:Test Result: after training 70 round, max wealth: 3.0574, min wealth: 0.8227, avg wealth: 1.5889, final wealth: 2.9931, ARR: 38.896%, ASR: 1.488, AVol" 0.261,MDD: 17.73%, CR: 2.193, DDR: 4.878
+2023-09-05 07:13:05:WARNING:[0905/05:44:49]round 71, avg train return 2.6433, avg rho 0.4010, avg mdd 0.0656
+2023-09-05 07:13:05:WARNING:Eval Result: after training 71 round, max wealth: 1.0000, min wealth: 0.9742, avg wealth: 0.9871, final wealth: 0.9742, ARR: -15.489%, ASR: -inf, AVol" 0.000,MDD: 2.58%, CR: -6.000, DDR: -6.000
+2023-09-05 07:13:05:WARNING:Test Result: after training 71 round, max wealth: 4.2113, min wealth: 0.8227, avg wealth: 1.9031, final wealth: 4.2113, ARR: 50.506%, ASR: 1.902, AVol" 0.266,MDD: 17.73%, CR: 2.849, DDR: 4.741
+2023-09-05 07:14:18:WARNING:[0905/05:44:49]round 72, avg train return 2.6344, avg rho 0.4200, avg mdd 0.0548
+2023-09-05 07:14:18:WARNING:Eval Result: after training 72 round, max wealth: 1.0000, min wealth: 0.9953, avg wealth: 0.9977, final wealth: 0.9953, ARR: -2.802%, ASR: -inf, AVol" 0.000,MDD: 0.47%, CR: -6.000, DDR: -6.000
+2023-09-05 07:14:19:WARNING:Test Result: after training 72 round, max wealth: 3.1961, min wealth: 0.9521, avg wealth: 1.6577, final wealth: 3.1521, ARR: 39.850%, ASR: 1.697, AVol" 0.235,MDD: 6.75%, CR: 5.902, DDR: 12.898
+2023-09-05 07:15:31:WARNING:[0905/05:44:49]round 73, avg train return 2.6236, avg rho 0.4350, avg mdd 0.0601
+2023-09-05 07:15:31:WARNING:Eval Result: after training 73 round, max wealth: 1.0000, min wealth: 0.9961, avg wealth: 0.9980, final wealth: 0.9961, ARR: -2.369%, ASR: -inf, AVol" 0.000,MDD: 0.39%, CR: -6.000, DDR: -6.000
+2023-09-05 07:15:32:WARNING:Test Result: after training 73 round, max wealth: 4.1236, min wealth: 0.9961, avg wealth: 2.0351, final wealth: 4.1236, ARR: 48.823%, ASR: 2.117, AVol" 0.231,MDD: 4.79%, CR: 10.200, DDR: 21.890
+2023-09-05 07:16:45:WARNING:[0905/05:44:49]round 74, avg train return 2.6293, avg rho 0.5500, avg mdd 0.0248
+2023-09-05 07:16:45:WARNING:Eval Result: after training 74 round, max wealth: 1.0000, min wealth: 0.8879, avg wealth: 0.9440, final wealth: 0.8879, ARR: -67.251%, ASR: -inf, AVol" 0.000,MDD: 11.21%, CR: -6.000, DDR: -6.000
+2023-09-05 07:16:45:WARNING:Test Result: after training 74 round, max wealth: 2.9411, min wealth: 0.9096, avg wealth: 1.5230, final wealth: 2.5418, ARR: 33.244%, ASR: 1.288, AVol" 0.258,MDD: 13.58%, CR: 2.449, DDR: 5.563
+2023-09-05 07:17:58:WARNING:[0905/05:44:49]round 75, avg train return 2.6658, avg rho 0.4350, avg mdd 0.0147
+2023-09-05 07:17:58:WARNING:Eval Result: after training 75 round, max wealth: 1.0000, min wealth: 0.8443, avg wealth: 0.9222, final wealth: 0.8443, ARR: -93.397%, ASR: -inf, AVol" 0.000,MDD: 15.57%, CR: -6.000, DDR: -6.000
+2023-09-05 07:17:59:WARNING:Test Result: after training 75 round, max wealth: 2.7135, min wealth: 0.9309, avg wealth: 1.4434, final wealth: 2.4284, ARR: 31.601%, ASR: 1.246, AVol" 0.254,MDD: 10.51%, CR: 3.007, DDR: 6.529
+2023-09-05 07:19:12:WARNING:[0905/05:44:49]round 76, avg train return 2.6736, avg rho 0.4950, avg mdd 0.0079
+2023-09-05 07:19:12:WARNING:Eval Result: after training 76 round, max wealth: 1.0000, min wealth: 0.8014, avg wealth: 0.9007, final wealth: 0.8014, ARR: -119.185%, ASR: -inf, AVol" 0.000,MDD: 19.86%, CR: -6.000, DDR: -6.000
+2023-09-05 07:19:13:WARNING:Test Result: after training 76 round, max wealth: 3.3041, min wealth: 0.9095, avg wealth: 1.6863, final wealth: 2.7404, ARR: 36.115%, ASR: 1.332, AVol" 0.271,MDD: 17.06%, CR: 2.117, DDR: 5.425
+2023-09-05 07:20:26:WARNING:[0905/05:44:49]round 77, avg train return 2.7039, avg rho 0.3867, avg mdd 0.0311
+2023-09-05 07:20:27:WARNING:Eval Result: after training 77 round, max wealth: 1.0000, min wealth: 0.9490, avg wealth: 0.9745, final wealth: 0.9490, ARR: -30.616%, ASR: -inf, AVol" 0.000,MDD: 5.10%, CR: -6.000, DDR: -6.000
+2023-09-05 07:20:27:WARNING:Test Result: after training 77 round, max wealth: 3.4868, min wealth: 0.8802, avg wealth: 1.6691, final wealth: 3.0823, ARR: 40.295%, ASR: 1.433, AVol" 0.281,MDD: 11.98%, CR: 3.364, DDR: 6.097
+2023-09-05 07:21:42:WARNING:[0905/05:44:49]round 78, avg train return 2.7410, avg rho 0.4271, avg mdd 0.0394
+2023-09-05 07:21:42:WARNING:Eval Result: after training 78 round, max wealth: 1.0000, min wealth: 0.8453, avg wealth: 0.9226, final wealth: 0.8453, ARR: -92.841%, ASR: -inf, AVol" 0.000,MDD: 15.47%, CR: -6.000, DDR: -6.000
+2023-09-05 07:21:42:WARNING:Test Result: after training 78 round, max wealth: 3.2054, min wealth: 0.9484, avg wealth: 1.6495, final wealth: 2.8130, ARR: 36.546%, ASR: 1.435, AVol" 0.255,MDD: 12.24%, CR: 2.986, DDR: 6.214
+2023-09-05 07:22:55:WARNING:[0905/05:44:49]round 79, avg train return 2.6715, avg rho 0.4250, avg mdd 0.0240
+2023-09-05 07:22:55:WARNING:Eval Result: after training 79 round, max wealth: 1.0007, min wealth: 1.0000, avg wealth: 1.0004, final wealth: 1.0007, ARR: 0.444%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 07:22:55:WARNING:Test Result: after training 79 round, max wealth: 2.7886, min wealth: 0.8805, avg wealth: 1.4605, final wealth: 2.3543, ARR: 30.878%, ASR: 1.174, AVol" 0.263,MDD: 15.57%, CR: 1.983, DDR: 4.904
+2023-09-05 07:24:09:WARNING:[0905/05:44:49]round 80, avg train return 2.7288, avg rho 0.4733, avg mdd 0.0071
+2023-09-05 07:24:09:WARNING:Eval Result: after training 80 round, max wealth: 1.0000, min wealth: 0.9503, avg wealth: 0.9752, final wealth: 0.9503, ARR: -29.809%, ASR: -inf, AVol" 0.000,MDD: 4.97%, CR: -6.000, DDR: -6.000
+2023-09-05 07:24:09:WARNING:Test Result: after training 80 round, max wealth: 3.3780, min wealth: 0.8816, avg wealth: 1.6916, final wealth: 2.9325, ARR: 38.131%, ASR: 1.462, AVol" 0.261,MDD: 13.19%, CR: 2.892, DDR: 4.958
+2023-09-05 07:25:22:WARNING:[0905/05:44:49]round 81, avg train return 2.7019, avg rho 0.4050, avg mdd 0.0269
+2023-09-05 07:25:23:WARNING:Eval Result: after training 81 round, max wealth: 1.0000, min wealth: 0.8644, avg wealth: 0.9322, final wealth: 0.8644, ARR: -81.351%, ASR: -inf, AVol" 0.000,MDD: 13.56%, CR: -6.000, DDR: -6.000
+2023-09-05 07:25:23:WARNING:Test Result: after training 81 round, max wealth: 3.8136, min wealth: 0.9503, avg wealth: 1.8615, final wealth: 3.2867, ARR: 42.184%, ASR: 1.551, AVol" 0.272,MDD: 13.82%, CR: 3.053, DDR: 8.029
+2023-09-05 07:26:37:WARNING:[0905/05:44:49]round 82, avg train return 2.7424, avg rho 0.4600, avg mdd 0.0170
+2023-09-05 07:26:37:WARNING:Eval Result: after training 82 round, max wealth: 1.0000, min wealth: 0.8990, avg wealth: 0.9495, final wealth: 0.8990, ARR: -60.601%, ASR: -inf, AVol" 0.000,MDD: 10.10%, CR: -6.000, DDR: -6.000
+2023-09-05 07:26:38:WARNING:Test Result: after training 82 round, max wealth: 3.4576, min wealth: 0.8818, avg wealth: 1.7209, final wealth: 2.9637, ARR: 38.698%, ASR: 1.434, AVol" 0.270,MDD: 14.28%, CR: 2.709, DDR: 5.881
+2023-09-05 07:27:51:WARNING:[0905/05:44:49]round 83, avg train return 2.7256, avg rho 0.4350, avg mdd 0.0148
+2023-09-05 07:27:51:WARNING:Eval Result: after training 83 round, max wealth: 1.0000, min wealth: 0.9335, avg wealth: 0.9667, final wealth: 0.9335, ARR: -39.919%, ASR: -inf, AVol" 0.000,MDD: 6.65%, CR: -6.000, DDR: -6.000
+2023-09-05 07:27:52:WARNING:Test Result: after training 83 round, max wealth: 3.0312, min wealth: 0.9163, avg wealth: 1.6639, final wealth: 2.6911, ARR: 34.873%, ASR: 1.419, AVol" 0.246,MDD: 11.22%, CR: 3.108, DDR: 5.371
+2023-09-05 07:29:04:WARNING:[0905/05:44:49]round 84, avg train return 2.7087, avg rho 0.4650, avg mdd 0.0504
+2023-09-05 07:29:04:WARNING:Eval Result: after training 84 round, max wealth: 1.0000, min wealth: 0.8991, avg wealth: 0.9496, final wealth: 0.8991, ARR: -60.513%, ASR: -inf, AVol" 0.000,MDD: 10.09%, CR: -6.000, DDR: -6.000
+2023-09-05 07:29:05:WARNING:Test Result: after training 84 round, max wealth: 3.2730, min wealth: 0.9163, avg wealth: 1.6615, final wealth: 2.9672, ARR: 38.368%, ASR: 1.495, AVol" 0.257,MDD: 9.34%, CR: 4.107, DDR: 7.516
+2023-09-05 07:30:18:WARNING:[0905/05:44:49]round 85, avg train return 2.7357, avg rho 0.5100, avg mdd 0.0324
+2023-09-05 07:30:18:WARNING:Eval Result: after training 85 round, max wealth: 1.0000, min wealth: 0.9852, avg wealth: 0.9926, final wealth: 0.9852, ARR: -8.897%, ASR: -inf, AVol" 0.000,MDD: 1.48%, CR: -6.000, DDR: -6.000
+2023-09-05 07:30:18:WARNING:Test Result: after training 85 round, max wealth: 2.6258, min wealth: 0.8478, avg wealth: 1.3894, final wealth: 2.3288, ARR: 30.907%, ASR: 1.116, AVol" 0.277,MDD: 15.22%, CR: 2.030, DDR: 3.861
+2023-09-05 07:31:32:WARNING:[0905/05:44:49]round 86, avg train return 2.7477, avg rho 0.4389, avg mdd 0.0246
+2023-09-05 07:31:32:WARNING:Eval Result: after training 86 round, max wealth: 1.0000, min wealth: 0.8990, avg wealth: 0.9495, final wealth: 0.8990, ARR: -60.579%, ASR: -inf, AVol" 0.000,MDD: 10.10%, CR: -6.000, DDR: -6.000
+2023-09-05 07:31:32:WARNING:Test Result: after training 86 round, max wealth: 3.1438, min wealth: 0.9677, avg wealth: 1.6076, final wealth: 2.9305, ARR: 38.125%, ASR: 1.436, AVol" 0.265,MDD: 12.64%, CR: 3.015, DDR: 8.976
+2023-09-05 07:32:46:WARNING:[0905/05:44:49]round 87, avg train return 2.8004, avg rho 0.4060, avg mdd 0.0196
+2023-09-05 07:32:46:WARNING:Eval Result: after training 87 round, max wealth: 1.0000, min wealth: 0.9508, avg wealth: 0.9754, final wealth: 0.9508, ARR: -29.514%, ASR: -inf, AVol" 0.000,MDD: 4.92%, CR: -6.000, DDR: -6.000
+2023-09-05 07:32:46:WARNING:Test Result: after training 87 round, max wealth: 2.6337, min wealth: 0.8649, avg wealth: 1.4013, final wealth: 2.2786, ARR: 29.960%, ASR: 1.117, AVol" 0.268,MDD: 13.51%, CR: 2.218, DDR: 3.998
+2023-09-05 07:34:00:WARNING:[0905/05:44:49]round 88, avg train return 2.7698, avg rho 0.5029, avg mdd 0.0240
+2023-09-05 07:34:00:WARNING:Eval Result: after training 88 round, max wealth: 1.0000, min wealth: 0.8819, avg wealth: 0.9410, final wealth: 0.8819, ARR: -70.837%, ASR: -inf, AVol" 0.000,MDD: 11.81%, CR: -6.000, DDR: -6.000
+2023-09-05 07:34:00:WARNING:Test Result: after training 88 round, max wealth: 3.1685, min wealth: 0.9506, avg wealth: 1.5872, final wealth: 2.7926, ARR: 36.623%, ASR: 1.362, AVol" 0.269,MDD: 11.89%, CR: 3.080, DDR: 5.772
+2023-09-05 07:35:13:WARNING:[0905/05:44:49]round 89, avg train return 2.7748, avg rho 0.3929, avg mdd 0.0639
+2023-09-05 07:35:13:WARNING:Eval Result: after training 89 round, max wealth: 1.0021, min wealth: 1.0000, avg wealth: 1.0011, final wealth: 1.0021, ARR: 1.263%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 07:35:14:WARNING:Test Result: after training 89 round, max wealth: 2.7453, min wealth: 0.8475, avg wealth: 1.4528, final wealth: 2.5092, ARR: 33.067%, ASR: 1.243, AVol" 0.266,MDD: 15.25%, CR: 2.169, DDR: 4.708
+2023-09-05 07:36:27:WARNING:[0905/05:44:49]round 90, avg train return 2.7703, avg rho 0.3633, avg mdd 0.0206
+2023-09-05 07:36:27:WARNING:Eval Result: after training 90 round, max wealth: 1.0000, min wealth: 0.8699, avg wealth: 0.9349, final wealth: 0.8699, ARR: -78.066%, ASR: -inf, AVol" 0.000,MDD: 13.01%, CR: -6.000, DDR: -6.000
+2023-09-05 07:36:27:WARNING:Test Result: after training 90 round, max wealth: 2.9164, min wealth: 0.9042, avg wealth: 1.5353, final wealth: 2.6286, ARR: 34.467%, ASR: 1.314, AVol" 0.262,MDD: 12.42%, CR: 2.774, DDR: 5.520
+2023-09-05 07:37:40:WARNING:[0905/05:44:49]round 91, avg train return 2.7791, avg rho 0.4350, avg mdd 0.0253
+2023-09-05 07:37:40:WARNING:Eval Result: after training 91 round, max wealth: 1.0000, min wealth: 0.9389, avg wealth: 0.9694, final wealth: 0.9389, ARR: -36.686%, ASR: -inf, AVol" 0.000,MDD: 6.11%, CR: -6.000, DDR: -6.000
+2023-09-05 07:37:40:WARNING:Test Result: after training 91 round, max wealth: 3.4531, min wealth: 0.9389, avg wealth: 1.7320, final wealth: 3.2399, ARR: 41.123%, ASR: 1.651, AVol" 0.249,MDD: 13.39%, CR: 3.070, DDR: 6.974
+2023-09-05 07:38:55:WARNING:[0905/05:44:49]round 92, avg train return 2.8525, avg rho 0.4820, avg mdd 0.0377
+2023-09-05 07:38:55:WARNING:Eval Result: after training 92 round, max wealth: 1.0000, min wealth: 0.9742, avg wealth: 0.9871, final wealth: 0.9742, ARR: -15.504%, ASR: -inf, AVol" 0.000,MDD: 2.58%, CR: -6.000, DDR: -6.000
+2023-09-05 07:38:55:WARNING:Test Result: after training 92 round, max wealth: 3.3730, min wealth: 1.0000, avg wealth: 1.7230, final wealth: 3.0170, ARR: 38.513%, ASR: 1.616, AVol" 0.238,MDD: 11.71%, CR: 3.288, DDR: 6.668
+2023-09-05 07:40:08:WARNING:[0905/05:44:49]round 93, avg train return 2.7799, avg rho 0.4067, avg mdd 0.0417
+2023-09-05 07:40:08:WARNING:Eval Result: after training 93 round, max wealth: 1.0089, min wealth: 1.0000, avg wealth: 1.0045, final wealth: 1.0089, ARR: 5.369%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 07:40:08:WARNING:Test Result: after training 93 round, max wealth: 2.6000, min wealth: 0.8887, avg wealth: 1.4470, final wealth: 2.3286, ARR: 30.284%, ASR: 1.186, AVol" 0.255,MDD: 11.13%, CR: 2.721, DDR: 5.192
+2023-09-05 07:41:21:WARNING:[0905/05:44:49]round 94, avg train return 2.8020, avg rho 0.3933, avg mdd 0.0306
+2023-09-05 07:41:21:WARNING:Eval Result: after training 94 round, max wealth: 1.0000, min wealth: 0.9394, avg wealth: 0.9697, final wealth: 0.9394, ARR: -36.335%, ASR: -inf, AVol" 0.000,MDD: 6.06%, CR: -6.000, DDR: -6.000
+2023-09-05 07:41:22:WARNING:Test Result: after training 94 round, max wealth: 2.4763, min wealth: 0.8707, avg wealth: 1.3402, final wealth: 2.2171, ARR: 29.121%, ASR: 1.069, AVol" 0.272,MDD: 12.93%, CR: 2.253, DDR: 4.612
+2023-09-05 07:42:35:WARNING:[0905/05:44:49]round 95, avg train return 2.8270, avg rho 0.4800, avg mdd 0.0566
+2023-09-05 07:42:35:WARNING:Eval Result: after training 95 round, max wealth: 1.0000, min wealth: 0.9231, avg wealth: 0.9615, final wealth: 0.9231, ARR: -46.167%, ASR: -inf, AVol" 0.000,MDD: 7.69%, CR: -6.000, DDR: -6.000
+2023-09-05 07:42:36:WARNING:Test Result: after training 95 round, max wealth: 2.7933, min wealth: 0.9775, avg wealth: 1.4793, final wealth: 2.4680, ARR: 32.229%, ASR: 1.249, AVol" 0.258,MDD: 11.80%, CR: 2.732, DDR: 7.554
+2023-09-05 07:43:48:WARNING:[0905/05:44:49]round 96, avg train return 2.8168, avg rho 0.4271, avg mdd 0.0269
+2023-09-05 07:43:48:WARNING:Eval Result: after training 96 round, max wealth: 1.0000, min wealth: 0.8886, avg wealth: 0.9443, final wealth: 0.8886, ARR: -66.817%, ASR: -inf, AVol" 0.000,MDD: 11.14%, CR: -6.000, DDR: -6.000
+2023-09-05 07:43:49:WARNING:Test Result: after training 96 round, max wealth: 2.4164, min wealth: 0.8715, avg wealth: 1.3090, final wealth: 2.0208, ARR: 26.841%, ASR: 0.881, AVol" 0.305,MDD: 16.37%, CR: 1.640, DDR: 3.834
+2023-09-05 07:45:03:WARNING:[0905/05:44:49]round 97, avg train return 2.8655, avg rho 0.4167, avg mdd 0.1062
+2023-09-05 07:45:03:WARNING:Eval Result: after training 97 round, max wealth: 1.0000, min wealth: 0.9405, avg wealth: 0.9702, final wealth: 0.9405, ARR: -35.721%, ASR: -inf, AVol" 0.000,MDD: 5.95%, CR: -6.000, DDR: -6.000
+2023-09-05 07:45:03:WARNING:Test Result: after training 97 round, max wealth: 2.9529, min wealth: 0.9391, avg wealth: 1.4765, final wealth: 2.6053, ARR: 34.656%, ASR: 1.214, AVol" 0.285,MDD: 12.00%, CR: 2.888, DDR: 5.170
+2023-09-05 07:46:17:WARNING:[0905/05:44:49]round 98, avg train return 2.8353, avg rho 0.4143, avg mdd 0.0194
+2023-09-05 07:46:17:WARNING:Eval Result: after training 98 round, max wealth: 1.0000, min wealth: 0.8719, avg wealth: 0.9360, final wealth: 0.8719, ARR: -76.851%, ASR: -inf, AVol" 0.000,MDD: 12.81%, CR: -6.000, DDR: -6.000
+2023-09-05 07:46:17:WARNING:Test Result: after training 98 round, max wealth: 3.2826, min wealth: 1.0000, avg wealth: 1.7106, final wealth: 2.9412, ARR: 38.037%, ASR: 1.462, AVol" 0.260,MDD: 10.40%, CR: 3.658, DDR: 8.109
+2023-09-05 07:47:30:WARNING:[0905/05:44:49]round 99, avg train return 2.8382, avg rho 0.3700, avg mdd 0.0143
+2023-09-05 07:47:30:WARNING:Eval Result: after training 99 round, max wealth: 1.0000, min wealth: 0.9237, avg wealth: 0.9619, final wealth: 0.9237, ARR: -45.752%, ASR: -inf, AVol" 0.000,MDD: 7.63%, CR: -6.000, DDR: -6.000
+2023-09-05 07:47:31:WARNING:Test Result: after training 99 round, max wealth: 2.9943, min wealth: 0.9409, avg wealth: 1.5571, final wealth: 2.4868, ARR: 33.068%, ASR: 1.165, AVol" 0.284,MDD: 16.95%, CR: 1.951, DDR: 4.916
+2023-09-05 07:48:44:WARNING:[0905/05:44:49]round 100, avg train return 2.8885, avg rho 0.4914, avg mdd 0.0230
+2023-09-05 07:48:44:WARNING:Eval Result: after training 100 round, max wealth: 1.0000, min wealth: 0.9751, avg wealth: 0.9875, final wealth: 0.9751, ARR: -14.946%, ASR: -inf, AVol" 0.000,MDD: 2.49%, CR: -6.000, DDR: -6.000
+2023-09-05 07:48:45:WARNING:Test Result: after training 100 round, max wealth: 3.3782, min wealth: 1.0000, avg wealth: 1.7302, final wealth: 3.1715, ARR: 40.625%, ASR: 1.538, AVol" 0.264,MDD: 12.26%, CR: 3.314, DDR: 9.978
+2023-09-05 07:49:58:WARNING:[0905/05:44:49]round 101, avg train return 2.8480, avg rho 0.4912, avg mdd 0.0901
+2023-09-05 07:49:58:WARNING:Eval Result: after training 101 round, max wealth: 1.0000, min wealth: 0.9755, avg wealth: 0.9877, final wealth: 0.9755, ARR: -14.724%, ASR: -inf, AVol" 0.000,MDD: 2.45%, CR: -6.000, DDR: -6.000
+2023-09-05 07:49:58:WARNING:Test Result: after training 101 round, max wealth: 3.0388, min wealth: 0.8896, avg wealth: 1.4733, final wealth: 2.7766, ARR: 36.718%, ASR: 1.303, AVol" 0.282,MDD: 11.04%, CR: 3.325, DDR: 5.992
+2023-09-05 07:51:10:WARNING:[0905/05:44:49]round 102, avg train return 2.8345, avg rho 0.4300, avg mdd 0.0076
+2023-09-05 07:51:10:WARNING:Eval Result: after training 102 round, max wealth: 1.0000, min wealth: 0.9414, avg wealth: 0.9707, final wealth: 0.9414, ARR: -35.173%, ASR: -inf, AVol" 0.000,MDD: 5.86%, CR: -6.000, DDR: -6.000
+2023-09-05 07:51:11:WARNING:Test Result: after training 102 round, max wealth: 3.0849, min wealth: 0.9493, avg wealth: 1.5177, final wealth: 2.6018, ARR: 34.752%, ASR: 1.195, AVol" 0.291,MDD: 15.66%, CR: 2.219, DDR: 6.650
+2023-09-05 07:52:24:WARNING:[0905/05:44:49]round 103, avg train return 2.8879, avg rho 0.4286, avg mdd 0.0084
+2023-09-05 07:52:24:WARNING:Eval Result: after training 103 round, max wealth: 1.0000, min wealth: 0.9184, avg wealth: 0.9592, final wealth: 0.9184, ARR: -48.989%, ASR: -inf, AVol" 0.000,MDD: 8.16%, CR: -6.000, DDR: -6.000
+2023-09-05 07:52:24:WARNING:Test Result: after training 103 round, max wealth: 2.8471, min wealth: 0.8497, avg wealth: 1.4486, final wealth: 2.5204, ARR: 34.022%, ASR: 1.135, AVol" 0.300,MDD: 15.03%, CR: 2.263, DDR: 4.552
+2023-09-05 07:53:37:WARNING:[0905/05:44:49]round 104, avg train return 2.8791, avg rho 0.4100, avg mdd 0.0168
+2023-09-05 07:53:37:WARNING:Eval Result: after training 104 round, max wealth: 1.0000, min wealth: 0.9528, avg wealth: 0.9764, final wealth: 0.9528, ARR: -28.340%, ASR: -inf, AVol" 0.000,MDD: 4.72%, CR: -6.000, DDR: -6.000
+2023-09-05 07:53:38:WARNING:Test Result: after training 104 round, max wealth: 2.8915, min wealth: 0.9871, avg wealth: 1.5300, final wealth: 2.3544, ARR: 31.427%, ASR: 1.077, AVol" 0.292,MDD: 18.57%, CR: 1.692, DDR: 5.912
+2023-09-05 07:54:51:WARNING:[0905/05:44:49]round 105, avg train return 2.9264, avg rho 0.4112, avg mdd 0.0860
+2023-09-05 07:54:51:WARNING:Eval Result: after training 105 round, max wealth: 1.0000, min wealth: 0.9181, avg wealth: 0.9591, final wealth: 0.9181, ARR: -49.123%, ASR: -inf, AVol" 0.000,MDD: 8.19%, CR: -6.000, DDR: -6.000
+2023-09-05 07:54:51:WARNING:Test Result: after training 105 round, max wealth: 4.1022, min wealth: 0.9696, avg wealth: 1.9706, final wealth: 3.6544, ARR: 45.460%, ASR: 1.714, AVol" 0.265,MDD: 10.92%, CR: 4.165, DDR: 8.591
+2023-09-05 07:56:04:WARNING:[0905/05:44:49]round 106, avg train return 2.8921, avg rho 0.4467, avg mdd 0.0153
+2023-09-05 07:56:04:WARNING:Eval Result: after training 106 round, max wealth: 1.0000, min wealth: 0.8841, avg wealth: 0.9420, final wealth: 0.8841, ARR: -69.552%, ASR: -inf, AVol" 0.000,MDD: 11.59%, CR: -6.000, DDR: -6.000
+2023-09-05 07:56:05:WARNING:Test Result: after training 106 round, max wealth: 2.6337, min wealth: 0.8669, avg wealth: 1.3554, final wealth: 2.2056, ARR: 29.454%, ASR: 1.004, AVol" 0.293,MDD: 16.25%, CR: 1.812, DDR: 3.936
+2023-09-05 07:57:17:WARNING:[0905/05:44:49]round 107, avg train return 2.9030, avg rho 0.3950, avg mdd 0.0128
+2023-09-05 07:57:17:WARNING:Eval Result: after training 107 round, max wealth: 1.0000, min wealth: 0.9529, avg wealth: 0.9765, final wealth: 0.9529, ARR: -28.242%, ASR: -inf, AVol" 0.000,MDD: 4.71%, CR: -6.000, DDR: -6.000
+2023-09-05 07:57:18:WARNING:Test Result: after training 107 round, max wealth: 2.4009, min wealth: 0.8842, avg wealth: 1.3762, final wealth: 2.2540, ARR: 29.495%, ASR: 1.089, AVol" 0.271,MDD: 12.69%, CR: 2.324, DDR: 5.228
+2023-09-05 07:58:29:WARNING:[0905/05:44:49]round 108, avg train return 2.8814, avg rho 0.4767, avg mdd 0.0536
+2023-09-05 07:58:29:WARNING:Eval Result: after training 108 round, max wealth: 1.0000, min wealth: 0.9524, avg wealth: 0.9762, final wealth: 0.9524, ARR: -28.583%, ASR: -inf, AVol" 0.000,MDD: 4.76%, CR: -6.000, DDR: -6.000
+2023-09-05 07:58:30:WARNING:Test Result: after training 108 round, max wealth: 3.1753, min wealth: 0.9524, avg wealth: 1.6463, final wealth: 2.8484, ARR: 37.160%, ASR: 1.389, AVol" 0.268,MDD: 10.60%, CR: 3.507, DDR: 7.056
+2023-09-05 07:59:44:WARNING:[0905/05:44:49]round 109, avg train return 3.0118, avg rho 0.4660, avg mdd 0.0716
+2023-09-05 07:59:44:WARNING:Eval Result: after training 109 round, max wealth: 1.0000, min wealth: 0.9187, avg wealth: 0.9593, final wealth: 0.9187, ARR: -48.809%, ASR: -inf, AVol" 0.000,MDD: 8.13%, CR: -6.000, DDR: -6.000
+2023-09-05 07:59:44:WARNING:Test Result: after training 109 round, max wealth: 3.5448, min wealth: 1.0000, avg wealth: 1.7211, final wealth: 3.2023, ARR: 41.123%, ASR: 1.518, AVol" 0.271,MDD: 9.66%, CR: 4.256, DDR: 7.931
+2023-09-05 08:00:57:WARNING:[0905/05:44:49]round 110, avg train return 2.8944, avg rho 0.4567, avg mdd 0.0295
+2023-09-05 08:00:57:WARNING:Eval Result: after training 110 round, max wealth: 1.0000, min wealth: 0.9703, avg wealth: 0.9852, final wealth: 0.9703, ARR: -17.798%, ASR: -inf, AVol" 0.000,MDD: 2.97%, CR: -6.000, DDR: -6.000
+2023-09-05 08:00:57:WARNING:Test Result: after training 110 round, max wealth: 2.6687, min wealth: 0.8715, avg wealth: 1.3352, final wealth: 2.2823, ARR: 30.492%, ASR: 1.034, AVol" 0.295,MDD: 14.48%, CR: 2.106, DDR: 4.873
+2023-09-05 08:02:11:WARNING:[0905/05:44:49]round 111, avg train return 2.9955, avg rho 0.4414, avg mdd 0.0796
+2023-09-05 08:02:11:WARNING:Eval Result: after training 111 round, max wealth: 1.0000, min wealth: 0.9706, avg wealth: 0.9853, final wealth: 0.9706, ARR: -17.636%, ASR: -inf, AVol" 0.000,MDD: 2.94%, CR: -6.000, DDR: -6.000
+2023-09-05 08:02:12:WARNING:Test Result: after training 111 round, max wealth: 2.3619, min wealth: 0.8504, avg wealth: 1.2551, final wealth: 1.9588, ARR: 25.587%, ASR: 0.864, AVol" 0.296,MDD: 17.07%, CR: 1.499, DDR: 3.554
+2023-09-05 08:03:24:WARNING:[0905/05:44:49]round 112, avg train return 2.9389, avg rho 0.4367, avg mdd 0.0208
+2023-09-05 08:03:24:WARNING:Eval Result: after training 112 round, max wealth: 1.0000, min wealth: 0.8501, avg wealth: 0.9251, final wealth: 0.8501, ARR: -89.912%, ASR: -inf, AVol" 0.000,MDD: 14.99%, CR: -6.000, DDR: -6.000
+2023-09-05 08:03:25:WARNING:Test Result: after training 112 round, max wealth: 2.9653, min wealth: 0.8501, avg wealth: 1.4793, final wealth: 2.5363, ARR: 33.906%, ASR: 1.176, AVol" 0.288,MDD: 14.99%, CR: 2.263, DDR: 4.092
+2023-09-05 08:04:37:WARNING:[0905/05:44:49]round 113, avg train return 2.9456, avg rho 0.4312, avg mdd 0.0224
+2023-09-05 08:04:38:WARNING:Eval Result: after training 113 round, max wealth: 1.0000, min wealth: 0.9878, avg wealth: 0.9939, final wealth: 0.9878, ARR: -7.307%, ASR: -inf, AVol" 0.000,MDD: 1.22%, CR: -6.000, DDR: -6.000
+2023-09-05 08:04:38:WARNING:Test Result: after training 113 round, max wealth: 2.4514, min wealth: 0.8848, avg wealth: 1.3025, final wealth: 2.1259, ARR: 27.973%, ASR: 0.973, AVol" 0.288,MDD: 13.28%, CR: 2.107, DDR: 4.456
+2023-09-05 08:05:51:WARNING:[0905/05:44:49]round 114, avg train return 2.9635, avg rho 0.4671, avg mdd 0.0274
+2023-09-05 08:05:51:WARNING:Eval Result: after training 114 round, max wealth: 1.0050, min wealth: 1.0000, avg wealth: 1.0025, final wealth: 1.0050, ARR: 2.979%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:05:52:WARNING:Test Result: after training 114 round, max wealth: 2.8141, min wealth: 1.0000, avg wealth: 1.5335, final wealth: 2.4562, ARR: 31.822%, ASR: 1.270, AVol" 0.251,MDD: 12.72%, CR: 2.502, DDR: 6.884
+2023-09-05 08:07:04:WARNING:[0905/05:44:49]round 115, avg train return 2.9274, avg rho 0.4243, avg mdd 0.0079
+2023-09-05 08:07:04:WARNING:Eval Result: after training 115 round, max wealth: 1.0000, min wealth: 0.8501, avg wealth: 0.9250, final wealth: 0.8501, ARR: -89.962%, ASR: -inf, AVol" 0.000,MDD: 14.99%, CR: -6.000, DDR: -6.000
+2023-09-05 08:07:04:WARNING:Test Result: after training 115 round, max wealth: 2.8231, min wealth: 0.9531, avg wealth: 1.6171, final wealth: 2.4729, ARR: 32.418%, ASR: 1.207, AVol" 0.269,MDD: 12.40%, CR: 2.613, DDR: 7.756
+2023-09-05 08:08:18:WARNING:[0905/05:44:49]round 116, avg train return 2.9739, avg rho 0.4678, avg mdd 0.0142
+2023-09-05 08:08:18:WARNING:Eval Result: after training 116 round, max wealth: 1.0000, min wealth: 0.8671, avg wealth: 0.9335, final wealth: 0.8671, ARR: -79.769%, ASR: -inf, AVol" 0.000,MDD: 13.29%, CR: -6.000, DDR: -6.000
+2023-09-05 08:08:18:WARNING:Test Result: after training 116 round, max wealth: 3.4689, min wealth: 0.9186, avg wealth: 1.6393, final wealth: 3.1695, ARR: 41.144%, ASR: 1.451, AVol" 0.283,MDD: 10.06%, CR: 4.090, DDR: 7.001
+2023-09-05 08:09:31:WARNING:[0905/05:44:49]round 117, avg train return 2.9431, avg rho 0.4783, avg mdd 0.0048
+2023-09-05 08:09:31:WARNING:Eval Result: after training 117 round, max wealth: 1.0000, min wealth: 0.9186, avg wealth: 0.9593, final wealth: 0.9186, ARR: -48.855%, ASR: -inf, AVol" 0.000,MDD: 8.14%, CR: -6.000, DDR: -6.000
+2023-09-05 08:09:31:WARNING:Test Result: after training 117 round, max wealth: 3.4819, min wealth: 0.8499, avg wealth: 1.6541, final wealth: 3.0940, ARR: 40.651%, ASR: 1.400, AVol" 0.290,MDD: 15.01%, CR: 2.708, DDR: 4.378
+2023-09-05 08:10:45:WARNING:[0905/05:44:49]round 118, avg train return 2.9961, avg rho 0.4571, avg mdd 0.0219
+2023-09-05 08:10:45:WARNING:Eval Result: after training 118 round, max wealth: 1.0000, min wealth: 0.9748, avg wealth: 0.9874, final wealth: 0.9748, ARR: -15.102%, ASR: -inf, AVol" 0.000,MDD: 2.52%, CR: -6.000, DDR: -6.000
+2023-09-05 08:10:45:WARNING:Test Result: after training 118 round, max wealth: 2.5484, min wealth: 0.9405, avg wealth: 1.5135, final wealth: 2.1850, ARR: 28.021%, ASR: 1.117, AVol" 0.251,MDD: 14.26%, CR: 1.965, DDR: 5.521
+2023-09-05 08:11:58:WARNING:[0905/05:44:49]round 119, avg train return 2.9838, avg rho 0.4700, avg mdd 0.0357
+2023-09-05 08:11:58:WARNING:Eval Result: after training 119 round, max wealth: 1.0000, min wealth: 0.9531, avg wealth: 0.9765, final wealth: 0.9531, ARR: -28.146%, ASR: -inf, AVol" 0.000,MDD: 4.69%, CR: -6.000, DDR: -6.000
+2023-09-05 08:11:58:WARNING:Test Result: after training 119 round, max wealth: 2.5244, min wealth: 0.9016, avg wealth: 1.4298, final wealth: 2.1195, ARR: 27.561%, ASR: 1.013, AVol" 0.272,MDD: 16.04%, CR: 1.718, DDR: 4.715
+2023-09-05 08:13:12:WARNING:[0905/05:44:49]round 120, avg train return 3.0051, avg rho 0.3575, avg mdd 0.0319
+2023-09-05 08:13:12:WARNING:Eval Result: after training 120 round, max wealth: 1.0282, min wealth: 1.0000, avg wealth: 1.0141, final wealth: 1.0282, ARR: 16.915%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:13:12:WARNING:Test Result: after training 120 round, max wealth: 2.8475, min wealth: 0.8736, avg wealth: 1.5098, final wealth: 2.5661, ARR: 33.655%, ASR: 1.275, AVol" 0.264,MDD: 12.64%, CR: 2.663, DDR: 4.816
+2023-09-05 08:14:25:WARNING:[0905/05:44:49]round 121, avg train return 2.9968, avg rho 0.4288, avg mdd 0.0112
+2023-09-05 08:14:25:WARNING:Eval Result: after training 121 round, max wealth: 1.0000, min wealth: 0.9935, avg wealth: 0.9967, final wealth: 0.9935, ARR: -3.900%, ASR: -inf, AVol" 0.000,MDD: 0.65%, CR: -6.000, DDR: -6.000
+2023-09-05 08:14:25:WARNING:Test Result: after training 121 round, max wealth: 3.3434, min wealth: 1.0000, avg wealth: 1.8227, final wealth: 2.7775, ARR: 35.904%, ASR: 1.450, AVol" 0.248,MDD: 16.93%, CR: 2.121, DDR: 4.669
+2023-09-05 08:15:38:WARNING:[0905/05:44:49]round 122, avg train return 2.9681, avg rho 0.4150, avg mdd 0.0027
+2023-09-05 08:15:38:WARNING:Eval Result: after training 122 round, max wealth: 1.0000, min wealth: 0.8904, avg wealth: 0.9452, final wealth: 0.8904, ARR: -65.740%, ASR: -inf, AVol" 0.000,MDD: 10.96%, CR: -6.000, DDR: -6.000
+2023-09-05 08:15:38:WARNING:Test Result: after training 122 round, max wealth: 2.8678, min wealth: 0.9076, avg wealth: 1.4728, final wealth: 2.5664, ARR: 33.670%, ASR: 1.268, AVol" 0.265,MDD: 10.51%, CR: 3.203, DDR: 4.750
+2023-09-05 08:16:51:WARNING:[0905/05:44:49]round 123, avg train return 2.9942, avg rho 0.4629, avg mdd 0.0474
+2023-09-05 08:16:51:WARNING:Eval Result: after training 123 round, max wealth: 1.0000, min wealth: 0.9770, avg wealth: 0.9885, final wealth: 0.9770, ARR: -13.828%, ASR: -inf, AVol" 0.000,MDD: 2.30%, CR: -6.000, DDR: -6.000
+2023-09-05 08:16:52:WARNING:Test Result: after training 123 round, max wealth: 3.0214, min wealth: 0.9082, avg wealth: 1.6144, final wealth: 2.6706, ARR: 34.690%, ASR: 1.377, AVol" 0.252,MDD: 11.61%, CR: 2.988, DDR: 5.591
+2023-09-05 08:18:04:WARNING:[0905/05:44:49]round 124, avg train return 2.9757, avg rho 0.4717, avg mdd 0.0129
+2023-09-05 08:18:04:WARNING:Eval Result: after training 124 round, max wealth: 1.0000, min wealth: 0.9081, avg wealth: 0.9541, final wealth: 0.9081, ARR: -55.120%, ASR: -inf, AVol" 0.000,MDD: 9.19%, CR: -6.000, DDR: -6.000
+2023-09-05 08:18:05:WARNING:Test Result: after training 124 round, max wealth: 3.3094, min wealth: 0.9253, avg wealth: 1.8167, final wealth: 2.9823, ARR: 38.532%, ASR: 1.485, AVol" 0.260,MDD: 9.88%, CR: 3.899, DDR: 5.971
+2023-09-05 08:19:17:WARNING:[0905/05:44:49]round 125, avg train return 2.9881, avg rho 0.4643, avg mdd 0.0311
+2023-09-05 08:19:17:WARNING:Eval Result: after training 125 round, max wealth: 1.0294, min wealth: 1.0000, avg wealth: 1.0147, final wealth: 1.0294, ARR: 17.666%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:19:18:WARNING:Test Result: after training 125 round, max wealth: 2.9704, min wealth: 0.9092, avg wealth: 1.5358, final wealth: 2.7141, ARR: 35.486%, ASR: 1.350, AVol" 0.263,MDD: 9.70%, CR: 3.659, DDR: 5.735
+2023-09-05 08:20:30:WARNING:[0905/05:44:49]round 126, avg train return 2.9728, avg rho 0.4050, avg mdd 0.0000
+2023-09-05 08:20:30:WARNING:Eval Result: after training 126 round, max wealth: 1.0000, min wealth: 0.9778, avg wealth: 0.9889, final wealth: 0.9778, ARR: -13.342%, ASR: -inf, AVol" 0.000,MDD: 2.22%, CR: -6.000, DDR: -6.000
+2023-09-05 08:20:31:WARNING:Test Result: after training 126 round, max wealth: 2.7741, min wealth: 0.9091, avg wealth: 1.4702, final wealth: 2.3210, ARR: 30.328%, ASR: 1.156, AVol" 0.262,MDD: 16.34%, CR: 1.857, DDR: 4.719
+2023-09-05 08:21:44:WARNING:[0905/05:44:49]round 127, avg train return 3.0152, avg rho 0.3938, avg mdd 0.0463
+2023-09-05 08:21:44:WARNING:Eval Result: after training 127 round, max wealth: 1.0000, min wealth: 0.8746, avg wealth: 0.9373, final wealth: 0.8746, ARR: -75.222%, ASR: -inf, AVol" 0.000,MDD: 12.54%, CR: -6.000, DDR: -6.000
+2023-09-05 08:21:45:WARNING:Test Result: after training 127 round, max wealth: 2.2438, min wealth: 0.8746, avg wealth: 1.3152, final wealth: 1.8905, ARR: 23.968%, ASR: 0.864, AVol" 0.277,MDD: 15.74%, CR: 1.522, DDR: 3.167
+2023-09-05 08:22:57:WARNING:[0905/05:44:49]round 128, avg train return 2.9845, avg rho 0.4400, avg mdd 0.0360
+2023-09-05 08:22:57:WARNING:Eval Result: after training 128 round, max wealth: 1.0000, min wealth: 0.9949, avg wealth: 0.9975, final wealth: 0.9949, ARR: -3.039%, ASR: -inf, AVol" 0.000,MDD: 0.51%, CR: -6.000, DDR: -6.000
+2023-09-05 08:22:58:WARNING:Test Result: after training 128 round, max wealth: 2.5793, min wealth: 0.8747, avg wealth: 1.4353, final wealth: 2.3244, ARR: 30.207%, ASR: 1.187, AVol" 0.255,MDD: 12.53%, CR: 2.411, DDR: 3.817
+2023-09-05 08:24:11:WARNING:[0905/05:44:49]round 129, avg train return 3.0257, avg rho 0.4475, avg mdd 0.0764
+2023-09-05 08:24:11:WARNING:Eval Result: after training 129 round, max wealth: 1.0000, min wealth: 0.9434, avg wealth: 0.9717, final wealth: 0.9434, ARR: -33.944%, ASR: -inf, AVol" 0.000,MDD: 5.66%, CR: -6.000, DDR: -6.000
+2023-09-05 08:24:12:WARNING:Test Result: after training 129 round, max wealth: 2.3818, min wealth: 0.9091, avg wealth: 1.3983, final wealth: 2.0918, ARR: 26.742%, ASR: 1.044, AVol" 0.256,MDD: 12.51%, CR: 2.138, DDR: 4.121
+2023-09-05 08:25:24:WARNING:[0905/05:44:49]round 130, avg train return 2.9588, avg rho 0.4343, avg mdd 0.0337
+2023-09-05 08:25:24:WARNING:Eval Result: after training 130 round, max wealth: 1.0000, min wealth: 0.9953, avg wealth: 0.9976, final wealth: 0.9953, ARR: -2.825%, ASR: -inf, AVol" 0.000,MDD: 0.47%, CR: -6.000, DDR: -6.000
+2023-09-05 08:25:24:WARNING:Test Result: after training 130 round, max wealth: 2.4134, min wealth: 0.8751, avg wealth: 1.3823, final wealth: 2.0618, ARR: 26.301%, ASR: 1.022, AVol" 0.257,MDD: 14.57%, CR: 1.806, DDR: 3.433
+2023-09-05 08:26:37:WARNING:[0905/05:44:49]round 131, avg train return 3.0091, avg rho 0.4217, avg mdd 0.0376
+2023-09-05 08:26:37:WARNING:Eval Result: after training 131 round, max wealth: 1.0000, min wealth: 0.8747, avg wealth: 0.9374, final wealth: 0.8747, ARR: -75.172%, ASR: -inf, AVol" 0.000,MDD: 12.53%, CR: -6.000, DDR: -6.000
+2023-09-05 08:26:38:WARNING:Test Result: after training 131 round, max wealth: 2.6271, min wealth: 0.9606, avg wealth: 1.5508, final wealth: 2.4663, ARR: 31.380%, ASR: 1.416, AVol" 0.222,MDD: 6.12%, CR: 5.128, DDR: 7.170
+2023-09-05 08:27:50:WARNING:[0905/05:44:49]round 132, avg train return 2.9596, avg rho 0.4583, avg mdd 0.0128
+2023-09-05 08:27:50:WARNING:Eval Result: after training 132 round, max wealth: 1.0000, min wealth: 0.8755, avg wealth: 0.9378, final wealth: 0.8755, ARR: -74.687%, ASR: -inf, AVol" 0.000,MDD: 12.45%, CR: -6.000, DDR: -6.000
+2023-09-05 08:27:50:WARNING:Test Result: after training 132 round, max wealth: 3.3469, min wealth: 0.9786, avg wealth: 1.7396, final wealth: 3.0411, ARR: 38.683%, ASR: 1.621, AVol" 0.239,MDD: 9.14%, CR: 4.233, DDR: 8.602
+2023-09-05 08:29:04:WARNING:[0905/05:44:49]round 133, avg train return 3.0886, avg rho 0.4122, avg mdd 0.0493
+2023-09-05 08:29:04:WARNING:Eval Result: after training 133 round, max wealth: 1.0000, min wealth: 0.9786, avg wealth: 0.9893, final wealth: 0.9786, ARR: -12.835%, ASR: -inf, AVol" 0.000,MDD: 2.14%, CR: -6.000, DDR: -6.000
+2023-09-05 08:29:05:WARNING:Test Result: after training 133 round, max wealth: 3.3626, min wealth: 0.9099, avg wealth: 1.7163, final wealth: 2.9670, ARR: 38.107%, ASR: 1.566, AVol" 0.243,MDD: 11.77%, CR: 3.239, DDR: 5.897
+2023-09-05 08:30:19:WARNING:[0905/05:44:49]round 134, avg train return 3.0490, avg rho 0.4863, avg mdd 0.0514
+2023-09-05 08:30:19:WARNING:Eval Result: after training 134 round, max wealth: 1.0000, min wealth: 0.9438, avg wealth: 0.9719, final wealth: 0.9438, ARR: -33.739%, ASR: -inf, AVol" 0.000,MDD: 5.62%, CR: -6.000, DDR: -6.000
+2023-09-05 08:30:19:WARNING:Test Result: after training 134 round, max wealth: 2.5594, min wealth: 0.8760, avg wealth: 1.3840, final wealth: 2.1559, ARR: 28.022%, ASR: 1.056, AVol" 0.265,MDD: 15.76%, CR: 1.778, DDR: 3.822
+2023-09-05 08:31:32:WARNING:[0905/05:44:49]round 135, avg train return 3.0321, avg rho 0.4286, avg mdd 0.0067
+2023-09-05 08:31:32:WARNING:Eval Result: after training 135 round, max wealth: 1.0000, min wealth: 0.8920, avg wealth: 0.9460, final wealth: 0.8920, ARR: -64.816%, ASR: -inf, AVol" 0.000,MDD: 10.80%, CR: -6.000, DDR: -6.000
+2023-09-05 08:31:33:WARNING:Test Result: after training 135 round, max wealth: 3.8742, min wealth: 0.9950, avg wealth: 1.9060, final wealth: 3.2867, ARR: 41.668%, ASR: 1.668, AVol" 0.250,MDD: 15.17%, CR: 2.748, DDR: 6.923
+2023-09-05 08:32:45:WARNING:[0905/05:44:49]round 136, avg train return 2.9829, avg rho 0.3983, avg mdd 0.0970
+2023-09-05 08:32:45:WARNING:Eval Result: after training 136 round, max wealth: 1.0000, min wealth: 0.9431, avg wealth: 0.9715, final wealth: 0.9431, ARR: -34.161%, ASR: -inf, AVol" 0.000,MDD: 5.69%, CR: -6.000, DDR: -6.000
+2023-09-05 08:32:46:WARNING:Test Result: after training 136 round, max wealth: 2.8660, min wealth: 0.8744, avg wealth: 1.5376, final wealth: 2.3809, ARR: 31.642%, ASR: 1.133, AVol" 0.279,MDD: 16.93%, CR: 1.869, DDR: 4.261
+2023-09-05 08:34:00:WARNING:[0905/05:44:49]round 137, avg train return 3.0625, avg rho 0.4375, avg mdd 0.0262
+2023-09-05 08:34:00:WARNING:Eval Result: after training 137 round, max wealth: 1.0000, min wealth: 0.9754, avg wealth: 0.9877, final wealth: 0.9754, ARR: -14.778%, ASR: -inf, AVol" 0.000,MDD: 2.46%, CR: -6.000, DDR: -6.000
+2023-09-05 08:34:00:WARNING:Test Result: after training 137 round, max wealth: 2.3524, min wealth: 0.8808, avg wealth: 1.3453, final wealth: 2.0433, ARR: 26.255%, ASR: 0.984, AVol" 0.267,MDD: 13.14%, CR: 1.998, DDR: 4.627
+2023-09-05 08:35:14:WARNING:[0905/05:44:49]round 138, avg train return 3.0446, avg rho 0.3700, avg mdd 0.0330
+2023-09-05 08:35:14:WARNING:Eval Result: after training 138 round, max wealth: 1.0119, min wealth: 1.0000, avg wealth: 1.0059, final wealth: 1.0119, ARR: 7.110%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:35:14:WARNING:Test Result: after training 138 round, max wealth: 3.1441, min wealth: 0.8744, avg wealth: 1.5812, final wealth: 2.8333, ARR: 36.910%, ASR: 1.431, AVol" 0.258,MDD: 12.56%, CR: 2.940, DDR: 5.075
+2023-09-05 08:36:27:WARNING:[0905/05:44:49]round 139, avg train return 2.9914, avg rho 0.4217, avg mdd 0.0070
+2023-09-05 08:36:27:WARNING:Eval Result: after training 139 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9540, final wealth: 0.9079, ARR: -55.242%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:36:27:WARNING:Test Result: after training 139 round, max wealth: 3.1395, min wealth: 1.0000, avg wealth: 1.6142, final wealth: 2.6266, ARR: 34.179%, ASR: 1.367, AVol" 0.250,MDD: 16.34%, CR: 2.092, DDR: 4.735
+2023-09-05 08:37:40:WARNING:[0905/05:44:49]round 140, avg train return 3.0188, avg rho 0.4357, avg mdd 0.0319
+2023-09-05 08:37:40:WARNING:Eval Result: after training 140 round, max wealth: 1.0000, min wealth: 0.9068, avg wealth: 0.9534, final wealth: 0.9068, ARR: -55.905%, ASR: -inf, AVol" 0.000,MDD: 9.32%, CR: -6.000, DDR: -6.000
+2023-09-05 08:37:41:WARNING:Test Result: after training 140 round, max wealth: 2.8006, min wealth: 0.9755, avg wealth: 1.6431, final wealth: 2.5846, ARR: 33.210%, ASR: 1.433, AVol" 0.232,MDD: 10.00%, CR: 3.322, DDR: 6.976
+2023-09-05 08:38:54:WARNING:[0905/05:44:49]round 141, avg train return 3.0393, avg rho 0.4133, avg mdd 0.0416
+2023-09-05 08:38:54:WARNING:Eval Result: after training 141 round, max wealth: 1.0000, min wealth: 0.8712, avg wealth: 0.9356, final wealth: 0.8712, ARR: -77.301%, ASR: -inf, AVol" 0.000,MDD: 12.88%, CR: -6.000, DDR: -6.000
+2023-09-05 08:38:55:WARNING:Test Result: after training 141 round, max wealth: 2.8795, min wealth: 0.8879, avg wealth: 1.4411, final wealth: 2.7033, ARR: 35.586%, ASR: 1.308, AVol" 0.272,MDD: 12.86%, CR: 2.767, DDR: 7.989
+2023-09-05 08:40:08:WARNING:[0905/05:44:49]round 142, avg train return 3.0080, avg rho 0.4575, avg mdd 0.0596
+2023-09-05 08:40:08:WARNING:Eval Result: after training 142 round, max wealth: 1.0000, min wealth: 0.8710, avg wealth: 0.9355, final wealth: 0.8710, ARR: -77.415%, ASR: -inf, AVol" 0.000,MDD: 12.90%, CR: -6.000, DDR: -6.000
+2023-09-05 08:40:08:WARNING:Test Result: after training 142 round, max wealth: 3.1420, min wealth: 0.9397, avg wealth: 1.6471, final wealth: 2.8541, ARR: 36.874%, ASR: 1.482, AVol" 0.249,MDD: 11.15%, CR: 3.308, DDR: 6.590
+2023-09-05 08:41:21:WARNING:[0905/05:44:49]round 143, avg train return 3.0400, avg rho 0.4030, avg mdd 0.0381
+2023-09-05 08:41:21:WARNING:Eval Result: after training 143 round, max wealth: 1.0000, min wealth: 0.9740, avg wealth: 0.9870, final wealth: 0.9740, ARR: -15.585%, ASR: -inf, AVol" 0.000,MDD: 2.60%, CR: -6.000, DDR: -6.000
+2023-09-05 08:41:22:WARNING:Test Result: after training 143 round, max wealth: 2.9779, min wealth: 0.9277, avg wealth: 1.5075, final wealth: 2.5792, ARR: 33.761%, ASR: 1.306, AVol" 0.259,MDD: 13.39%, CR: 2.522, DDR: 6.231
+2023-09-05 08:42:34:WARNING:[0905/05:44:49]round 144, avg train return 2.9876, avg rho 0.4467, avg mdd 0.0167
+2023-09-05 08:42:34:WARNING:Eval Result: after training 144 round, max wealth: 1.0000, min wealth: 0.9416, avg wealth: 0.9708, final wealth: 0.9416, ARR: -35.038%, ASR: -inf, AVol" 0.000,MDD: 5.84%, CR: -6.000, DDR: -6.000
+2023-09-05 08:42:35:WARNING:Test Result: after training 144 round, max wealth: 2.8596, min wealth: 0.9073, avg wealth: 1.4377, final wealth: 2.6846, ARR: 34.960%, ASR: 1.378, AVol" 0.254,MDD: 10.16%, CR: 3.439, DDR: 5.995
+2023-09-05 08:43:48:WARNING:[0905/05:44:49]round 145, avg train return 3.0450, avg rho 0.4250, avg mdd 0.0928
+2023-09-05 08:43:48:WARNING:Eval Result: after training 145 round, max wealth: 1.0000, min wealth: 0.8730, avg wealth: 0.9365, final wealth: 0.8730, ARR: -76.194%, ASR: -inf, AVol" 0.000,MDD: 12.70%, CR: -6.000, DDR: -6.000
+2023-09-05 08:43:49:WARNING:Test Result: after training 145 round, max wealth: 2.6789, min wealth: 0.8730, avg wealth: 1.4552, final wealth: 2.2887, ARR: 30.128%, ASR: 1.109, AVol" 0.272,MDD: 14.57%, CR: 2.068, DDR: 4.193
+2023-09-05 08:45:02:WARNING:[0905/05:44:49]round 146, avg train return 3.0371, avg rho 0.4800, avg mdd 0.0297
+2023-09-05 08:45:02:WARNING:Eval Result: after training 146 round, max wealth: 1.0000, min wealth: 0.9768, avg wealth: 0.9884, final wealth: 0.9768, ARR: -13.906%, ASR: -inf, AVol" 0.000,MDD: 2.32%, CR: -6.000, DDR: -6.000
+2023-09-05 08:45:03:WARNING:Test Result: after training 146 round, max wealth: 2.6877, min wealth: 0.8738, avg wealth: 1.4555, final wealth: 2.3439, ARR: 30.832%, ASR: 1.153, AVol" 0.267,MDD: 12.79%, CR: 2.410, DDR: 4.436
+2023-09-05 08:46:15:WARNING:[0905/05:44:49]round 147, avg train return 2.9440, avg rho 0.4183, avg mdd 0.0480
+2023-09-05 08:46:15:WARNING:Eval Result: after training 147 round, max wealth: 1.0000, min wealth: 0.9424, avg wealth: 0.9712, final wealth: 0.9424, ARR: -34.537%, ASR: -inf, AVol" 0.000,MDD: 5.76%, CR: -6.000, DDR: -6.000
+2023-09-05 08:46:15:WARNING:Test Result: after training 147 round, max wealth: 2.7519, min wealth: 1.0000, avg wealth: 1.5739, final wealth: 2.4972, ARR: 32.060%, ASR: 1.384, AVol" 0.232,MDD: 10.63%, CR: 3.015, DDR: 5.487
+2023-09-05 08:47:28:WARNING:[0905/05:44:49]round 148, avg train return 2.9989, avg rho 0.4167, avg mdd 0.0102
+2023-09-05 08:47:28:WARNING:Eval Result: after training 148 round, max wealth: 1.0000, min wealth: 0.9078, avg wealth: 0.9539, final wealth: 0.9078, ARR: -55.294%, ASR: -inf, AVol" 0.000,MDD: 9.22%, CR: -6.000, DDR: -6.000
+2023-09-05 08:47:29:WARNING:Test Result: after training 148 round, max wealth: 2.6825, min wealth: 0.9241, avg wealth: 1.4534, final wealth: 2.2602, ARR: 29.532%, ASR: 1.109, AVol" 0.266,MDD: 15.74%, CR: 1.876, DDR: 5.539
+2023-09-05 08:48:42:WARNING:[0905/05:44:49]round 149, avg train return 3.0145, avg rho 0.4667, avg mdd 0.0068
+2023-09-05 08:48:42:WARNING:Eval Result: after training 149 round, max wealth: 1.0000, min wealth: 0.9766, avg wealth: 0.9883, final wealth: 0.9766, ARR: -14.043%, ASR: -inf, AVol" 0.000,MDD: 2.34%, CR: -6.000, DDR: -6.000
+2023-09-05 08:48:42:WARNING:Test Result: after training 149 round, max wealth: 3.7741, min wealth: 0.9079, avg wealth: 1.7876, final wealth: 3.3813, ARR: 42.911%, ASR: 1.627, AVol" 0.264,MDD: 10.41%, CR: 4.123, DDR: 6.707
+2023-09-05 08:49:06:WARNING:[0905/05:44:49]round 150, avg train return 3.0231, avg rho 0.4363, avg mdd 0.0682
+2023-09-05 08:49:06:WARNING:Eval Result: after training 150 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 08:49:07:WARNING:Test Result: after training 150 round, max wealth: 3.2111, min wealth: 0.9549, avg wealth: 1.5478, final wealth: 2.7422, ARR: 35.982%, ASR: 1.347, AVol" 0.267,MDD: 14.60%, CR: 2.464, DDR: 6.087
+2023-09-05 08:49:31:WARNING:[0905/05:44:49]round 151, avg train return 2.9973, avg rho 0.3950, avg mdd 0.0020
+2023-09-05 08:49:31:WARNING:Eval Result: after training 151 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:49:31:WARNING:Test Result: after training 151 round, max wealth: 2.5371, min wealth: 0.9378, avg wealth: 1.3943, final wealth: 2.1979, ARR: 28.260%, ASR: 1.126, AVol" 0.251,MDD: 13.37%, CR: 2.114, DDR: 5.838
+2023-09-05 08:49:56:WARNING:[0905/05:44:49]round 152, avg train return 3.0250, avg rho 0.4133, avg mdd 0.0266
+2023-09-05 08:49:56:WARNING:Eval Result: after training 152 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 08:49:56:WARNING:Test Result: after training 152 round, max wealth: 3.4008, min wealth: 0.9766, avg wealth: 1.7727, final wealth: 3.0488, ARR: 39.009%, ASR: 1.582, AVol" 0.247,MDD: 10.75%, CR: 3.628, DDR: 9.079
+2023-09-05 08:50:20:WARNING:[0905/05:44:49]round 153, avg train return 3.0003, avg rho 0.4483, avg mdd 0.0200
+2023-09-05 08:50:20:WARNING:Eval Result: after training 153 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:50:21:WARNING:Test Result: after training 153 round, max wealth: 2.4882, min wealth: 0.9251, avg wealth: 1.4193, final wealth: 2.3047, ARR: 29.645%, ASR: 1.218, AVol" 0.243,MDD: 14.79%, CR: 2.005, DDR: 5.098
+2023-09-05 08:50:45:WARNING:[0905/05:44:49]round 154, avg train return 3.0368, avg rho 0.4475, avg mdd 0.0358
+2023-09-05 08:50:45:WARNING:Eval Result: after training 154 round, max wealth: 1.0109, min wealth: 1.0000, avg wealth: 1.0055, final wealth: 1.0109, ARR: 6.568%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:50:45:WARNING:Test Result: after training 154 round, max wealth: 3.2663, min wealth: 0.9766, avg wealth: 1.7275, final wealth: 2.9844, ARR: 38.258%, ASR: 1.562, AVol" 0.245,MDD: 11.68%, CR: 3.275, DDR: 6.676
+2023-09-05 08:51:10:WARNING:[0905/05:44:49]round 155, avg train return 3.0466, avg rho 0.4171, avg mdd 0.0343
+2023-09-05 08:51:10:WARNING:Eval Result: after training 155 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 08:51:10:WARNING:Test Result: after training 155 round, max wealth: 2.9668, min wealth: 0.8735, avg wealth: 1.6121, final wealth: 2.7505, ARR: 35.641%, ASR: 1.441, AVol" 0.247,MDD: 12.65%, CR: 2.818, DDR: 6.092
+2023-09-05 08:51:34:WARNING:[0905/05:44:49]round 156, avg train return 3.0257, avg rho 0.4929, avg mdd 0.0461
+2023-09-05 08:51:34:WARNING:Eval Result: after training 156 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 08:51:35:WARNING:Test Result: after training 156 round, max wealth: 3.5447, min wealth: 1.0000, avg wealth: 1.8282, final wealth: 3.0071, ARR: 38.702%, ASR: 1.543, AVol" 0.251,MDD: 15.17%, CR: 2.552, DDR: 5.576
+2023-09-05 08:51:59:WARNING:[0905/05:44:49]round 157, avg train return 3.0256, avg rho 0.4411, avg mdd 0.0407
+2023-09-05 08:51:59:WARNING:Eval Result: after training 157 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 08:52:00:WARNING:Test Result: after training 157 round, max wealth: 3.2163, min wealth: 1.0000, avg wealth: 1.7267, final wealth: 2.6909, ARR: 34.916%, ASR: 1.403, AVol" 0.249,MDD: 16.34%, CR: 2.137, DDR: 4.599
+2023-09-05 08:52:24:WARNING:[0905/05:44:49]round 158, avg train return 3.0238, avg rho 0.3671, avg mdd 0.0239
+2023-09-05 08:52:24:WARNING:Eval Result: after training 158 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 08:52:24:WARNING:Test Result: after training 158 round, max wealth: 2.9594, min wealth: 0.9422, avg wealth: 1.4935, final wealth: 2.6669, ARR: 34.650%, ASR: 1.381, AVol" 0.251,MDD: 9.88%, CR: 3.506, DDR: 6.035
+2023-09-05 08:52:48:WARNING:[0905/05:44:49]round 159, avg train return 2.9885, avg rho 0.4050, avg mdd 0.0000
+2023-09-05 08:52:48:WARNING:Eval Result: after training 159 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:52:49:WARNING:Test Result: after training 159 round, max wealth: 2.4079, min wealth: 0.9015, avg wealth: 1.3560, final wealth: 2.2303, ARR: 28.465%, ASR: 1.187, AVol" 0.240,MDD: 13.27%, CR: 2.145, DDR: 6.515
+2023-09-05 08:53:13:WARNING:[0905/05:44:49]round 160, avg train return 3.0167, avg rho 0.4233, avg mdd 0.0089
+2023-09-05 08:53:13:WARNING:Eval Result: after training 160 round, max wealth: 1.0281, min wealth: 1.0000, avg wealth: 1.0141, final wealth: 1.0281, ARR: 16.874%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 08:53:13:WARNING:Test Result: after training 160 round, max wealth: 2.9334, min wealth: 0.9852, avg wealth: 1.5776, final wealth: 2.6251, ARR: 33.799%, ASR: 1.431, AVol" 0.236,MDD: 10.51%, CR: 3.216, DDR: 5.599
+2023-09-05 08:53:38:WARNING:[0905/05:44:49]round 161, avg train return 3.0277, avg rho 0.4100, avg mdd 0.0003
+2023-09-05 08:53:38:WARNING:Eval Result: after training 161 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:53:38:WARNING:Test Result: after training 161 round, max wealth: 2.7480, min wealth: 0.9079, avg wealth: 1.5000, final wealth: 2.5139, ARR: 32.676%, ASR: 1.304, AVol" 0.251,MDD: 9.21%, CR: 3.548, DDR: 6.347
+2023-09-05 08:54:02:WARNING:[0905/05:44:49]round 162, avg train return 2.9961, avg rho 0.3617, avg mdd 0.0352
+2023-09-05 08:54:02:WARNING:Eval Result: after training 162 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:54:03:WARNING:Test Result: after training 162 round, max wealth: 2.4614, min wealth: 0.9311, avg wealth: 1.4304, final wealth: 2.2430, ARR: 28.506%, ASR: 1.220, AVol" 0.234,MDD: 8.87%, CR: 3.212, DDR: 8.317
+2023-09-05 08:54:27:WARNING:[0905/05:44:49]round 163, avg train return 3.0346, avg rho 0.3714, avg mdd 0.0355
+2023-09-05 08:54:27:WARNING:Eval Result: after training 163 round, max wealth: 1.0000, min wealth: 0.9766, avg wealth: 0.9883, final wealth: 0.9766, ARR: -14.043%, ASR: -inf, AVol" 0.000,MDD: 2.34%, CR: -6.000, DDR: -6.000
+2023-09-05 08:54:27:WARNING:Test Result: after training 163 round, max wealth: 2.1184, min wealth: 0.7963, avg wealth: 1.2024, final wealth: 1.8474, ARR: 23.039%, ASR: 0.850, AVol" 0.271,MDD: 20.37%, CR: 1.131, DDR: 3.952
+2023-09-05 08:54:51:WARNING:[0905/05:44:49]round 164, avg train return 2.9790, avg rho 0.4200, avg mdd 0.0393
+2023-09-05 08:54:51:WARNING:Eval Result: after training 164 round, max wealth: 1.0000, min wealth: 0.8907, avg wealth: 0.9454, final wealth: 0.8907, ARR: -65.571%, ASR: -inf, AVol" 0.000,MDD: 10.93%, CR: -6.000, DDR: -6.000
+2023-09-05 08:54:52:WARNING:Test Result: after training 164 round, max wealth: 2.8462, min wealth: 0.8442, avg wealth: 1.3859, final wealth: 2.6006, ARR: 34.510%, ASR: 1.242, AVol" 0.278,MDD: 15.58%, CR: 2.215, DDR: 5.097
+2023-09-05 08:55:16:WARNING:[0905/05:44:49]round 165, avg train return 3.0262, avg rho 0.4029, avg mdd 0.0610
+2023-09-05 08:55:16:WARNING:Eval Result: after training 165 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:55:16:WARNING:Test Result: after training 165 round, max wealth: 2.9682, min wealth: 0.9036, avg wealth: 1.5013, final wealth: 2.6562, ARR: 34.665%, ASR: 1.352, AVol" 0.256,MDD: 10.51%, CR: 3.298, DDR: 5.934
+2023-09-05 08:55:40:WARNING:[0905/05:44:49]round 166, avg train return 2.9890, avg rho 0.3243, avg mdd 0.0111
+2023-09-05 08:55:40:WARNING:Eval Result: after training 166 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:55:41:WARNING:Test Result: after training 166 round, max wealth: 2.6694, min wealth: 0.8729, avg wealth: 1.3574, final wealth: 2.4725, ARR: 32.202%, ASR: 1.282, AVol" 0.251,MDD: 12.71%, CR: 2.534, DDR: 4.704
+2023-09-05 08:56:05:WARNING:[0905/05:44:49]round 167, avg train return 3.0043, avg rho 0.2986, avg mdd 0.0700
+2023-09-05 08:56:05:WARNING:Eval Result: after training 167 round, max wealth: 1.0000, min wealth: 0.8907, avg wealth: 0.9454, final wealth: 0.8907, ARR: -65.571%, ASR: -inf, AVol" 0.000,MDD: 10.93%, CR: -6.000, DDR: -6.000
+2023-09-05 08:56:06:WARNING:Test Result: after training 167 round, max wealth: 2.3955, min wealth: 0.8901, avg wealth: 1.3328, final wealth: 2.1183, ARR: 27.061%, ASR: 1.080, AVol" 0.250,MDD: 12.05%, CR: 2.246, DDR: 4.739
+2023-09-05 08:56:30:WARNING:[0905/05:44:49]round 168, avg train return 2.9915, avg rho 0.3414, avg mdd 0.0465
+2023-09-05 08:56:30:WARNING:Eval Result: after training 168 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:56:30:WARNING:Test Result: after training 168 round, max wealth: 2.0410, min wealth: 0.8267, avg wealth: 1.2077, final wealth: 1.8413, ARR: 22.546%, ASR: 0.891, AVol" 0.253,MDD: 17.33%, CR: 1.301, DDR: 3.413
+2023-09-05 08:56:54:WARNING:[0905/05:44:49]round 169, avg train return 3.0261, avg rho 0.3086, avg mdd 0.0095
+2023-09-05 08:56:54:WARNING:Eval Result: after training 169 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 08:56:55:WARNING:Test Result: after training 169 round, max wealth: 2.3333, min wealth: 0.9079, avg wealth: 1.3389, final wealth: 2.1346, ARR: 27.328%, ASR: 1.081, AVol" 0.253,MDD: 9.21%, CR: 2.967, DDR: 5.283
+2023-09-05 08:57:19:WARNING:[0905/05:44:49]round 170, avg train return 3.0189, avg rho 0.3257, avg mdd 0.0045
+2023-09-05 08:57:19:WARNING:Eval Result: after training 170 round, max wealth: 1.0000, min wealth: 0.9251, avg wealth: 0.9625, final wealth: 0.9251, ARR: -44.960%, ASR: -inf, AVol" 0.000,MDD: 7.49%, CR: -6.000, DDR: -6.000
+2023-09-05 08:57:19:WARNING:Test Result: after training 170 round, max wealth: 2.5920, min wealth: 0.9907, avg wealth: 1.4755, final wealth: 2.2226, ARR: 28.367%, ASR: 1.178, AVol" 0.241,MDD: 14.25%, CR: 1.990, DDR: 6.531
+2023-09-05 08:57:43:WARNING:[0905/05:44:49]round 171, avg train return 2.9974, avg rho 0.3343, avg mdd 0.0103
+2023-09-05 08:57:43:WARNING:Eval Result: after training 171 round, max wealth: 1.0000, min wealth: 0.9938, avg wealth: 0.9969, final wealth: 0.9938, ARR: -3.737%, ASR: -inf, AVol" 0.000,MDD: 0.62%, CR: -6.000, DDR: -6.000
+2023-09-05 08:57:44:WARNING:Test Result: after training 171 round, max wealth: 2.7578, min wealth: 0.9251, avg wealth: 1.4346, final wealth: 2.4387, ARR: 31.580%, ASR: 1.280, AVol" 0.247,MDD: 11.57%, CR: 2.729, DDR: 5.965
+2023-09-05 08:58:08:WARNING:[0905/05:44:49]round 172, avg train return 3.0104, avg rho 0.2733, avg mdd 0.0162
+2023-09-05 08:58:08:WARNING:Eval Result: after training 172 round, max wealth: 1.0000, min wealth: 0.9251, avg wealth: 0.9625, final wealth: 0.9251, ARR: -44.960%, ASR: -inf, AVol" 0.000,MDD: 7.49%, CR: -6.000, DDR: -6.000
+2023-09-05 08:58:08:WARNING:Test Result: after training 172 round, max wealth: 2.7833, min wealth: 0.8999, avg wealth: 1.4372, final wealth: 2.5781, ARR: 33.411%, ASR: 1.356, AVol" 0.246,MDD: 11.37%, CR: 2.939, DDR: 7.377
+2023-09-05 08:58:32:WARNING:[0905/05:44:49]round 173, avg train return 3.0301, avg rho 0.3322, avg mdd 0.0417
+2023-09-05 08:58:32:WARNING:Eval Result: after training 173 round, max wealth: 1.0000, min wealth: 0.8907, avg wealth: 0.9454, final wealth: 0.8907, ARR: -65.571%, ASR: -inf, AVol" 0.000,MDD: 10.93%, CR: -6.000, DDR: -6.000
+2023-09-05 08:58:33:WARNING:Test Result: after training 173 round, max wealth: 2.3574, min wealth: 0.9303, avg wealth: 1.3588, final wealth: 2.1134, ARR: 26.805%, ASR: 1.090, AVol" 0.246,MDD: 10.35%, CR: 2.589, DDR: 6.492
+2023-09-05 08:58:57:WARNING:[0905/05:44:49]round 174, avg train return 3.0324, avg rho 0.2929, avg mdd 0.0674
+2023-09-05 08:58:57:WARNING:Eval Result: after training 174 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 08:58:58:WARNING:Test Result: after training 174 round, max wealth: 2.5261, min wealth: 0.9391, avg wealth: 1.4285, final wealth: 2.3261, ARR: 29.890%, ASR: 1.233, AVol" 0.242,MDD: 8.08%, CR: 3.700, DDR: 7.822
+2023-09-05 08:59:22:WARNING:[0905/05:44:49]round 175, avg train return 3.0073, avg rho 0.3717, avg mdd 0.0200
+2023-09-05 08:59:22:WARNING:Eval Result: after training 175 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 08:59:22:WARNING:Test Result: after training 175 round, max wealth: 2.7978, min wealth: 0.9079, avg wealth: 1.4525, final wealth: 2.4399, ARR: 31.776%, ASR: 1.253, AVol" 0.254,MDD: 12.79%, CR: 2.484, DDR: 5.669
+2023-09-05 08:59:47:WARNING:[0905/05:44:49]round 176, avg train return 3.0444, avg rho 0.4022, avg mdd 0.0612
+2023-09-05 08:59:47:WARNING:Eval Result: after training 176 round, max wealth: 1.0000, min wealth: 0.9938, avg wealth: 0.9969, final wealth: 0.9938, ARR: -3.737%, ASR: -inf, AVol" 0.000,MDD: 0.62%, CR: -6.000, DDR: -6.000
+2023-09-05 08:59:47:WARNING:Test Result: after training 176 round, max wealth: 2.8109, min wealth: 0.9827, avg wealth: 1.5054, final wealth: 2.5370, ARR: 32.684%, ASR: 1.377, AVol" 0.237,MDD: 9.75%, CR: 3.354, DDR: 7.476
+2023-09-05 09:00:11:WARNING:[0905/05:44:49]round 177, avg train return 3.0231, avg rho 0.4257, avg mdd 0.0052
+2023-09-05 09:00:11:WARNING:Eval Result: after training 177 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:00:12:WARNING:Test Result: after training 177 round, max wealth: 2.2590, min wealth: 0.8872, avg wealth: 1.2994, final wealth: 2.0924, ARR: 26.366%, ASR: 1.101, AVol" 0.239,MDD: 11.28%, CR: 2.338, DDR: 5.000
+2023-09-05 09:00:36:WARNING:[0905/05:44:49]round 178, avg train return 3.0074, avg rho 0.3343, avg mdd 0.0156
+2023-09-05 09:00:36:WARNING:Eval Result: after training 178 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:00:36:WARNING:Test Result: after training 178 round, max wealth: 2.6369, min wealth: 0.8907, avg wealth: 1.4404, final wealth: 2.3763, ARR: 30.995%, ASR: 1.211, AVol" 0.256,MDD: 10.93%, CR: 2.836, DDR: 4.392
+2023-09-05 09:01:00:WARNING:[0905/05:44:49]round 179, avg train return 2.9955, avg rho 0.2700, avg mdd 0.0000
+2023-09-05 09:01:00:WARNING:Eval Result: after training 179 round, max wealth: 1.0281, min wealth: 1.0000, avg wealth: 1.0141, final wealth: 1.0281, ARR: 16.874%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 09:01:01:WARNING:Test Result: after training 179 round, max wealth: 2.4206, min wealth: 0.9041, avg wealth: 1.3693, final wealth: 2.1814, ARR: 27.763%, ASR: 1.159, AVol" 0.240,MDD: 9.88%, CR: 2.809, DDR: 5.091
+2023-09-05 09:01:25:WARNING:[0905/05:44:49]round 180, avg train return 3.0066, avg rho 0.2975, avg mdd 0.0044
+2023-09-05 09:01:25:WARNING:Eval Result: after training 180 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:01:26:WARNING:Test Result: after training 180 round, max wealth: 2.3299, min wealth: 0.9251, avg wealth: 1.3832, final wealth: 2.1028, ARR: 26.532%, ASR: 1.107, AVol" 0.240,MDD: 9.75%, CR: 2.723, DDR: 5.582
+2023-09-05 09:01:50:WARNING:[0905/05:44:49]round 181, avg train return 3.0255, avg rho 0.3086, avg mdd 0.0324
+2023-09-05 09:01:50:WARNING:Eval Result: after training 181 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:01:50:WARNING:Test Result: after training 181 round, max wealth: 2.5866, min wealth: 0.9079, avg wealth: 1.3968, final wealth: 2.3345, ARR: 30.084%, ASR: 1.240, AVol" 0.243,MDD: 10.00%, CR: 3.009, DDR: 5.748
+2023-09-05 09:02:15:WARNING:[0905/05:44:49]round 182, avg train return 3.0452, avg rho 0.3629, avg mdd 0.0131
+2023-09-05 09:02:15:WARNING:Eval Result: after training 182 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:02:15:WARNING:Test Result: after training 182 round, max wealth: 2.6686, min wealth: 0.9039, avg wealth: 1.3770, final wealth: 2.3923, ARR: 31.327%, ASR: 1.191, AVol" 0.263,MDD: 10.35%, CR: 3.026, DDR: 5.538
+2023-09-05 09:02:39:WARNING:[0905/05:44:49]round 183, avg train return 2.9558, avg rho 0.3267, avg mdd 0.0128
+2023-09-05 09:02:39:WARNING:Eval Result: after training 183 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:02:40:WARNING:Test Result: after training 183 round, max wealth: 2.6174, min wealth: 0.9796, avg wealth: 1.4619, final wealth: 2.3751, ARR: 30.490%, ASR: 1.285, AVol" 0.237,MDD: 9.52%, CR: 3.204, DDR: 5.877
+2023-09-05 09:03:04:WARNING:[0905/05:44:49]round 184, avg train return 3.0355, avg rho 0.3570, avg mdd 0.0370
+2023-09-05 09:03:04:WARNING:Eval Result: after training 184 round, max wealth: 1.0000, min wealth: 0.9251, avg wealth: 0.9625, final wealth: 0.9251, ARR: -44.960%, ASR: -inf, AVol" 0.000,MDD: 7.49%, CR: -6.000, DDR: -6.000
+2023-09-05 09:03:05:WARNING:Test Result: after training 184 round, max wealth: 2.6020, min wealth: 0.9079, avg wealth: 1.4203, final wealth: 2.4101, ARR: 31.082%, ASR: 1.284, AVol" 0.242,MDD: 9.21%, CR: 3.375, DDR: 5.100
+2023-09-05 09:03:29:WARNING:[0905/05:44:49]round 185, avg train return 3.0004, avg rho 0.3817, avg mdd 0.0372
+2023-09-05 09:03:29:WARNING:Eval Result: after training 185 round, max wealth: 1.0109, min wealth: 1.0000, avg wealth: 1.0055, final wealth: 1.0109, ARR: 6.568%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 09:03:29:WARNING:Test Result: after training 185 round, max wealth: 2.8928, min wealth: 1.0000, avg wealth: 1.6335, final wealth: 2.6285, ARR: 33.776%, ASR: 1.439, AVol" 0.235,MDD: 9.52%, CR: 3.549, DDR: 7.685
+2023-09-05 09:03:53:WARNING:[0905/05:44:49]round 186, avg train return 2.9607, avg rho 0.3300, avg mdd 0.0011
+2023-09-05 09:03:53:WARNING:Eval Result: after training 186 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:03:53:WARNING:Test Result: after training 186 round, max wealth: 2.4421, min wealth: 0.9010, avg wealth: 1.3614, final wealth: 2.1548, ARR: 27.937%, ASR: 1.056, AVol" 0.264,MDD: 11.77%, CR: 2.374, DDR: 4.307
+2023-09-05 09:04:18:WARNING:[0905/05:44:49]round 187, avg train return 3.0068, avg rho 0.3300, avg mdd 0.0014
+2023-09-05 09:04:18:WARNING:Eval Result: after training 187 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:04:18:WARNING:Test Result: after training 187 round, max wealth: 2.6785, min wealth: 0.9594, avg wealth: 1.4767, final wealth: 2.4012, ARR: 30.887%, ASR: 1.291, AVol" 0.239,MDD: 10.35%, CR: 2.984, DDR: 7.538
+2023-09-05 09:04:42:WARNING:[0905/05:44:49]round 188, avg train return 2.9742, avg rho 0.3717, avg mdd 0.0037
+2023-09-05 09:04:42:WARNING:Eval Result: after training 188 round, max wealth: 1.0000, min wealth: 0.8907, avg wealth: 0.9454, final wealth: 0.8907, ARR: -65.571%, ASR: -inf, AVol" 0.000,MDD: 10.93%, CR: -6.000, DDR: -6.000
+2023-09-05 09:04:43:WARNING:Test Result: after training 188 round, max wealth: 2.4592, min wealth: 0.9079, avg wealth: 1.3864, final wealth: 2.2778, ARR: 29.241%, ASR: 1.207, AVol" 0.242,MDD: 9.25%, CR: 3.160, DDR: 5.992
+2023-09-05 09:05:07:WARNING:[0905/05:44:49]round 189, avg train return 3.0182, avg rho 0.3356, avg mdd 0.0094
+2023-09-05 09:05:07:WARNING:Eval Result: after training 189 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:05:08:WARNING:Test Result: after training 189 round, max wealth: 2.6455, min wealth: 0.9594, avg wealth: 1.4954, final wealth: 2.4172, ARR: 31.011%, ASR: 1.319, AVol" 0.235,MDD: 8.63%, CR: 3.594, DDR: 5.546
+2023-09-05 09:05:32:WARNING:[0905/05:44:49]round 190, avg train return 2.9935, avg rho 0.3050, avg mdd 0.0140
+2023-09-05 09:05:32:WARNING:Eval Result: after training 190 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:05:32:WARNING:Test Result: after training 190 round, max wealth: 2.3083, min wealth: 0.8678, avg wealth: 1.3363, final wealth: 2.0293, ARR: 25.870%, ASR: 0.994, AVol" 0.260,MDD: 13.22%, CR: 1.956, DDR: 3.859
+2023-09-05 09:05:56:WARNING:[0905/05:44:49]round 191, avg train return 3.0603, avg rho 0.2740, avg mdd 0.0478
+2023-09-05 09:05:56:WARNING:Eval Result: after training 191 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:05:57:WARNING:Test Result: after training 191 round, max wealth: 2.4157, min wealth: 0.8239, avg wealth: 1.2550, final wealth: 2.1656, ARR: 28.305%, ASR: 1.033, AVol" 0.274,MDD: 17.61%, CR: 1.607, DDR: 5.479
+2023-09-05 09:06:21:WARNING:[0905/05:44:49]round 192, avg train return 3.0019, avg rho 0.3183, avg mdd 0.0064
+2023-09-05 09:06:21:WARNING:Eval Result: after training 192 round, max wealth: 1.0000, min wealth: 0.9251, avg wealth: 0.9625, final wealth: 0.9251, ARR: -44.960%, ASR: -inf, AVol" 0.000,MDD: 7.49%, CR: -6.000, DDR: -6.000
+2023-09-05 09:06:22:WARNING:Test Result: after training 192 round, max wealth: 2.3738, min wealth: 0.8864, avg wealth: 1.3356, final wealth: 2.0281, ARR: 25.769%, ASR: 1.002, AVol" 0.257,MDD: 14.56%, CR: 1.769, DDR: 3.996
+2023-09-05 09:06:45:WARNING:[0905/05:44:49]round 193, avg train return 2.9767, avg rho 0.2450, avg mdd 0.0008
+2023-09-05 09:06:45:WARNING:Eval Result: after training 193 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:06:46:WARNING:Test Result: after training 193 round, max wealth: 2.2651, min wealth: 0.9085, avg wealth: 1.3157, final wealth: 2.0444, ARR: 25.690%, ASR: 1.052, AVol" 0.244,MDD: 9.75%, CR: 2.636, DDR: 6.281
+2023-09-05 09:07:10:WARNING:[0905/05:44:49]round 194, avg train return 3.0433, avg rho 0.2820, avg mdd 0.0416
+2023-09-05 09:07:10:WARNING:Eval Result: after training 194 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:07:10:WARNING:Test Result: after training 194 round, max wealth: 2.4092, min wealth: 0.9351, avg wealth: 1.3766, final wealth: 2.1159, ARR: 26.899%, ASR: 1.090, AVol" 0.247,MDD: 12.17%, CR: 2.210, DDR: 5.365
+2023-09-05 09:07:35:WARNING:[0905/05:44:49]round 195, avg train return 3.0283, avg rho 0.3529, avg mdd 0.0473
+2023-09-05 09:07:35:WARNING:Eval Result: after training 195 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:07:35:WARNING:Test Result: after training 195 round, max wealth: 2.7605, min wealth: 0.9766, avg wealth: 1.5689, final wealth: 2.4162, ARR: 31.068%, ASR: 1.302, AVol" 0.239,MDD: 12.47%, CR: 2.491, DDR: 8.412
+2023-09-05 09:07:59:WARNING:[0905/05:44:49]round 196, avg train return 2.9929, avg rho 0.3433, avg mdd 0.0105
+2023-09-05 09:07:59:WARNING:Eval Result: after training 196 round, max wealth: 1.0000, min wealth: 0.9422, avg wealth: 0.9711, final wealth: 0.9422, ARR: -34.654%, ASR: -inf, AVol" 0.000,MDD: 5.78%, CR: -6.000, DDR: -6.000
+2023-09-05 09:08:00:WARNING:Test Result: after training 196 round, max wealth: 2.4960, min wealth: 0.9072, avg wealth: 1.4224, final wealth: 2.1767, ARR: 27.821%, ASR: 1.137, AVol" 0.245,MDD: 12.79%, CR: 2.175, DDR: 4.733
+2023-09-05 09:08:24:WARNING:[0905/05:44:49]round 197, avg train return 2.9933, avg rho 0.3200, avg mdd 0.0075
+2023-09-05 09:08:24:WARNING:Eval Result: after training 197 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:08:24:WARNING:Test Result: after training 197 round, max wealth: 2.9511, min wealth: 0.9079, avg wealth: 1.5225, final wealth: 2.5736, ARR: 33.746%, ASR: 1.287, AVol" 0.262,MDD: 12.79%, CR: 2.638, DDR: 5.332
+2023-09-05 09:08:49:WARNING:[0905/05:44:49]round 198, avg train return 3.0609, avg rho 0.3300, avg mdd 0.0298
+2023-09-05 09:08:49:WARNING:Eval Result: after training 198 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:08:49:WARNING:Test Result: after training 198 round, max wealth: 2.5460, min wealth: 0.9079, avg wealth: 1.3812, final wealth: 2.2784, ARR: 29.646%, ASR: 1.145, AVol" 0.259,MDD: 11.69%, CR: 2.537, DDR: 4.777
+2023-09-05 09:09:13:WARNING:[0905/05:44:49]round 199, avg train return 2.9652, avg rho 0.3567, avg mdd 0.0136
+2023-09-05 09:09:13:WARNING:Eval Result: after training 199 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:09:14:WARNING:Test Result: after training 199 round, max wealth: 3.2518, min wealth: 0.9938, avg wealth: 1.6852, final wealth: 2.9349, ARR: 37.510%, ASR: 1.584, AVol" 0.237,MDD: 9.75%, CR: 3.849, DDR: 8.349
+2023-09-05 09:09:38:WARNING:[0905/05:44:49]round 200, avg train return 2.9933, avg rho 0.3917, avg mdd 0.0202
+2023-09-05 09:09:38:WARNING:Eval Result: after training 200 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:09:38:WARNING:Test Result: after training 200 round, max wealth: 3.1601, min wealth: 0.9079, avg wealth: 1.6582, final wealth: 2.7754, ARR: 35.845%, ASR: 1.469, AVol" 0.244,MDD: 12.17%, CR: 2.944, DDR: 6.148
+2023-09-05 09:10:03:WARNING:[0905/05:44:49]round 201, avg train return 3.0336, avg rho 0.3400, avg mdd 0.0055
+2023-09-05 09:10:03:WARNING:Eval Result: after training 201 round, max wealth: 1.0109, min wealth: 1.0000, avg wealth: 1.0055, final wealth: 1.0109, ARR: 6.568%, ASR: inf, AVol" 0.000,MDD: 0.00%, CR: inf, DDR: nan
+2023-09-05 09:10:03:WARNING:Test Result: after training 201 round, max wealth: 2.3373, min wealth: 0.9036, avg wealth: 1.3343, final wealth: 2.1649, ARR: 27.569%, ASR: 1.137, AVol" 0.243,MDD: 10.34%, CR: 2.667, DDR: 5.551
+2023-09-05 09:10:27:WARNING:[0905/05:44:49]round 202, avg train return 2.9614, avg rho 0.3317, avg mdd 0.0010
+2023-09-05 09:10:27:WARNING:Eval Result: after training 202 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:10:28:WARNING:Test Result: after training 202 round, max wealth: 2.3452, min wealth: 0.8839, avg wealth: 1.3257, final wealth: 2.0597, ARR: 26.183%, ASR: 1.039, AVol" 0.252,MDD: 12.17%, CR: 2.151, DDR: 4.001
+2023-09-05 09:10:52:WARNING:[0905/05:44:49]round 203, avg train return 3.0238, avg rho 0.2671, avg mdd 0.0371
+2023-09-05 09:10:52:WARNING:Eval Result: after training 203 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:10:52:WARNING:Test Result: after training 203 round, max wealth: 2.2345, min wealth: 0.9010, avg wealth: 1.2998, final wealth: 1.9558, ARR: 24.419%, ASR: 0.971, AVol" 0.252,MDD: 12.47%, CR: 1.958, DDR: 5.208
+2023-09-05 09:11:17:WARNING:[0905/05:44:49]round 204, avg train return 2.9681, avg rho 0.3050, avg mdd 0.0196
+2023-09-05 09:11:17:WARNING:Eval Result: after training 204 round, max wealth: 1.0000, min wealth: 0.9594, avg wealth: 0.9797, final wealth: 0.9594, ARR: -24.349%, ASR: -inf, AVol" 0.000,MDD: 4.06%, CR: -6.000, DDR: -6.000
+2023-09-05 09:11:17:WARNING:Test Result: after training 204 round, max wealth: 2.3299, min wealth: 0.9079, avg wealth: 1.3529, final wealth: 2.0887, ARR: 26.531%, ASR: 1.066, AVol" 0.249,MDD: 10.35%, CR: 2.563, DDR: 5.050
+2023-09-05 09:11:42:WARNING:[0905/05:44:49]round 205, avg train return 3.0472, avg rho 0.2883, avg mdd 0.0048
+2023-09-05 09:11:42:WARNING:Eval Result: after training 205 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:11:42:WARNING:Test Result: after training 205 round, max wealth: 2.4671, min wealth: 0.9010, avg wealth: 1.3903, final wealth: 2.2117, ARR: 28.351%, ASR: 1.148, AVol" 0.247,MDD: 10.35%, CR: 2.739, DDR: 5.581
+2023-09-05 09:12:06:WARNING:[0905/05:44:49]round 206, avg train return 3.0506, avg rho 0.2390, avg mdd 0.0075
+2023-09-05 09:12:06:WARNING:Eval Result: after training 206 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:12:07:WARNING:Test Result: after training 206 round, max wealth: 2.4219, min wealth: 0.8811, avg wealth: 1.3461, final wealth: 2.1712, ARR: 27.867%, ASR: 1.109, AVol" 0.251,MDD: 11.89%, CR: 2.344, DDR: 4.777
+2023-09-05 09:12:31:WARNING:[0905/05:44:49]round 207, avg train return 3.0049, avg rho 0.2478, avg mdd 0.0191
+2023-09-05 09:12:31:WARNING:Eval Result: after training 207 round, max wealth: 1.0000, min wealth: 0.9251, avg wealth: 0.9625, final wealth: 0.9251, ARR: -44.960%, ASR: -inf, AVol" 0.000,MDD: 7.49%, CR: -6.000, DDR: -6.000
+2023-09-05 09:12:31:WARNING:Test Result: after training 207 round, max wealth: 2.4695, min wealth: 0.9072, avg wealth: 1.3999, final wealth: 2.2139, ARR: 28.349%, ASR: 1.158, AVol" 0.245,MDD: 10.35%, CR: 2.738, DDR: 4.713
+2023-09-05 09:12:56:WARNING:[0905/05:44:49]round 208, avg train return 3.0131, avg rho 0.2150, avg mdd 0.0216
+2023-09-05 09:12:56:WARNING:Eval Result: after training 208 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:12:56:WARNING:Test Result: after training 208 round, max wealth: 2.2914, min wealth: 0.9079, avg wealth: 1.3344, final wealth: 2.0542, ARR: 25.985%, ASR: 1.043, AVol" 0.249,MDD: 10.54%, CR: 2.464, DDR: 4.889
+2023-09-05 09:13:20:WARNING:[0905/05:44:49]round 209, avg train return 3.0160, avg rho 0.2300, avg mdd 0.0157
+2023-09-05 09:13:20:WARNING:Eval Result: after training 209 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:13:21:WARNING:Test Result: after training 209 round, max wealth: 2.3708, min wealth: 0.9079, avg wealth: 1.3633, final wealth: 2.1398, ARR: 27.172%, ASR: 1.118, AVol" 0.243,MDD: 9.75%, CR: 2.788, DDR: 5.895
+2023-09-05 09:13:45:WARNING:[0905/05:44:49]round 210, avg train return 3.0193, avg rho 0.2389, avg mdd 0.0769
+2023-09-05 09:13:45:WARNING:Eval Result: after training 210 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:13:46:WARNING:Test Result: after training 210 round, max wealth: 2.2463, min wealth: 0.8963, avg wealth: 1.2949, final wealth: 1.9319, ARR: 24.106%, ASR: 0.949, AVol" 0.254,MDD: 14.00%, CR: 1.722, DDR: 4.001
+2023-09-05 09:14:10:WARNING:[0905/05:44:49]round 211, avg train return 2.9940, avg rho 0.2262, avg mdd 0.0030
+2023-09-05 09:14:10:WARNING:Eval Result: after training 211 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:14:10:WARNING:Test Result: after training 211 round, max wealth: 2.2816, min wealth: 0.9079, avg wealth: 1.3240, final wealth: 1.9898, ARR: 24.958%, ASR: 1.000, AVol" 0.250,MDD: 12.79%, CR: 1.951, DDR: 4.513
+2023-09-05 09:14:35:WARNING:[0905/05:44:49]round 212, avg train return 3.0304, avg rho 0.2267, avg mdd 0.0416
+2023-09-05 09:14:35:WARNING:Eval Result: after training 212 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:14:35:WARNING:Test Result: after training 212 round, max wealth: 2.2359, min wealth: 0.8936, avg wealth: 1.2869, final wealth: 2.0044, ARR: 25.099%, ASR: 1.020, AVol" 0.246,MDD: 10.64%, CR: 2.358, DDR: 5.430
+2023-09-05 09:15:00:WARNING:[0905/05:44:49]round 213, avg train return 3.0063, avg rho 0.2150, avg mdd 0.0036
+2023-09-05 09:15:00:WARNING:Eval Result: after training 213 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:15:00:WARNING:Test Result: after training 213 round, max wealth: 2.2685, min wealth: 0.8861, avg wealth: 1.3081, final wealth: 2.0613, ARR: 26.283%, ASR: 1.019, AVol" 0.258,MDD: 11.39%, CR: 2.308, DDR: 5.020
+2023-09-05 09:15:25:WARNING:[0905/05:44:49]round 214, avg train return 3.0136, avg rho 0.2343, avg mdd 0.0000
+2023-09-05 09:15:25:WARNING:Eval Result: after training 214 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:15:25:WARNING:Test Result: after training 214 round, max wealth: 2.2609, min wealth: 0.9079, avg wealth: 1.3067, final wealth: 2.0268, ARR: 25.628%, ASR: 1.012, AVol" 0.253,MDD: 10.35%, CR: 2.476, DDR: 4.853
+2023-09-05 09:15:49:WARNING:[0905/05:44:49]round 215, avg train return 2.9828, avg rho 0.2550, avg mdd 0.0044
+2023-09-05 09:15:49:WARNING:Eval Result: after training 215 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:15:50:WARNING:Test Result: after training 215 round, max wealth: 2.1705, min wealth: 0.8880, avg wealth: 1.2758, final wealth: 1.9458, ARR: 24.126%, ASR: 0.985, AVol" 0.245,MDD: 11.20%, CR: 2.155, DDR: 4.517
+2023-09-05 09:16:14:WARNING:[0905/05:44:49]round 216, avg train return 3.0272, avg rho 0.2400, avg mdd 0.0028
+2023-09-05 09:16:14:WARNING:Eval Result: after training 216 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:16:15:WARNING:Test Result: after training 216 round, max wealth: 2.3003, min wealth: 0.8963, avg wealth: 1.3205, final wealth: 2.1307, ARR: 27.096%, ASR: 1.104, AVol" 0.245,MDD: 10.37%, CR: 2.612, DDR: 4.942
+2023-09-05 09:16:39:WARNING:[0905/05:44:49]round 217, avg train return 2.9948, avg rho 0.2400, avg mdd 0.0314
+2023-09-05 09:16:39:WARNING:Eval Result: after training 217 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:16:39:WARNING:Test Result: after training 217 round, max wealth: 2.1271, min wealth: 0.8747, avg wealth: 1.2458, final wealth: 1.9069, ARR: 23.589%, ASR: 0.942, AVol" 0.250,MDD: 12.53%, CR: 1.882, DDR: 4.112
+2023-09-05 09:17:03:WARNING:[0905/05:44:49]round 218, avg train return 2.9908, avg rho 0.2500, avg mdd 0.0123
+2023-09-05 09:17:03:WARNING:Eval Result: after training 218 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:17:04:WARNING:Test Result: after training 218 round, max wealth: 2.3192, min wealth: 0.8963, avg wealth: 1.2887, final wealth: 2.0791, ARR: 26.356%, ASR: 1.065, AVol" 0.247,MDD: 10.37%, CR: 2.541, DDR: 5.017
+2023-09-05 09:17:28:WARNING:[0905/05:44:49]round 219, avg train return 2.9814, avg rho 0.2367, avg mdd 0.0163
+2023-09-05 09:17:28:WARNING:Eval Result: after training 219 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:17:29:WARNING:Test Result: after training 219 round, max wealth: 2.6162, min wealth: 0.8963, avg wealth: 1.3417, final wealth: 2.3453, ARR: 30.786%, ASR: 1.149, AVol" 0.268,MDD: 10.37%, CR: 2.968, DDR: 5.861
+2023-09-05 09:17:53:WARNING:[0905/05:44:49]round 220, avg train return 3.0355, avg rho 0.2433, avg mdd 0.0236
+2023-09-05 09:17:53:WARNING:Eval Result: after training 220 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:17:54:WARNING:Test Result: after training 220 round, max wealth: 2.1729, min wealth: 0.8963, avg wealth: 1.2718, final wealth: 1.9479, ARR: 24.197%, ASR: 0.978, AVol" 0.247,MDD: 10.37%, CR: 2.333, DDR: 4.606
+2023-09-05 09:18:18:WARNING:[0905/05:44:49]round 221, avg train return 3.0353, avg rho 0.2257, avg mdd 0.0071
+2023-09-05 09:18:18:WARNING:Eval Result: after training 221 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:18:18:WARNING:Test Result: after training 221 round, max wealth: 2.0545, min wealth: 0.8554, avg wealth: 1.2257, final wealth: 1.8418, ARR: 22.309%, ASR: 0.913, AVol" 0.244,MDD: 14.46%, CR: 1.543, DDR: 4.488
+2023-09-05 09:18:43:WARNING:[0905/05:44:49]round 222, avg train return 3.0056, avg rho 0.2183, avg mdd 0.0341
+2023-09-05 09:18:43:WARNING:Eval Result: after training 222 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:18:43:WARNING:Test Result: after training 222 round, max wealth: 2.0986, min wealth: 0.8656, avg wealth: 1.2379, final wealth: 1.8813, ARR: 23.081%, ASR: 0.929, AVol" 0.248,MDD: 13.44%, CR: 1.718, DDR: 4.660
+2023-09-05 09:19:08:WARNING:[0905/05:44:49]round 223, avg train return 3.0078, avg rho 0.2583, avg mdd 0.0058
+2023-09-05 09:19:08:WARNING:Eval Result: after training 223 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:19:08:WARNING:Test Result: after training 223 round, max wealth: 2.2646, min wealth: 0.8963, avg wealth: 1.3018, final wealth: 2.0302, ARR: 25.652%, ASR: 1.020, AVol" 0.252,MDD: 10.37%, CR: 2.473, DDR: 4.883
+2023-09-05 09:19:32:WARNING:[0905/05:44:49]round 224, avg train return 3.0288, avg rho 0.2657, avg mdd 0.0286
+2023-09-05 09:19:32:WARNING:Eval Result: after training 224 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:19:33:WARNING:Test Result: after training 224 round, max wealth: 2.3734, min wealth: 0.9641, avg wealth: 1.3766, final wealth: 2.1277, ARR: 26.903%, ASR: 1.122, AVol" 0.240,MDD: 10.35%, CR: 2.599, DDR: 6.405
+2023-09-05 09:19:57:WARNING:[0905/05:44:49]round 225, avg train return 3.0093, avg rho 0.2583, avg mdd 0.0076
+2023-09-05 09:19:57:WARNING:Eval Result: after training 225 round, max wealth: 1.0000, min wealth: 0.9766, avg wealth: 0.9883, final wealth: 0.9766, ARR: -14.043%, ASR: -inf, AVol" 0.000,MDD: 2.34%, CR: -6.000, DDR: -6.000
+2023-09-05 09:19:58:WARNING:Test Result: after training 225 round, max wealth: 2.2474, min wealth: 0.8656, avg wealth: 1.2652, final wealth: 2.0817, ARR: 26.369%, ASR: 1.067, AVol" 0.247,MDD: 13.44%, CR: 1.963, DDR: 5.141
+2023-09-05 09:20:22:WARNING:[0905/05:44:49]round 226, avg train return 3.0044, avg rho 0.2433, avg mdd 0.0034
+2023-09-05 09:20:22:WARNING:Eval Result: after training 226 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:20:22:WARNING:Test Result: after training 226 round, max wealth: 2.2656, min wealth: 0.8750, avg wealth: 1.3003, final wealth: 2.0310, ARR: 25.622%, ASR: 1.029, AVol" 0.249,MDD: 12.50%, CR: 2.050, DDR: 4.269
+2023-09-05 09:20:46:WARNING:[0905/05:44:49]round 227, avg train return 3.0217, avg rho 0.2150, avg mdd 0.0344
+2023-09-05 09:20:46:WARNING:Eval Result: after training 227 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:20:47:WARNING:Test Result: after training 227 round, max wealth: 2.4273, min wealth: 0.9079, avg wealth: 1.3867, final wealth: 2.1760, ARR: 27.903%, ASR: 1.115, AVol" 0.250,MDD: 10.35%, CR: 2.695, DDR: 5.004
+2023-09-05 09:21:11:WARNING:[0905/05:44:49]round 228, avg train return 3.0133, avg rho 0.2117, avg mdd 0.0089
+2023-09-05 09:21:11:WARNING:Eval Result: after training 228 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:21:12:WARNING:Test Result: after training 228 round, max wealth: 2.3134, min wealth: 0.8963, avg wealth: 1.3011, final wealth: 2.1428, ARR: 27.275%, ASR: 1.113, AVol" 0.245,MDD: 10.37%, CR: 2.630, DDR: 4.983
+2023-09-05 09:21:36:WARNING:[0905/05:44:49]round 229, avg train return 3.0213, avg rho 0.2150, avg mdd 0.0210
+2023-09-05 09:21:36:WARNING:Eval Result: after training 229 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:21:36:WARNING:Test Result: after training 229 round, max wealth: 2.2148, min wealth: 0.9003, avg wealth: 1.2876, final wealth: 1.9855, ARR: 24.861%, ASR: 0.998, AVol" 0.249,MDD: 10.35%, CR: 2.402, DDR: 4.733
+2023-09-05 09:22:00:WARNING:[0905/05:44:49]round 230, avg train return 2.9819, avg rho 0.2233, avg mdd 0.0015
+2023-09-05 09:22:00:WARNING:Eval Result: after training 230 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:22:01:WARNING:Test Result: after training 230 round, max wealth: 2.2299, min wealth: 0.9010, avg wealth: 1.2942, final wealth: 1.9991, ARR: 25.082%, ASR: 1.008, AVol" 0.249,MDD: 10.35%, CR: 2.423, DDR: 4.775
+2023-09-05 09:22:25:WARNING:[0905/05:44:49]round 231, avg train return 3.0042, avg rho 0.2083, avg mdd 0.0032
+2023-09-05 09:22:25:WARNING:Eval Result: after training 231 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:22:26:WARNING:Test Result: after training 231 round, max wealth: 2.1640, min wealth: 0.8963, avg wealth: 1.2722, final wealth: 1.9399, ARR: 24.098%, ASR: 0.968, AVol" 0.249,MDD: 10.37%, CR: 2.323, DDR: 4.587
+2023-09-05 09:22:50:WARNING:[0905/05:44:49]round 232, avg train return 3.0179, avg rho 0.2511, avg mdd 0.0457
+2023-09-05 09:22:50:WARNING:Eval Result: after training 232 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:22:50:WARNING:Test Result: after training 232 round, max wealth: 2.2509, min wealth: 0.9010, avg wealth: 1.3026, final wealth: 2.0179, ARR: 25.421%, ASR: 1.016, AVol" 0.250,MDD: 10.35%, CR: 2.456, DDR: 4.839
+2023-09-05 09:23:14:WARNING:[0905/05:44:49]round 233, avg train return 3.0138, avg rho 0.2414, avg mdd 0.0157
+2023-09-05 09:23:14:WARNING:Eval Result: after training 233 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:23:15:WARNING:Test Result: after training 233 round, max wealth: 2.2151, min wealth: 0.8770, avg wealth: 1.2785, final wealth: 1.9858, ARR: 24.873%, ASR: 0.998, AVol" 0.249,MDD: 12.30%, CR: 2.022, DDR: 5.019
+2023-09-05 09:23:39:WARNING:[0905/05:44:49]round 234, avg train return 3.0146, avg rho 0.2267, avg mdd 0.0233
+2023-09-05 09:23:39:WARNING:Eval Result: after training 234 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:23:39:WARNING:Test Result: after training 234 round, max wealth: 2.5338, min wealth: 0.9010, avg wealth: 1.3879, final wealth: 2.2869, ARR: 29.462%, ASR: 1.195, AVol" 0.247,MDD: 9.90%, CR: 2.976, DDR: 5.396
+2023-09-05 09:24:04:WARNING:[0905/05:44:49]round 235, avg train return 2.9958, avg rho 0.2183, avg mdd 0.0000
+2023-09-05 09:24:04:WARNING:Eval Result: after training 235 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:24:04:WARNING:Test Result: after training 235 round, max wealth: 2.5048, min wealth: 0.8811, avg wealth: 1.4002, final wealth: 2.3515, ARR: 30.478%, ASR: 1.215, AVol" 0.251,MDD: 11.89%, CR: 2.564, DDR: 5.140
+2023-09-05 09:24:28:WARNING:[0905/05:44:49]round 236, avg train return 2.9766, avg rho 0.2217, avg mdd 0.0047
+2023-09-05 09:24:28:WARNING:Eval Result: after training 236 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:24:28:WARNING:Test Result: after training 236 round, max wealth: 2.3203, min wealth: 0.9010, avg wealth: 1.3281, final wealth: 2.0801, ARR: 26.478%, ASR: 1.047, AVol" 0.253,MDD: 10.35%, CR: 2.558, DDR: 5.041
+2023-09-05 09:24:52:WARNING:[0905/05:44:49]round 237, avg train return 2.9588, avg rho 0.2317, avg mdd 0.0063
+2023-09-05 09:24:52:WARNING:Eval Result: after training 237 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:24:53:WARNING:Test Result: after training 237 round, max wealth: 2.5011, min wealth: 0.9079, avg wealth: 1.3688, final wealth: 2.2422, ARR: 28.889%, ASR: 1.154, AVol" 0.250,MDD: 10.35%, CR: 2.791, DDR: 5.181
+2023-09-05 09:25:17:WARNING:[0905/05:44:49]round 238, avg train return 3.0592, avg rho 0.2400, avg mdd 0.0329
+2023-09-05 09:25:17:WARNING:Eval Result: after training 238 round, max wealth: 1.0000, min wealth: 0.8907, avg wealth: 0.9454, final wealth: 0.8907, ARR: -65.571%, ASR: -inf, AVol" 0.000,MDD: 10.93%, CR: -6.000, DDR: -6.000
+2023-09-05 09:25:18:WARNING:Test Result: after training 238 round, max wealth: 2.3801, min wealth: 0.9079, avg wealth: 1.3654, final wealth: 2.1337, ARR: 27.141%, ASR: 1.106, AVol" 0.245,MDD: 10.35%, CR: 2.622, DDR: 5.130
+2023-09-05 09:25:42:WARNING:[0905/05:44:49]round 239, avg train return 2.9880, avg rho 0.2033, avg mdd 0.0193
+2023-09-05 09:25:42:WARNING:Eval Result: after training 239 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:25:42:WARNING:Test Result: after training 239 round, max wealth: 2.2328, min wealth: 0.9257, avg wealth: 1.3148, final wealth: 2.0017, ARR: 25.000%, ASR: 1.024, AVol" 0.244,MDD: 11.57%, CR: 2.161, DDR: 5.833
+2023-09-05 09:26:06:WARNING:[0905/05:44:49]round 240, avg train return 3.0048, avg rho 0.2025, avg mdd 0.0202
+2023-09-05 09:26:06:WARNING:Eval Result: after training 240 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:26:07:WARNING:Test Result: after training 240 round, max wealth: 2.3674, min wealth: 0.9079, avg wealth: 1.3716, final wealth: 2.1223, ARR: 27.069%, ASR: 1.085, AVol" 0.249,MDD: 10.35%, CR: 2.615, DDR: 5.153
+2023-09-05 09:26:31:WARNING:[0905/05:44:49]round 241, avg train return 3.0040, avg rho 0.2217, avg mdd 0.0116
+2023-09-05 09:26:31:WARNING:Eval Result: after training 241 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:26:32:WARNING:Test Result: after training 241 round, max wealth: 2.1234, min wealth: 0.8632, avg wealth: 1.2424, final wealth: 1.9036, ARR: 23.553%, ASR: 0.935, AVol" 0.252,MDD: 13.68%, CR: 1.722, DDR: 4.307
+2023-09-05 09:26:56:WARNING:[0905/05:44:49]round 242, avg train return 3.0242, avg rho 0.2160, avg mdd 0.0021
+2023-09-05 09:26:56:WARNING:Eval Result: after training 242 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:26:56:WARNING:Test Result: after training 242 round, max wealth: 2.1677, min wealth: 0.8786, avg wealth: 1.2619, final wealth: 1.9433, ARR: 24.183%, ASR: 0.966, AVol" 0.250,MDD: 12.14%, CR: 1.992, DDR: 4.604
+2023-09-05 09:27:20:WARNING:[0905/05:44:49]round 243, avg train return 3.0319, avg rho 0.2150, avg mdd 0.0414
+2023-09-05 09:27:20:WARNING:Eval Result: after training 243 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:27:21:WARNING:Test Result: after training 243 round, max wealth: 2.4115, min wealth: 0.9765, avg wealth: 1.3972, final wealth: 2.1618, ARR: 27.407%, ASR: 1.147, AVol" 0.239,MDD: 10.35%, CR: 2.647, DDR: 6.644
+2023-09-05 09:27:45:WARNING:[0905/05:44:49]round 244, avg train return 2.9840, avg rho 0.2117, avg mdd 0.0239
+2023-09-05 09:27:45:WARNING:Eval Result: after training 244 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:27:45:WARNING:Test Result: after training 244 round, max wealth: 2.3223, min wealth: 0.9587, avg wealth: 1.3697, final wealth: 2.1156, ARR: 26.736%, ASR: 1.109, AVol" 0.241,MDD: 9.04%, CR: 2.958, DDR: 6.652
+2023-09-05 09:28:09:WARNING:[0905/05:44:49]round 245, avg train return 2.9892, avg rho 0.2333, avg mdd 0.0089
+2023-09-05 09:28:09:WARNING:Eval Result: after training 245 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:28:10:WARNING:Test Result: after training 245 round, max wealth: 2.1941, min wealth: 0.8585, avg wealth: 1.2765, final wealth: 1.9669, ARR: 24.763%, ASR: 0.960, AVol" 0.258,MDD: 14.15%, CR: 1.750, DDR: 4.462
+2023-09-05 09:28:34:WARNING:[0905/05:44:49]round 246, avg train return 3.0028, avg rho 0.2314, avg mdd 0.0072
+2023-09-05 09:28:34:WARNING:Eval Result: after training 246 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:28:34:WARNING:Test Result: after training 246 round, max wealth: 2.1813, min wealth: 0.8907, avg wealth: 1.2767, final wealth: 1.9554, ARR: 24.388%, ASR: 0.976, AVol" 0.250,MDD: 10.93%, CR: 2.232, DDR: 4.403
+2023-09-05 09:28:59:WARNING:[0905/05:44:49]round 247, avg train return 3.0462, avg rho 0.2200, avg mdd 0.0166
+2023-09-05 09:28:59:WARNING:Eval Result: after training 247 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:28:59:WARNING:Test Result: after training 247 round, max wealth: 2.4337, min wealth: 0.8975, avg wealth: 1.3762, final wealth: 2.1817, ARR: 28.126%, ASR: 1.098, AVol" 0.256,MDD: 10.54%, CR: 2.667, DDR: 4.955
+2023-09-05 09:29:23:WARNING:[0905/05:44:49]round 248, avg train return 2.9900, avg rho 0.2314, avg mdd 0.0026
+2023-09-05 09:29:23:WARNING:Eval Result: after training 248 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:29:24:WARNING:Test Result: after training 248 round, max wealth: 2.2265, min wealth: 0.8751, avg wealth: 1.2765, final wealth: 1.9689, ARR: 24.706%, ASR: 0.971, AVol" 0.254,MDD: 12.49%, CR: 1.977, DDR: 4.627
+2023-09-05 09:29:48:WARNING:[0905/05:44:49]round 249, avg train return 2.9755, avg rho 0.2317, avg mdd 0.0049
+2023-09-05 09:29:48:WARNING:Eval Result: after training 249 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:29:48:WARNING:Test Result: after training 249 round, max wealth: 2.5898, min wealth: 1.0000, avg wealth: 1.4736, final wealth: 2.3217, ARR: 29.750%, ASR: 1.243, AVol" 0.239,MDD: 10.35%, CR: 2.874, DDR: 7.436
+2023-09-05 09:30:12:WARNING:[0905/05:44:49]round 250, avg train return 2.9910, avg rho 0.2083, avg mdd 0.0078
+2023-09-05 09:30:12:WARNING:Eval Result: after training 250 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:30:13:WARNING:Test Result: after training 250 round, max wealth: 2.4488, min wealth: 0.9072, avg wealth: 1.4041, final wealth: 2.1953, ARR: 28.180%, ASR: 1.130, AVol" 0.249,MDD: 10.35%, CR: 2.722, DDR: 5.023
+2023-09-05 09:30:37:WARNING:[0905/05:44:49]round 251, avg train return 2.9785, avg rho 0.2371, avg mdd 0.0250
+2023-09-05 09:30:37:WARNING:Eval Result: after training 251 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:30:37:WARNING:Test Result: after training 251 round, max wealth: 2.2515, min wealth: 0.9010, avg wealth: 1.3030, final wealth: 2.0184, ARR: 25.326%, ASR: 1.029, AVol" 0.246,MDD: 10.35%, CR: 2.446, DDR: 5.145
+2023-09-05 09:31:01:WARNING:[0905/05:44:49]round 252, avg train return 2.9892, avg rho 0.2186, avg mdd 0.0145
+2023-09-05 09:31:01:WARNING:Eval Result: after training 252 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:31:02:WARNING:Test Result: after training 252 round, max wealth: 2.3629, min wealth: 0.9079, avg wealth: 1.3751, final wealth: 2.1183, ARR: 26.882%, ASR: 1.103, AVol" 0.244,MDD: 10.35%, CR: 2.597, DDR: 4.821
+2023-09-05 09:31:26:WARNING:[0905/05:44:49]round 253, avg train return 2.9748, avg rho 0.2267, avg mdd 0.0186
+2023-09-05 09:31:26:WARNING:Eval Result: after training 253 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:31:27:WARNING:Test Result: after training 253 round, max wealth: 2.2048, min wealth: 0.8963, avg wealth: 1.2800, final wealth: 1.9496, ARR: 24.294%, ASR: 0.971, AVol" 0.250,MDD: 11.57%, CR: 2.099, DDR: 4.521
+2023-09-05 09:31:51:WARNING:[0905/05:44:49]round 254, avg train return 3.0117, avg rho 0.2262, avg mdd 0.0107
+2023-09-05 09:31:51:WARNING:Eval Result: after training 254 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:31:51:WARNING:Test Result: after training 254 round, max wealth: 2.1543, min wealth: 0.8758, avg wealth: 1.2553, final wealth: 1.8790, ARR: 23.187%, ASR: 0.913, AVol" 0.254,MDD: 12.78%, CR: 1.814, DDR: 3.992
+2023-09-05 09:32:16:WARNING:[0905/05:44:49]round 255, avg train return 3.0665, avg rho 0.2360, avg mdd 0.0564
+2023-09-05 09:32:16:WARNING:Eval Result: after training 255 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:32:17:WARNING:Test Result: after training 255 round, max wealth: 2.2110, min wealth: 0.8988, avg wealth: 1.2868, final wealth: 1.9821, ARR: 24.857%, ASR: 0.991, AVol" 0.251,MDD: 10.48%, CR: 2.373, DDR: 4.566
+2023-09-05 09:32:41:WARNING:[0905/05:44:49]round 256, avg train return 2.9864, avg rho 0.2150, avg mdd 0.0184
+2023-09-05 09:32:41:WARNING:Eval Result: after training 256 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:32:41:WARNING:Test Result: after training 256 round, max wealth: 2.4467, min wealth: 0.9216, avg wealth: 1.3742, final wealth: 2.1934, ARR: 27.975%, ASR: 1.154, AVol" 0.242,MDD: 10.35%, CR: 2.702, DDR: 5.627
+2023-09-05 09:33:05:WARNING:[0905/05:44:49]round 257, avg train return 2.9575, avg rho 0.2200, avg mdd 0.0098
+2023-09-05 09:33:05:WARNING:Eval Result: after training 257 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:33:06:WARNING:Test Result: after training 257 round, max wealth: 2.2448, min wealth: 0.9010, avg wealth: 1.3008, final wealth: 2.0124, ARR: 25.302%, ASR: 1.017, AVol" 0.249,MDD: 10.35%, CR: 2.444, DDR: 4.817
+2023-09-05 09:33:30:WARNING:[0905/05:44:49]round 258, avg train return 2.9629, avg rho 0.2433, avg mdd 0.0015
+2023-09-05 09:33:30:WARNING:Eval Result: after training 258 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:33:30:WARNING:Test Result: after training 258 round, max wealth: 2.1770, min wealth: 0.8534, avg wealth: 1.2515, final wealth: 1.9516, ARR: 24.403%, ASR: 0.964, AVol" 0.253,MDD: 14.66%, CR: 1.664, DDR: 4.463
+2023-09-05 09:33:54:WARNING:[0905/05:44:49]round 259, avg train return 3.0382, avg rho 0.2180, avg mdd 0.0021
+2023-09-05 09:33:54:WARNING:Eval Result: after training 259 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:33:55:WARNING:Test Result: after training 259 round, max wealth: 2.1981, min wealth: 0.8963, avg wealth: 1.2822, final wealth: 2.0360, ARR: 25.578%, ASR: 1.047, AVol" 0.244,MDD: 10.37%, CR: 2.466, DDR: 4.665
+2023-09-05 09:34:19:WARNING:[0905/05:44:49]round 260, avg train return 3.0272, avg rho 0.2183, avg mdd 0.0082
+2023-09-05 09:34:19:WARNING:Eval Result: after training 260 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:34:20:WARNING:Test Result: after training 260 round, max wealth: 2.2197, min wealth: 0.8770, avg wealth: 1.2787, final wealth: 1.9899, ARR: 25.042%, ASR: 0.987, AVol" 0.254,MDD: 12.30%, CR: 2.036, DDR: 5.054
+2023-09-05 09:34:44:WARNING:[0905/05:44:49]round 261, avg train return 3.0213, avg rho 0.2167, avg mdd 0.0065
+2023-09-05 09:34:44:WARNING:Eval Result: after training 261 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:34:44:WARNING:Test Result: after training 261 round, max wealth: 2.1933, min wealth: 0.8916, avg wealth: 1.2804, final wealth: 1.9662, ARR: 24.552%, ASR: 0.984, AVol" 0.249,MDD: 10.84%, CR: 2.265, DDR: 4.619
+2023-09-05 09:35:08:WARNING:[0905/05:44:49]round 262, avg train return 2.9923, avg rho 0.2483, avg mdd 0.0151
+2023-09-05 09:35:08:WARNING:Eval Result: after training 262 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:35:09:WARNING:Test Result: after training 262 round, max wealth: 2.1654, min wealth: 0.8963, avg wealth: 1.2683, final wealth: 1.9412, ARR: 24.140%, ASR: 0.966, AVol" 0.250,MDD: 10.37%, CR: 2.327, DDR: 4.867
+2023-09-05 09:35:33:WARNING:[0905/05:44:49]round 263, avg train return 2.9872, avg rho 0.2417, avg mdd 0.0072
+2023-09-05 09:35:33:WARNING:Eval Result: after training 263 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:35:33:WARNING:Test Result: after training 263 round, max wealth: 2.2048, min wealth: 0.8963, avg wealth: 1.2828, final wealth: 1.9765, ARR: 24.710%, ASR: 0.993, AVol" 0.249,MDD: 10.37%, CR: 2.382, DDR: 4.704
+2023-09-05 09:35:57:WARNING:[0905/05:44:49]round 264, avg train return 2.9996, avg rho 0.2050, avg mdd 0.0017
+2023-09-05 09:35:58:WARNING:Eval Result: after training 264 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:35:58:WARNING:Test Result: after training 264 round, max wealth: 2.2365, min wealth: 0.9079, avg wealth: 1.2992, final wealth: 2.0050, ARR: 25.156%, ASR: 1.015, AVol" 0.248,MDD: 10.35%, CR: 2.430, DDR: 4.821
+2023-09-05 09:36:22:WARNING:[0905/05:44:49]round 265, avg train return 3.0434, avg rho 0.2729, avg mdd 0.0250
+2023-09-05 09:36:23:WARNING:Eval Result: after training 265 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:36:23:WARNING:Test Result: after training 265 round, max wealth: 2.4530, min wealth: 0.9010, avg wealth: 1.3465, final wealth: 2.1991, ARR: 28.116%, ASR: 1.154, AVol" 0.244,MDD: 10.35%, CR: 2.716, DDR: 5.044
+2023-09-05 09:36:47:WARNING:[0905/05:44:49]round 266, avg train return 3.0152, avg rho 0.2286, avg mdd 0.0286
+2023-09-05 09:36:47:WARNING:Eval Result: after training 266 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:36:48:WARNING:Test Result: after training 266 round, max wealth: 2.3083, min wealth: 0.9010, avg wealth: 1.3228, final wealth: 2.0693, ARR: 26.076%, ASR: 1.077, AVol" 0.242,MDD: 10.35%, CR: 2.519, DDR: 4.678
+2023-09-05 09:37:12:WARNING:[0905/05:44:49]round 267, avg train return 3.0413, avg rho 0.2525, avg mdd 0.0546
+2023-09-05 09:37:12:WARNING:Eval Result: after training 267 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:37:13:WARNING:Test Result: after training 267 round, max wealth: 2.1259, min wealth: 0.8797, avg wealth: 1.2594, final wealth: 1.9058, ARR: 23.568%, ASR: 0.939, AVol" 0.251,MDD: 12.03%, CR: 1.960, DDR: 4.428
+2023-09-05 09:37:37:WARNING:[0905/05:44:49]round 268, avg train return 3.0071, avg rho 0.1950, avg mdd 0.0049
+2023-09-05 09:37:37:WARNING:Eval Result: after training 268 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:37:37:WARNING:Test Result: after training 268 round, max wealth: 2.2048, min wealth: 0.8963, avg wealth: 1.2828, final wealth: 1.9765, ARR: 24.710%, ASR: 0.993, AVol" 0.249,MDD: 10.37%, CR: 2.382, DDR: 4.704
+2023-09-05 09:38:01:WARNING:[0905/05:44:49]round 269, avg train return 3.0050, avg rho 0.2117, avg mdd 0.0062
+2023-09-05 09:38:01:WARNING:Eval Result: after training 269 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:38:02:WARNING:Test Result: after training 269 round, max wealth: 2.1879, min wealth: 0.8963, avg wealth: 1.2791, final wealth: 1.9614, ARR: 24.453%, ASR: 0.984, AVol" 0.249,MDD: 10.37%, CR: 2.358, DDR: 4.652
+2023-09-05 09:38:26:WARNING:[0905/05:44:49]round 270, avg train return 3.0536, avg rho 0.2078, avg mdd 0.0228
+2023-09-05 09:38:26:WARNING:Eval Result: after training 270 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:38:27:WARNING:Test Result: after training 270 round, max wealth: 2.1754, min wealth: 0.9010, avg wealth: 1.2809, final wealth: 1.9502, ARR: 24.106%, ASR: 0.999, AVol" 0.241,MDD: 10.35%, CR: 2.329, DDR: 4.746
+2023-09-05 09:38:51:WARNING:[0905/05:44:49]round 271, avg train return 3.0185, avg rho 0.2150, avg mdd 0.0162
+2023-09-05 09:38:51:WARNING:Eval Result: after training 271 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:38:51:WARNING:Test Result: after training 271 round, max wealth: 2.3096, min wealth: 0.9010, avg wealth: 1.3183, final wealth: 2.0705, ARR: 26.318%, ASR: 1.042, AVol" 0.253,MDD: 10.35%, CR: 2.542, DDR: 5.097
+2023-09-05 09:39:16:WARNING:[0905/05:44:49]round 272, avg train return 3.0055, avg rho 0.2217, avg mdd 0.0028
+2023-09-05 09:39:16:WARNING:Eval Result: after training 272 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:39:16:WARNING:Test Result: after training 272 round, max wealth: 2.2687, min wealth: 0.8963, avg wealth: 1.2984, final wealth: 2.0338, ARR: 25.663%, ASR: 1.029, AVol" 0.249,MDD: 10.37%, CR: 2.474, DDR: 4.885
+2023-09-05 09:39:40:WARNING:[0905/05:44:49]round 273, avg train return 3.0295, avg rho 0.2338, avg mdd 0.0510
+2023-09-05 09:39:41:WARNING:Eval Result: after training 273 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:39:41:WARNING:Test Result: after training 273 round, max wealth: 2.3181, min wealth: 0.8963, avg wealth: 1.3235, final wealth: 2.0781, ARR: 26.533%, ASR: 1.033, AVol" 0.257,MDD: 10.37%, CR: 2.558, DDR: 5.048
+2023-09-05 09:40:05:WARNING:[0905/05:44:49]round 274, avg train return 3.0304, avg rho 0.2088, avg mdd 0.0325
+2023-09-05 09:40:05:WARNING:Eval Result: after training 274 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:40:06:WARNING:Test Result: after training 274 round, max wealth: 2.2476, min wealth: 0.9079, avg wealth: 1.3125, final wealth: 2.0149, ARR: 25.389%, ASR: 1.013, AVol" 0.251,MDD: 11.57%, CR: 2.194, DDR: 4.697
+2023-09-05 09:40:30:WARNING:[0905/05:44:49]round 275, avg train return 3.0062, avg rho 0.2333, avg mdd 0.0103
+2023-09-05 09:40:30:WARNING:Eval Result: after training 275 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:40:31:WARNING:Test Result: after training 275 round, max wealth: 2.3234, min wealth: 0.9079, avg wealth: 1.3493, final wealth: 2.0829, ARR: 26.476%, ASR: 1.056, AVol" 0.251,MDD: 11.02%, CR: 2.403, DDR: 4.585
+2023-09-05 09:40:55:WARNING:[0905/05:44:49]round 276, avg train return 2.9984, avg rho 0.2175, avg mdd 0.0088
+2023-09-05 09:40:55:WARNING:Eval Result: after training 276 round, max wealth: 1.0000, min wealth: 0.8735, avg wealth: 0.9368, final wealth: 0.8735, ARR: -75.877%, ASR: -inf, AVol" 0.000,MDD: 12.65%, CR: -6.000, DDR: -6.000
+2023-09-05 09:40:55:WARNING:Test Result: after training 276 round, max wealth: 2.2974, min wealth: 0.8963, avg wealth: 1.3091, final wealth: 1.9900, ARR: 25.098%, ASR: 0.981, AVol" 0.256,MDD: 13.38%, CR: 1.876, DDR: 4.452
+2023-09-05 09:41:19:WARNING:[0905/05:44:49]round 277, avg train return 3.0033, avg rho 0.2014, avg mdd 0.0016
+2023-09-05 09:41:19:WARNING:Eval Result: after training 277 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:41:20:WARNING:Test Result: after training 277 round, max wealth: 2.3960, min wealth: 0.9010, avg wealth: 1.3304, final wealth: 2.1479, ARR: 27.369%, ASR: 1.113, AVol" 0.246,MDD: 10.35%, CR: 2.644, DDR: 5.717
+2023-09-05 09:41:44:WARNING:[0905/05:44:49]round 278, avg train return 2.9739, avg rho 0.2071, avg mdd 0.0000
+2023-09-05 09:41:44:WARNING:Eval Result: after training 278 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:41:45:WARNING:Test Result: after training 278 round, max wealth: 2.1336, min wealth: 0.8594, avg wealth: 1.2444, final wealth: 1.9127, ARR: 23.769%, ASR: 0.936, AVol" 0.254,MDD: 14.06%, CR: 1.690, DDR: 4.104
+2023-09-05 09:42:09:WARNING:[0905/05:44:49]round 279, avg train return 3.0106, avg rho 0.2133, avg mdd 0.0048
+2023-09-05 09:42:09:WARNING:Eval Result: after training 279 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:42:09:WARNING:Test Result: after training 279 round, max wealth: 2.2215, min wealth: 0.8922, avg wealth: 1.2872, final wealth: 1.9915, ARR: 24.977%, ASR: 1.000, AVol" 0.250,MDD: 10.78%, CR: 2.318, DDR: 4.764
+2023-09-05 09:42:34:WARNING:[0905/05:44:49]round 280, avg train return 2.9997, avg rho 0.2283, avg mdd 0.0000
+2023-09-05 09:42:34:WARNING:Eval Result: after training 280 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:42:34:WARNING:Test Result: after training 280 round, max wealth: 2.2367, min wealth: 0.8963, avg wealth: 1.2938, final wealth: 2.0051, ARR: 25.222%, ASR: 1.006, AVol" 0.251,MDD: 10.37%, CR: 2.432, DDR: 4.801
+2023-09-05 09:42:58:WARNING:[0905/05:44:49]round 281, avg train return 3.0145, avg rho 0.2167, avg mdd 0.0000
+2023-09-05 09:42:58:WARNING:Eval Result: after training 281 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:42:59:WARNING:Test Result: after training 281 round, max wealth: 2.4798, min wealth: 0.9072, avg wealth: 1.4212, final wealth: 2.2231, ARR: 28.624%, ASR: 1.142, AVol" 0.251,MDD: 10.35%, CR: 2.765, DDR: 5.102
+2023-09-05 09:43:23:WARNING:[0905/05:44:49]round 282, avg train return 2.9758, avg rho 0.2183, avg mdd 0.0175
+2023-09-05 09:43:23:WARNING:Eval Result: after training 282 round, max wealth: 1.0000, min wealth: 0.9079, avg wealth: 0.9539, final wealth: 0.9079, ARR: -55.266%, ASR: -inf, AVol" 0.000,MDD: 9.21%, CR: -6.000, DDR: -6.000
+2023-09-05 09:43:23:WARNING:Test Result: after training 282 round, max wealth: 2.2048, min wealth: 0.8963, avg wealth: 1.2828, final wealth: 1.9765, ARR: 24.710%, ASR: 0.993, AVol" 0.249,MDD: 10.37%, CR: 2.382, DDR: 4.704

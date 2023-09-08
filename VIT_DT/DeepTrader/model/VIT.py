@@ -138,12 +138,9 @@ class VIT(nn.Module):
         self.layers = layers
 
         self.num_time_frames = (time_series_data//self.window_len)
-        self.class_embedding = nn.Parameter(scale * torch.randn(1, 1, embedding_dim), requires_grad=True)
-        #print("class embedding shape_VIT_1:", self.class_embedding.shape)
-        self.positional_embedding = nn.Parameter(scale * torch.randn(1, self.num_time_frames, embedding_dim))
-        #print("positional Embedding shape VIT-1:", self.positional_embedding.shape)
+        self.class_embedding = nn.Parameter(scale * torch.randn(embedding_dim), requires_grad=True)
+        self.positional_embedding = nn.Parameter(scale * torch.randn(self.num_time_frames, self.num_stocks, embedding_dim))
         self.ln_pre = LayerNorm(embedding_dim)
-
 
         self.temporal_embedding = nn.Parameter(torch.zeros(1, self.num_time_frames, embedding_dim))
 
@@ -222,20 +219,14 @@ class VIT(nn.Module):
         x = rearrange(x, 'b (n d) t -> b n d t', n=self.num_stocks).permute(0, 1, 3, 2)
 
         # print("VIT_After_Conv", x.shape) # Output Tensor Shape:  torch.Size([2, 6, 100, 768])
-        x = rearrange(x, 'b n t d -> (b n) t d')
-        #print("After permuting_VIT_1:", x.shape)
-        x = x + self.class_embedding.to(x.dtype)
-        #print("After concatenating_VIT_1:", x.shape)
+        x = rearrange(x, 'b n t d -> (b t) n d')
+        x = torch.cat([self.class_embedding.to(x.dtype) + torch.zeros(x.shape[0], 0, x.shape[-1], dtype=x.dtype, device=x.device), x], dim=1)
         x = x + self.positional_embedding.to(x.dtype)
-        #print("After positional emb_VIT_1:",x.shape)
-
         n = self.num_stocks
-        # x = rearrange(x, '(b t) n d -> (b n) t d', t=self.num_time_frames)
-        #print("Before temp_embd:",x.shape)
+        x = rearrange(x, '(b t) n d -> (b n) t d', t=self.num_time_frames)
         x = x + self.temporal_embedding
         x = rearrange(x, '(b n) t d -> (b t) n d', n=n)
-        #print("After temp_embd and reaarange:",x.shape)
-
+        
         x = self.ln_pre(x)
 
         #print("Called A_VIT_shape:", x.shape)

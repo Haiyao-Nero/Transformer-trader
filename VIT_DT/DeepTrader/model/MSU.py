@@ -1,56 +1,60 @@
 import torch
 import torch.nn as nn
 
-
 class MSU(nn.Module):
-    def __init__(self, in_features, window_len, hidden_dim):
+    def __init__(self, in_features, window_len, hidden_dim=128):
         super(MSU, self).__init__()
         self.in_features = in_features
         self.window_len = window_len
         self.hidden_dim = hidden_dim
 
-        self.lstm = nn.LSTM(input_size=in_features, hidden_size=hidden_dim)
-        self.attn1 = nn.Linear(2 * hidden_dim, hidden_dim)
-        self.attn2 = nn.Linear(hidden_dim, 1)
+        # Linear Layer (2->128), Relu activation
+        self.embedding = nn.Linear(in_features, hidden_dim)
+        self.relu = nn.ReLU()
 
-        self.linear1 = nn.Linear(hidden_dim, hidden_dim)
-        self.bn1 = nn.BatchNorm1d(hidden_dim)
-        self.linear2 = nn.Linear(hidden_dim, 10)
+        # Linear (128->768) to pass to transformer
+        self.pre_transformer_linear = nn.Linear(hidden_dim, 768)
+
+        # Transformer setup
+        encoder_layers = nn.TransformerEncoderLayer(d_model=768, nhead=8, dim_feedforward=2048, dropout=0.1, activation="relu")
+        self.transformer_encoder = nn.TransformerEncoder(encoder_layers, num_layers=6)
+
+        # Post-attention layers
+        self.linear1 = nn.Linear(768, 10)
 
     def forward(self, X):
         """
         :X: [batch_size(B), window_len(L), in_features(I)]
         :return: Parameters: [batch, 2]
         """
-        # print("x",X.shape)
         X = X.permute(1, 0, 2)
 
-        outputs, (h_n, c_n) = self.lstm(X)  # lstm version
-        H_n = h_n.repeat((self.window_len, 1, 1))
-        scores = self.attn2(torch.tanh(self.attn1(torch.cat([outputs, H_n], dim=2))))  # [L, B*N, 1]
-        scores = scores.squeeze(2).transpose(1, 0)  # [B*N, L]
-        attn_weights = torch.softmax(scores, dim=1)
-        outputs = outputs.permute(1, 0, 2)  # [B*N, L, H]
-        attn_embed = torch.bmm(attn_weights.unsqueeze(1), outputs).squeeze(1)
-        embed = torch.relu(self.bn1(self.linear1(attn_embed)))
-        parameters = torch.softmax(self.linear2(embed),dim=-1)
-        # return parameters[:, 0], parameters[:, 1]   # mu, sigma
-        
+        # Apply the embedding transformation
+        X = self.embedding(X)  # 2->128
+        X = self.relu(X)
+        X = self.pre_transformer_linear(X)  # 128->768
+
+        # Transformer encoder
+        attn_embed = self.transformer_encoder(X)
+
+        embed = attn_embed.permute(1, 0, 2).mean(dim=1)  # average pooling over time steps
+
+        # Post-attention processing
+        parameters = torch.softmax(self.linear1(embed), dim=-1)
+
         parameters = parameters.squeeze(-1)
-        # print("p",parameters.shape)
         return parameters
-    
+
     def freeze(self):
-        for param in self.parameters():
-            param.requires_grad = False
+      for param in self.parameters():
+        param.requires_grad = False
 
     def unfreeze(self):
-        for param in self.parameters():
-            param.requires_grad = True
-
+      for param in self.parameters():
+        param.requires_grad = True
 
 if __name__ == '__main__':
-    a = torch.randn((16, 20, 3))
-    net = MSU(3, 20, 128)
-    b = net(a)
-    print("MSU_b:",b)
+  a = torch.randn((1, 20, 2))
+  net = MSU(2, 20, 128)
+  b = net(a)
+  print("MSU_b:",b)
