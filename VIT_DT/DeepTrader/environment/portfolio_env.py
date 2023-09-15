@@ -176,7 +176,7 @@ class DataGenerator():
         else:
             market_states = None
             
-        future_return = np.zeros((len(self.cursor), self.__assets_data.shape[0], self.trade_len))
+        future_return = np.zeros((len(self.cursor), self.__assets_data.shape[0], 1))
         past_return = np.zeros((len(self.cursor), self.__assets_data.shape[0], self.window_len))
         
         for i, idx in enumerate(self.cursor):
@@ -187,7 +187,7 @@ class DataGenerator():
             if self.allow_short:
                 market_states[i] = self.__market_data[idx - self.window_len + 1: idx + 1]
                 
-            future_return[i] = self.__ror_data[:, idx + 1:min(idx + 1 + self.trade_len, self.__ror_data.shape[-1])]
+            future_return[i] = self.__ror_data[:, idx + 1:min(idx + 1 + 1, self.__ror_data.shape[-1])]
             past_return[i] = self.__ror_data[:, idx - self.window_len + 1:idx + 1]
 
         #print("GETDATA:",assets_states.shape, market_states.shape, future_return.shape, past_return.shape)
@@ -409,7 +409,6 @@ class PortfolioEnv(object):
                  allow_short=True,
                  mode='train',
                  assets_name=None,
-                 isAllowed=False,
                  ):
 
         self.window_len = window_len
@@ -428,12 +427,11 @@ class PortfolioEnv(object):
                                  batch_size=batch_size, max_steps=max_steps, norm_type=norm_type,
                                  window_len=window_len, trade_len=trade_len, mode=mode, allow_short=allow_short)
 
-        self.sim = PortfolioSim(num_assets=self.num_assets, fee=fee, time_cost=time_cost, isAllowed=isAllowed)
+        self.sim = PortfolioSim(num_assets=self.num_assets, fee=fee, time_cost=time_cost, allow_short=False)
 
     def step(self, action, p, simulation=False): # gets every tradinglength 252 D -> 10 times
         weights = action
         agent_wealths = []
-        
         for i in range(1, self.trade_len+1):
           if simulation:
             raise NotImplementedError
