@@ -41,7 +41,38 @@ class QuickGELU(nn.Module):
     def forward(self, x: torch.Tensor):
         return x * torch.sigmoid(1.702 * x)
     
+class Mlp(nn.Module):
+    def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
+        super().__init__()
+        out_features = out_features or in_features
+        hidden_features = hidden_features or in_features
+        self.fc1 = nn.Linear(in_features, hidden_features)
+        self.act = act_layer()
+        self.fc2 = nn.Linear(hidden_features, out_features)
+        self.drop = nn.Dropout(drop)
 
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.act(x)
+        x = self.drop(x)
+        x = self.fc2(x)
+        x = self.drop(x)
+        return x
+    
+class PatchEmbed(nn.Module):
+    """ Image to Patch Embedding
+    """
+    # def __init__(self, img_size=224, patch_size=16, in_chans=3, embed_dim=768, bias=True):
+    def __init__(self, in_features, embed_dim=768, bias=True):
+        super().__init__()
+
+        self.mlp=Mlp(in_features=in_features,out_features=embed_dim)
+
+    def forward(self, x):
+        x = self.mlp(x)
+        # x = x.flatten(2).transpose(1, 2)
+        return x
+    
 class ResidualAttentionBlock(nn.Module):
     def __init__(self, n_head: int, num_time_frames: int, attn_mask: torch.Tensor = None, d_model = int(768), scale=1., num_tadapter=1, drop_path=0.):
         super().__init__()
@@ -119,7 +150,7 @@ class Transformer(nn.Module):
 # Updated - v3
 class VIT(nn.Module):
     ## ViT definition in CLIP image encoder
-    def __init__(self, time_series_data: int, window_len: int, num_stocks:int, num_features:int, embedding_dim: int, layers: int, heads: int, drop_path_rate, num_tadapter=1, adapter_scale=0.5, pretrained=None, d_model = 768):
+    def __init__(self, time_series_data: int, window_len: int, num_stocks:int, num_features:int, embedding_dim: int, layers: int, heads: int, drop_path_rate, num_tadapter=1, adapter_scale=0.5, pretrained=None, d_model = 768,patch_embedding_bias=True):
         super().__init__()
         self.time_series_data = time_series_data
         self.pretrained = pretrained
@@ -127,13 +158,15 @@ class VIT(nn.Module):
         self.num_features = num_features
         self.embedding_dim = embedding_dim
         self.window_len = window_len
-        self.conv1 = nn.Conv2d(in_channels=self.num_stocks,  # Treat each stock as a separate channel
-                                 out_channels=self.num_stocks * self.embedding_dim,  # Each stock gets its own set of filters
-                                 kernel_size=(self.window_len, self.num_features),  # Embedding each feature set across all time points
-                                 stride=self.window_len,
-                                 padding=(0, 0),
-                                 groups=self.num_stocks)  # Group convolution
-
+        
+        # self.conv1 = nn.Conv2d(in_channels=self.num_stocks,  # Treat each stock as a separate channel
+        #                          out_channels=self.num_stocks * self.embedding_dim,  # Each stock gets its own set of filters
+        #                          kernel_size=(self.window_len, self.num_features),  # Embedding each feature set across all time points
+        #                          stride=self.window_len,
+        #                          padding=(0, 0),
+        #                          groups=self.num_stocks)  # Group convolution
+        self.patch_embed = PatchEmbed(
+            in_features=num_features, embed_dim=embedding_dim, bias=patch_embedding_bias)
         scale = embedding_dim ** -0.5
         self.layers = layers
 
@@ -154,6 +187,11 @@ class VIT(nn.Module):
             nn.Linear(d_model, d_model // 2),
             nn.Linear(d_model // 2, 1),
             nn.Sigmoid())
+        self.value_mlp = nn.Sequential(
+            nn.Linear(d_model, d_model // 2),
+            nn.Sigmoid(),
+            nn.Linear(d_model // 2, 1),
+            )
 
     def init_weights(self, pretrained=None):
         def _init_weights(m):
@@ -213,10 +251,10 @@ class VIT(nn.Module):
         B, N, T, D = x.size()  # Decompose input tensor shape
         x = x.view(B, N, T, D)  # Combine 'one' and 'D' dimensions
         #print("VIT_Before_Conv", x.shape)
-        
-        x = self.conv1(x)
+        x = rearrange(x, 'b n t d -> (b n) t d')
+        x = self.patch_embed(x)
         x = x.squeeze(-1)
-        x = rearrange(x, 'b (n d) t -> b n d t', n=self.num_stocks).permute(0, 1, 3, 2)
+        x = rearrange(x, '(b n) t d -> b n d t', n=self.num_stocks).permute(0, 1, 3, 2)
 
         # print("VIT_After_Conv", x.shape) # Output Tensor Shape:  torch.Size([2, 6, 100, 768])
         x = rearrange(x, 'b n t d -> (b t) n d')
@@ -245,14 +283,15 @@ class VIT(nn.Module):
         #print("called G_VIT_shape:", x.shape)
 
         # Global average pooling across time frames and embedding dimensions
-        x_avg = x.mean(dim=2) # Assuming x is of shape [batch_size, no_of_stocks, time_frames, embedded_dim]
+        x_avg = x[:,:,0,...] # Assuming x is of shape [batch_size, no_of_stocks, time_frames, embedded_dim]
         #print("called H_VIT_shape:", x_avg.shape)
 
         # MLP to compute scores
         probability_scores = self.probability_mlp(x_avg)
         probability_scores = probability_scores.squeeze(-1)
+        value = self.value_mlp(x_avg).squeeze(-1)
 
-        return probability_scores
+        return probability_scores, value
 
     def freeze(self):
         for param in self.parameters():

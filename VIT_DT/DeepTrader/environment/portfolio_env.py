@@ -428,7 +428,7 @@ class PortfolioEnv(object):
                                  batch_size=batch_size, max_steps=max_steps, norm_type=norm_type,
                                  window_len=window_len, trade_len=trade_len, mode=mode, allow_short=allow_short)
 
-        self.sim = PortfolioSim(num_assets=self.num_assets, fee=fee, time_cost=time_cost, isAllowed=isAllowed)
+        self.sim = PortfolioSim(num_assets=self.num_assets, fee=fee, time_cost=time_cost, allow_short=allow_short)
 
     def step(self, action, p, simulation=False): # gets every tradinglength 252 D -> 10 times
         weights = action

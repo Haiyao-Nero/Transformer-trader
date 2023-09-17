@@ -21,6 +21,8 @@ class MSU(nn.Module):
 
         # Post-attention layers
         self.linear1 = nn.Linear(768, 10)
+        
+        self.linear2 = nn.Linear(768,1)
 
     def forward(self, X):
         """
@@ -41,9 +43,11 @@ class MSU(nn.Module):
 
         # Post-attention processing
         parameters = torch.softmax(self.linear1(embed), dim=-1)
+        
+        value_weight = self.linear2(embed).squeeze()
 
         parameters = parameters.squeeze(-1)
-        return parameters
+        return parameters,value_weight
 
     def freeze(self):
       for param in self.parameters():
