@@ -283,13 +283,14 @@ class VIT(nn.Module):
         #print("called G_VIT_shape:", x.shape)
 
         # Global average pooling across time frames and embedding dimensions
-        x_avg = x[:,:,0,...] # Assuming x is of shape [batch_size, no_of_stocks, time_frames, embedded_dim]
+        x= x[:,:,0,...] # Assuming x is of shape [batch_size, no_of_stocks, time_frames, embedded_dim]
         #print("called H_VIT_shape:", x_avg.shape)
+        x_avg = torch.mean(x,-2).squeeze()
 
         # MLP to compute scores
-        probability_scores = self.probability_mlp(x_avg)
+        probability_scores = self.probability_mlp(x)
         probability_scores = probability_scores.squeeze(-1)
-        value = self.value_mlp(x_avg).squeeze(-1)
+        value = self.value_mlp(x_avg).squeeze()
 
         return probability_scores, value
 

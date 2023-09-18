@@ -432,7 +432,7 @@ class PortfolioEnv(object):
 
     def step(self, action, p, simulation=False): # gets every tradinglength 252 D -> 10 times
         weights = action
-        agent_wealths = []
+        agent_wealth = np.ones((action.shape[0],1))
         
         for i in range(1, self.trade_len+1):
           if simulation:
@@ -445,15 +445,14 @@ class PortfolioEnv(object):
 
           ror = self.ror
           rewards, info, done2 = self.sim._step(weights, ror, p) 
-          
-          agent_wealths.append(info['total_value'][..., None][0][0])
+          agent_wealth = np.concatenate([agent_wealth, np.array(info['total_value']).reshape((action.shape[0],1))],-1)
           self.ror = future_ror
-        
-        print("---------WEALTHS!!:",agent_wealths, len(agent_wealths))
+        info["agent_wealth"] = agent_wealth
+        # print("---------WEALTHS!!:",agent_wealth, len(agent_wealth))
         if self.is_norm:
-            return [obs_normed, market_obs_normed], rewards, future_p, trade_masks, done1 or done2.any(), agent_wealths
+            return [obs_normed, market_obs_normed], rewards, future_p, trade_masks, done1 or done2.any(), info
         else:
-            return [obs, market_obs], rewards, future_p, trade_masks, done1 or done2.any(), agent_wealths
+            return [obs, market_obs], rewards, future_p, trade_masks, done1 or done2.any(), info
 
     def reset(self):
         self.infos = []

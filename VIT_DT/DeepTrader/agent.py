@@ -7,7 +7,7 @@ from torch.distributions import Normal, Categorical
 from model.VIT import VIT
 from model.MSU import MSU
 import torch.nn.functional as F
-
+from torch.utils.data.sampler import BatchSampler, SubsetRandomSampler
 EPS = 1e-20
 
 class RLActor(nn.Module):
@@ -94,13 +94,13 @@ class RLAgent():
         self.optimizer = torch.optim.Adam(self.actor.parameters(),
                                           lr=args.lr,
                                           weight_decay=args.weight_decay)
-
+        self.minibatch = 4
     def train_episode(self):
         self.__set_train()
         states, masks = self.env.reset()
 
         steps = 0
-        batch_size = states[0].shape[0]
+        
 
         steps_log_p_rho = []
         steps_reward_total = []
@@ -108,14 +108,15 @@ class RLAgent():
 
         rho_records = []
 
-        agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
+        # agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
 
         while True:
+            print("steps:", steps)
             steps += 1
-            x_a = torch.from_numpy(states[0]).to(self.args.device)
-            masks = torch.from_numpy(masks).to(self.args.device)
+            x_a = torch.from_numpy(states[0]).to(self.args.device).detach()
+            masks = torch.from_numpy(masks).to(self.args.device).detach()
             if self.args.msu_bool:
-                x_m = torch.from_numpy(states[1]).to(self.args.device)
+                x_m = torch.from_numpy(states[1]).to(self.args.device).detach()
             else:
                 x_m = None
             weights, rho, scores_p, log_p_rho,entropy, value \
@@ -129,13 +130,13 @@ class RLAgent():
                 self.env.step(weights, rho.detach().cpu().numpy())
 
             # steps_log_p_rho.append(log_p_rho)
-            steps_reward_total.append(rewards.total - info['market_avg_return'])
+            # steps_reward_total.append(rewards.total - info)
             rewards_step = rewards.total - info['market_avg_return']
 
             # asu_grad = torch.sum(normed_ror * scores_p, dim=-1)
             # steps_asu_grad.append(torch.log(asu_grad))
 
-            agent_wealth = np.concatenate((agent_wealth, info['total_value'][..., None]), axis=1)
+            agent_wealth = info["agent_wealth"]
             
 
             # rho_records.append(np.mean(rho.detach().cpu().numpy()))
@@ -143,8 +144,8 @@ class RLAgent():
 
             
                 # if done:
-            if self.args.msu_bool:
-                steps_log_p_rho = torch.stack(steps_log_p_rho, dim=-1)
+            # if self.args.msu_bool:
+            #     steps_log_p_rho = torch.stack(steps_log_p_rho, dim=-1)
 
             # steps_reward_total = np.array(steps_reward_total).transpose((1, 0))
 
@@ -152,12 +153,12 @@ class RLAgent():
             mdd = self.cal_MDD(agent_wealth)
 
             rewards_mdd = - 2 * torch.from_numpy(mdd - 0.5).to(self.args.device)
-
+            rewards_step = torch.from_numpy(rewards_step).to(self.args.device)
             # rewards_total = (rewards_total - torch.mean(rewards_total, dim=-1, keepdim=True)) \
             #                 / torch.std(rewards_total, dim=-1, keepdim=True)
             rewards_step = (rewards_step - torch.mean(rewards_step, dim=-1, keepdim=True)) \
                             / torch.std(rewards_step, dim=-1, keepdim=True)
-            old_action_log_prob = torch.cat([np.log(scores_p),log_p_rho],dim=-1)
+            old_action_log_prob = torch.cat([torch.log(scores_p),torch.unsqueeze(log_p_rho,-1)],dim=-1).detach()
             with torch.no_grad():
                 next_x_a = torch.from_numpy(states[0]).to(self.args.device)
                 next_masks = torch.from_numpy(masks).to(self.args.device)
@@ -172,26 +173,27 @@ class RLAgent():
             # gradient_asu = torch.nan_to_num(gradient_asu)
             advantage = (target_v - value).detach()
             for i in range(self.args.ppo_epoch):
-                weights, rho, scores_p, log_p_rho, entropy,value \
-                = self.actor(x_a, x_m, masks, deterministic=True)
-                action_log_prob = torch.cat([np.log(scores_p),log_p_rho],dim=-1)
-                ratio = torch.exp(action_log_prob - old_action_log_prob)
-                L1 = ratio * advantage
-                L2 = torch.clamp(ratio, 1-self.clip_param, 1+self.clip_param) * advantage
-                action_loss = -torch.min(L1, L2).mean()
-                value_loss = F.smooth_l1_loss(value, target_v)
-                loss = action_loss + 0.5*value_loss - 0.01* entropy
-                # if self.args.msu_bool:
-                #     gradient_rho = (rewards_mdd * steps_log_p_rho)
-                #     loss = - (self.args.gamma * gradient_rho + gradient_asu)
-                # else:
-                #     loss = - (gradient_asu)
-                assert not torch.isnan(loss)
-                self.optimizer.zero_grad()
-                # loss = loss.contiguous()
-                loss.backward()
-                grad_norm, grad_norm_clip = self.clip_grad_norms(self.optimizer.param_groups, self.args.max_grad_norm)
-                self.optimizer.step()
+                for index in BatchSampler(SubsetRandomSampler(range(self.args.batch_size)), self.minibatch,False):
+                    weights, rho, scores_p, log_p_rho, entropy,value \
+                    = self.actor(x_a[index], x_m[index], masks[index], deterministic=True)
+                    action_log_prob = torch.cat([torch.log(scores_p),torch.unsqueeze(log_p_rho,-1)],dim=-1)
+                    ratio = torch.exp(torch.sum(action_log_prob,-1) - torch.sum(old_action_log_prob[index],-1))
+                    L1 = ratio * advantage[index]
+                    L2 = torch.clamp(ratio, 1-self.args.clip_param, 1+self.args.clip_param) * advantage[index]
+                    action_loss = -torch.min(L1, L2).mean()
+                    value_loss = F.smooth_l1_loss(value, target_v[index])
+                    loss = action_loss + 0.5*value_loss - 0.01* torch.mean(entropy,-1)
+                    # if self.args.msu_bool:
+                    #     gradient_rho = (rewards_mdd * steps_log_p_rho)
+                    #     loss = - (self.args.gamma * gradient_rho + gradient_asu)
+                    # else:
+                    #     loss = - (gradient_asu)
+                    assert not torch.isnan(loss)
+                    
+                    loss = loss.contiguous()
+                    loss.backward()
+                    grad_norm, grad_norm_clip = self.clip_grad_norms(self.optimizer.param_groups, self.args.max_grad_norm)
+                    self.optimizer.step()
             if done:
                 break
             states = next_states
@@ -208,7 +210,7 @@ class RLAgent():
         steps = 0
         batch_size = states[0].shape[0]
 
-        agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
+        # agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
         rho_record = []
         while True:
             steps += 1
@@ -222,7 +224,7 @@ class RLAgent():
             weights, rho, _, _,_,_ \
                 = self.actor(x_a, x_m, masks, deterministic=True)
             next_states, rewards, _, masks, done, info = self.env.step(weights, rho.detach().cpu().numpy())
-            agent_wealth = np.concatenate((agent_wealth, info['total_value'][..., None]), axis=-1)
+            agent_wealth = info["agent_wealth"]
             
             states = next_states
 
@@ -263,7 +265,7 @@ class RLAgent():
                 #print("done:",done)
                 #print("Masks:",masks.shape)
                 
-                agent_wealth = np.concatenate((agent_wealth, [info]), axis=-1)
+                agent_wealth = info["agent_wealth"]
                 states = next_states
 
                 if done:

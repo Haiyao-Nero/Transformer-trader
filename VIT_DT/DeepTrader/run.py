@@ -109,17 +109,17 @@ def run(func_args):
             max_cr = 0
             
             for epoch in range(0,func_args.epochs):
-                if int(epoch/150) ==0:
-                    agent.actor.asu.unfreeze()
-                    agent.actor.msu.freeze()
-                elif int(epoch/150) ==1:
-                    agent.actor.asu.freeze()
-                    agent.actor.msu.unfreeze()
-                else:
-                    agent.actor.asu.unfreeze()
-                    agent.actor.msu.unfreeze()
+                # if int(epoch/150) ==0:
+                #     agent.actor.asu.unfreeze()
+                #     agent.actor.msu.freeze()
+                # elif int(epoch/150) ==1:
+                #     agent.actor.asu.freeze()
+                #     agent.actor.msu.unfreeze()
+                # else:
+                #     agent.actor.asu.unfreeze()
+                #     agent.actor.msu.unfreeze()
                 epoch_return = 0
-                for j in tqdm(range(mini_batch_num)):
+                for j in tqdm(range(func_args.epochs)):
                     episode_return, avg_rho, avg_mdd,train_loss = agent.train_episode()
                     epoch_return += episode_return
                 avg_train_return = epoch_return / mini_batch_num
