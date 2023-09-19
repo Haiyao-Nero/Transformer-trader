@@ -175,7 +175,7 @@ class VIT(nn.Module):
         self.positional_embedding = nn.Parameter(scale * torch.randn(self.num_time_frames, self.num_stocks, embedding_dim))
         self.ln_pre = LayerNorm(embedding_dim)
 
-        self.temporal_embedding = nn.Parameter(torch.zeros(1, self.num_time_frames, embedding_dim))
+        self.temporal_embedding = nn.Parameter(torch.zeros(1, self.num_time_frames+1, embedding_dim))
 
         #print("Called Transformer_vit1")
         self.transformer = Transformer(self.num_time_frames, embedding_dim, layers, heads, num_tadapter=num_tadapter, scale=adapter_scale, drop_path=drop_path_rate)
@@ -255,13 +255,12 @@ class VIT(nn.Module):
         x = self.patch_embed(x)
         x = x.squeeze(-1)
         x = rearrange(x, '(b n) t d -> b n d t', n=self.num_stocks).permute(0, 1, 3, 2)
-
         # print("VIT_After_Conv", x.shape) # Output Tensor Shape:  torch.Size([2, 6, 100, 768])
         x = rearrange(x, 'b n t d -> (b t) n d')
-        x = torch.cat([self.class_embedding.to(x.dtype) + torch.zeros(x.shape[0], 0, x.shape[-1], dtype=x.dtype, device=x.device), x], dim=1)
         x = x + self.positional_embedding.to(x.dtype)
         n = self.num_stocks
         x = rearrange(x, '(b t) n d -> (b n) t d', t=self.num_time_frames)
+        x = torch.cat([self.class_embedding.to(x.dtype) + torch.zeros(x.shape[0], 0, x.shape[-1], dtype=x.dtype, device=x.device), x], dim=1)
         x = x + self.temporal_embedding
         x = rearrange(x, '(b n) t d -> (b t) n d', n=n)
         

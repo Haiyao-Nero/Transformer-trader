@@ -111,7 +111,7 @@ class RLAgent():
         # agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
 
         while True:
-            print("steps:", steps)
+            # print("steps:", steps)
             steps += 1
             x_a = torch.from_numpy(states[0]).to(self.args.device).detach()
             masks = torch.from_numpy(masks).to(self.args.device).detach()
@@ -172,8 +172,10 @@ class RLAgent():
             # gradient_asu = torch.stack(steps_asu_grad, dim=1)
             # gradient_asu = torch.nan_to_num(gradient_asu)
             advantage = (target_v - value).detach()
+            total_size = np.minimum(self.args.batch_size,x_a.shape[0])
+            
             for i in range(self.args.ppo_epoch):
-                for index in BatchSampler(SubsetRandomSampler(range(self.args.batch_size)), self.minibatch,False):
+                for index in BatchSampler(SubsetRandomSampler(range(total_size)), self.minibatch, True):
                     weights, rho, scores_p, log_p_rho, entropy,value \
                     = self.actor(x_a[index], x_m[index], masks[index], deterministic=True)
                     action_log_prob = torch.cat([torch.log(scores_p),torch.unsqueeze(log_p_rho,-1)],dim=-1)

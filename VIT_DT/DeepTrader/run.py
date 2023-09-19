@@ -119,7 +119,7 @@ def run(func_args):
                 #     agent.actor.asu.unfreeze()
                 #     agent.actor.msu.unfreeze()
                 epoch_return = 0
-                for j in tqdm(range(func_args.epochs)):
+                for j in tqdm(range(mini_batch_num)):
                     episode_return, avg_rho, avg_mdd,train_loss = agent.train_episode()
                     epoch_return += episode_return
                 avg_train_return = epoch_return / mini_batch_num
