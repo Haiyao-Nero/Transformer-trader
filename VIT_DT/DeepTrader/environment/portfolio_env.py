@@ -447,6 +447,8 @@ class PortfolioEnv(object):
           rewards, info, done2 = self.sim._step(weights, ror, p) 
           agent_wealth = np.concatenate([agent_wealth, np.array(info['total_value']).reshape((action.shape[0],1))],-1)
           self.ror = future_ror
+
+        agent_wealth = agent_wealth[:, 1:] # Prevents/removes "1.0" from adding everytime to result
         info["agent_wealth"] = agent_wealth
         # print("---------WEALTHS!!:",agent_wealth, len(agent_wealth))
         if self.is_norm:

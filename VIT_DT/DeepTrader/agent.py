@@ -267,7 +267,8 @@ class RLAgent():
                 #print("done:",done)
                 #print("Masks:",masks.shape)
                 
-                agent_wealth = info["agent_wealth"]
+                # Concatenates all daily wealths
+                agent_wealth = np.concatenate((agent_wealth, info["agent_wealth"]), axis=-1)
                 states = next_states
 
                 if done:
