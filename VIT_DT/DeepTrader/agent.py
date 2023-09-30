@@ -108,7 +108,7 @@ class RLAgent():
 
         rho_records = []
 
-        # agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
+        agent_wealth = np.ones((states[0].shape[0], 1), dtype=np.float32)
 
         while True:
             # print("steps:", steps)
@@ -136,7 +136,7 @@ class RLAgent():
             # asu_grad = torch.sum(normed_ror * scores_p, dim=-1)
             # steps_asu_grad.append(torch.log(asu_grad))
 
-            agent_wealth = info["agent_wealth"]
+            agent_wealth = np.concatenate((agent_wealth, info["agent_wealth"]), axis=-1)
             
 
             # rho_records.append(np.mean(rho.detach().cpu().numpy()))
@@ -212,7 +212,7 @@ class RLAgent():
         steps = 0
         batch_size = states[0].shape[0]
 
-        # agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
+        agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
         rho_record = []
         while True:
             steps += 1
@@ -226,7 +226,7 @@ class RLAgent():
             weights, rho, _, _,_,_ \
                 = self.actor(x_a, x_m, masks, deterministic=True)
             next_states, rewards, _, masks, done, info = self.env.step(weights, rho.detach().cpu().numpy())
-            agent_wealth = info["agent_wealth"]
+            agent_wealth = np.concatenate((agent_wealth, info["agent_wealth"]), axis=-1)
             
             states = next_states
 
@@ -241,13 +241,11 @@ class RLAgent():
 
             steps = 0
             batch_size = states[0].shape[0]
-            #print("In Ag 211:", batch_size)
             agent_wealth = np.ones((batch_size, 1), dtype=np.float32)
-            #print("In Ag 213:", agent_wealth.shape)
             rho_record = []
             while True:
                 steps += 1
-                print("************** STEP:",steps)
+                # print("************** STEP:",steps)
                 if steps==633:
                     print("123")
                 x_a = torch.from_numpy(states[0]).to(self.args.device)
@@ -257,15 +255,9 @@ class RLAgent():
                 else:
                     x_m = None
 
-                #print("X_A:", x_a.shape, "X_M:",x_m.shape, "Masks:",masks.shape)
                 weights, rho, _, _,_,_ \
                     = self.actor(x_a, x_m, masks, deterministic=True)
-                #print("Weights:",weights.shape, "Rho:",rho.shape)
                 next_states, rewards, _, masks, done, info = self.env.step(weights, rho.detach().cpu().numpy())
-                #print("Ns:",len(next_states))
-                #print("Rewards:",rewards)
-                #print("done:",done)
-                #print("Masks:",masks.shape)
                 
                 # Concatenates all daily wealths
                 agent_wealth = np.concatenate((agent_wealth, info["agent_wealth"]), axis=-1)
